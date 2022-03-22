@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:blasting",
+  "group": "gold_ingot",
+  "ingredient": {
+    "item": "minecraft:deepslate_gold_ore"
+  },
+  "result": "minecraft:gold_block",
+  "experience": 10,
+  "cookingtime": 100
+}
