@@ -1,0 +1,15 @@
+{
+    "type":"minecraft:crafting_shaped",
+    "pattern":[
+        "ICI",
+        "I I"
+    ],
+    "key":{
+        "C":{"item":"minecraft:chain"},
+        "I":{"item":"minecraft:iron_nugget"}
+    },
+    "result":{
+        "item":"minecraft:chainmail_helmet",
+        "count":1
+    }
+}

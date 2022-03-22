@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "tag": "lemontea:equipment/iron_tool"
+    },
+    "result": "minecraft:iron_ingot",
+    "count": 1
+}

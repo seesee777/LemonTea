@@ -6,7 +6,7 @@
         "OOO"
     ],
     "key":{
-        "O":[{"tag":"lemontea:wool"}],
+        "O":[{"tag":"lemontea:wool_products/wool"}],
         "X":[{"item": "minecraft:orange_dye"}]
     },
     "result":{

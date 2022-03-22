@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "tag": "lemontea:equipment/golden_armor"
+    },
+    "result": "minecraft:gold_ingot",
+    "count": 2
+}

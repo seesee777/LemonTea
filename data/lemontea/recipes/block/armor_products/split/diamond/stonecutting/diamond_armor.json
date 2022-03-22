@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "tag": "lemontea:equipment/diamond_armor"
+    },
+    "result": "minecraft:diamond",
+    "count": 2
+}

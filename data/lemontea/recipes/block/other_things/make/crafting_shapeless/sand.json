@@ -1,0 +1,18 @@
+{
+    "type":"minecraft:crafting_shapeless",
+    "ingredients": [
+        [
+            {"tag":"lemontea:coral_products/coral_block"},
+            {"tag":"lemontea:coral_products/dead_coral_block"}
+        ],
+        [
+            {"item":"minecraft:amethyst_shard"},
+            {"tag":"lemontea:glass_products/stained_glass_pane"},
+            {"item":"minecraft:glass_pane"}
+        ]
+    ],
+    "result":{
+        "item":"minecraft:sand",
+        "count":64
+    }
+}

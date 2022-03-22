@@ -1,0 +1,20 @@
+{
+    "type":"minecraft:crafting_shaped",
+    "pattern":[
+        " S ",
+        "STS",
+        " S "
+    ],
+    "key":{
+        "S":{
+            "item":"minecraft:scute"
+        },
+        "T":{
+            "item":"minecraft:target"
+        }
+    },
+    "result":{
+        "item":"minecraft:heart_of_the_sea",
+        "count":1
+    }
+}

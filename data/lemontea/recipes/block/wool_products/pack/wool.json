@@ -1,0 +1,14 @@
+{
+    "type":"minecraft:crafting_shaped",
+    "pattern":[
+        "C",
+        "C"
+    ],
+    "key":{
+        "C":{"tag":"lemontea:wool_products/carpet"}
+    },
+    "result":{
+        "item":"minecraft:gray_wool",
+        "count":1
+    }
+}

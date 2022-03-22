@@ -1,8 +1,0 @@
-{
-    "type": "minecraft:stonecutting",
-    "ingredient": {
-        "tag": "lemontea:diamond_tool"
-    },
-    "result": "minecraft:diamond",
-    "count": 1
-}

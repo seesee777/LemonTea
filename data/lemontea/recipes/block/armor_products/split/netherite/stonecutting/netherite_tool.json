@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "tag": "lemontea:equipment/netherite_tool"
+    },
+    "result": "minecraft:netherite_scrap",
+    "count": 1
+}
