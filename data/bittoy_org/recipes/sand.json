@@ -1,0 +1,20 @@
+{
+    "type":"minecraft:crafting_shaped",
+    "pattern":[
+        "CAC",
+        "ACA",
+        "CAC"
+    ],
+    "key":{
+        "C":{
+            "tag":"bittoy_org:dead_coral_all"
+        },
+        "A":{
+            "item":"minecraft:amethyst_shard"
+        }
+    },
+    "result":{
+        "item":"minecraft:sand",
+        "count":16
+    }
+}

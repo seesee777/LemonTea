@@ -1,0 +1,29 @@
+{
+    "type":"minecraft:crafting_shaped",
+    "pattern":[
+        "SHS",
+        "PTP",
+        "PDP"
+    ],
+    "key":{
+        "H":{
+            "tag":"bittoy_org:mob_head"
+        },
+        "T":{
+            "item":"minecraft:totem_of_undying"
+        },
+        "D":{
+            "item":"minecraft:dragon_breath"
+        },
+        "S":{
+            "item":"minecraft:shulker_shell"
+        },
+        "P":{
+            "item":"minecraft:phantom_membrane"
+        }
+    },
+    "result":{
+        "item":"minecraft:elytra",
+        "count":1
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "type":"minecraft:crafting_shaped",
+    "pattern":[
+        "SSS",
+        "DTD",
+        "SSS"
+    ],
+    "key":{
+        "S":{
+            "item":"minecraft:soul_sand"
+        },
+        "T":{
+            "item":"minecraft:trident"
+        },
+        "D":{
+            "tag":"bittoy_org:music_disk"
+        }
+    },
+    "result":{
+        "item":"minecraft:heart_of_the_sea",
+        "count":1
+    }
+}

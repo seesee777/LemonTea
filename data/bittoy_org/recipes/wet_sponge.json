@@ -1,0 +1,23 @@
+{
+    "type":"minecraft:crafting_shaped",
+    "pattern":[
+        "GGG",
+        "PPP",
+        "HHH"
+    ],
+    "key":{
+        "G":{
+            "item":"minecraft:seagrass"
+        },
+        "H":{
+            "item":"minecraft:hanging_roots"
+        },
+        "P":{
+            "item":"minecraft:sea_pickle"
+        }
+    },
+    "result":{
+        "item":"minecraft:wet_sponge",
+        "count":1
+    }
+}

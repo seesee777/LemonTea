@@ -1,0 +1,20 @@
+{
+    "type":"minecraft:crafting_shaped",
+    "pattern":[
+        "CSC",
+        "SCS",
+        "CSC"
+    ],
+    "key":{
+        "C":{
+            "tag":"bittoy_org:dead_coral_all"
+        },
+        "S":{
+            "item":"minecraft:cobblestone"
+        }
+    },
+    "result":{
+        "item":"minecraft:gravel",
+        "count":16
+    }
+}

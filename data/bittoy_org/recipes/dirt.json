@@ -1,0 +1,20 @@
+{
+    "type":"minecraft:crafting_shaped",
+    "pattern":[
+        "CMC",
+        "MCM",
+        "CMC"
+    ],
+    "key":{
+        "C":{
+            "tag":"bittoy_org:dead_coral_all"
+        },
+        "M":{
+            "item":"minecraft:moss_block"
+        }
+    },
+    "result":{
+        "item":"minecraft:dirt",
+        "count":16
+    }
+}
