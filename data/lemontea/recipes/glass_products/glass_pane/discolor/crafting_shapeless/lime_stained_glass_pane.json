@@ -1,0 +1,11 @@
+{
+    "type":"minecraft:crafting_shapeless",
+    "ingredients": [
+        [{"tag":"lemontea:glass_products/stained_glass_pane"},{"item": "minecraft:glass_pane"}],
+        {"item": "minecraft:lime_dye"}
+    ],
+    "result":{
+        "item":"minecraft:lime_stained_glass_pane",
+        "count":1
+    }
+}

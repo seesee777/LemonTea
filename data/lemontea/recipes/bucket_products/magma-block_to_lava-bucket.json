@@ -1,0 +1,11 @@
+{
+    "type":"minecraft:crafting_shapeless",
+    "ingredients": [
+        {"item":"minecraft:magma_block"},
+        {"item":"minecraft:bucket"}
+    ],
+    "result":{
+        "item":"minecraft:lava_bucket",
+        "count":1
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "type":"minecraft:crafting_shaped",
+    "pattern":[
+        "A",
+        "B",
+        "B"
+    ],
+    "key":{
+        "A":[
+            {"item":"minecraft:amethyst_shard"},
+            {"item":"minecraft:glass_pane"},
+            {"tag":"lemontea:glass_products/stained_glass_pane"}
+        ],
+        "B":[
+            {"item":"minecraft:iron_ingot"},
+            {"item":"minecraft:copper_ingot"},
+            {"item":"minecraft:gold_ingot"}
+        ]
+    },
+    "result":{
+        "item":"minecraft:spyglass",
+        "count":1
+    }
+}

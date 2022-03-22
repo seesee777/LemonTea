@@ -1,0 +1,11 @@
+{
+    "type":"minecraft:crafting_shapeless",
+    "ingredients": [
+        {"item":"minecraft:lapis_lazuli"},
+        {"item":"minecraft:lapis_lazuli"}
+    ],
+    "result":{
+        "item":"minecraft:quartz",
+        "count":10
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "type":"minecraft:crafting_shapeless",
+    "ingredients": [
+        {"item":"minecraft:prismarine_crystals"},
+        {"item":"minecraft:blaze_powder"}
+    ],
+    "result":{
+        "item":"minecraft:glowstone_dust",
+        "count":2
+    }
+}

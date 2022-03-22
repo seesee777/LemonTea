@@ -1,0 +1,21 @@
+{
+    "type":"minecraft:crafting_shaped",
+    "pattern":[
+        " X ",
+        "XOX",
+        " X "
+    ],
+    "key":{
+        "O":[
+            {"item":"minecraft:dripstone_block"},
+            {"item":"minecraft:crying_obsidian"}
+        ],
+        "X":{
+            "item":"minecraft:bone_block"
+        }
+    },
+    "result":{
+        "item":"minecraft:ancient_debris",
+        "count":1
+    }
+}

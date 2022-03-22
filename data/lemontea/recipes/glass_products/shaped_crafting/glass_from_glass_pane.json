@@ -1,0 +1,15 @@
+{
+    "type":"minecraft:crafting_shaped",
+    "pattern":[
+        "XXX"
+    ],
+    "key":{"X":[
+        {"tag":"lemontea:glass_products/stained_glass_pane"},
+        {"item": "minecraft:glass_pane"}
+    ]
+    },
+    "result":{
+        "item":"minecraft:glass",
+        "count":1
+    }
+}

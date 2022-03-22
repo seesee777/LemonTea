@@ -1,0 +1,11 @@
+{
+    "type":"minecraft:crafting_shapeless",
+    "ingredients": [
+        [{"tag":"lemontea:glass_products/stained_glass"},{"item": "minecraft:glass"}],
+        {"item": "minecraft:yellow_dye"}
+    ],
+    "result":{
+        "item":"minecraft:yellow_stained_glass",
+        "count":1
+    }
+}

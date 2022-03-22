@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:blasting",
+    "ingredient": [
+        {"item": "minecraft:magma_cream"}
+    ],
+    "result": "minecraft:blaze_powder",
+    "experience": 1,
+    "cookingtime": 50
+}

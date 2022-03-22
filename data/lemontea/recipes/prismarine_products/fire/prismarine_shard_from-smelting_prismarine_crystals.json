@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:smelting",
+    "ingredient": [
+        {"item": "minecraft:prismarine_crystals"}
+    ],
+    "result": "minecraft:prismarine_shard",
+    "experience": 1,
+    "cookingtime": 100
+}

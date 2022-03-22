@@ -1,0 +1,17 @@
+{
+    "type":"minecraft:crafting_shaped",
+    "pattern":[
+        "OOO",
+        "OXO",
+        "OOO"
+    ],
+    "key":{
+        "O":[{"tag":"lemontea:glass_products/stained_glass_pane"},
+            {"item": "minecraft:glass_pane"}],
+        "X":[{"item": "minecraft:white_dye"}]
+    },
+    "result":{
+        "item":"minecraft:white_stained_glass_pane",
+        "count":8
+    }
+}

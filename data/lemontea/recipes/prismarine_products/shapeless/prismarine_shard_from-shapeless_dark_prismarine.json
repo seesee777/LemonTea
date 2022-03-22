@@ -1,0 +1,13 @@
+{
+    "type":"minecraft:crafting_shapeless",
+    "ingredients": [
+        [
+            {"item":"minecraft:dark_prismarine"},
+            {"item":"minecraft:dark_prismarine_stairs"}
+        ]
+    ],
+    "result":{
+        "item":"minecraft:prismarine_shard",
+        "count":8
+    }
+}

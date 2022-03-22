@@ -1,0 +1,10 @@
+{
+    "type": "minecraft:blasting",
+    "ingredient": [
+        {"item": "minecraft:amethyst_shard"},
+        {"item": "minecraft:glass_bottle"}
+    ],
+    "result": "minecraft:glass",
+    "experience": 1,
+    "cookingtime": 50
+}

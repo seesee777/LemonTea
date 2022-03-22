@@ -1,0 +1,11 @@
+{
+    "type":"minecraft:crafting_shapeless",
+    "ingredients": [
+        [{"tag":"lemontea:glass_products/stained_glass"},{"item": "minecraft:glass"}],
+        {"item": "minecraft:brown_dye"}
+    ],
+    "result":{
+        "item":"minecraft:brown_stained_glass",
+        "count":1
+    }
+}
