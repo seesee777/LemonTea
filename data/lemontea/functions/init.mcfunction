@@ -1,6 +1,6 @@
 # This function will run on datapack loading
 
-tellraw @p {"text":"Lemon Tea Beta v0.04.1","color":"yellow"}
+tellraw @p {"text":"Lemon Tea Beta v0.04.2","color":"yellow"}
 
 # initialize function: debug
 scoreboard objectives add debug_ON dummy
