@@ -1,0 +1,11 @@
+{
+    "type":"minecraft:crafting_shapeless",
+    "ingredients": [
+        {"item":"minecraft:shulker_shell"},
+        {"item":"minecraft:dragon_breath"}
+    ],
+    "result":{
+        "item":"minecraft:shulker_spawn_egg",
+        "count":1
+    }
+}

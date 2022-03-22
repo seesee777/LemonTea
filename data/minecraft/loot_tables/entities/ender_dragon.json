@@ -1,62 +1,63 @@
 {
-  "type": "entity",
+  "type": "minecraft:entity",
   "pools": [
     {
       "rolls": 1,
       "entries": [
         {
-          "type": "item",
-          "weight": 1,
-          "name": "minecraft:dragon_egg",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 1
-            }
-          ]
-        },
+          "type": "minecraft:loot_table",
+          "name": "vanilla:entities/ender_dragon"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
         {
-          "type": "item",
-          "weight": 9,
+          "type": "minecraft:item",
+          "name": "minecraft:dragon_egg"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:elytra"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:dragon_head"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
           "name": "minecraft:enchanted_golden_apple",
           "functions": [
             {
-              "function": "set_count",
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:looting_enchant",
               "count": 1
             }
           ]
         }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
+      ],
+      "conditions": [
         {
-          "type": "item",
-          "weight": 1,
-          "name": "minecraft:dragon_head",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 1
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "item",
-          "weight": 1,
-          "name": "minecraft:elytra",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 1
-            }
-          ]
+          "condition": "minecraft:killed_by_player"
         }
       ]
     }

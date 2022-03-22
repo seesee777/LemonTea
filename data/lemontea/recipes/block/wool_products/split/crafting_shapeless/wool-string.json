@@ -1,0 +1,8 @@
+{
+    "type":"minecraft:crafting_shapeless",
+    "ingredients": [{"tag":"lemontea:wool_products/wool"}],
+    "result":{
+        "item":"minecraft:string",
+        "count":4
+    }
+}

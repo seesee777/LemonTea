@@ -1,0 +1,11 @@
+{
+    "type":"minecraft:crafting_shapeless",
+    "ingredients": [
+        {"tag":"lemontea:wool_products/carpet"},
+        {"item": "minecraft:pink_dye"}
+    ],
+    "result":{
+        "item":"minecraft:pink_carpet",
+        "count":1
+    }
+}

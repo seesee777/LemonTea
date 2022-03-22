@@ -1,0 +1,18 @@
+{
+    "type":"minecraft:crafting_shaped",
+    "pattern":[
+        "CCC",
+        "CCC",
+        "CCC"
+    ],
+    "key":{
+        "C":[
+            {"item":"minecraft:horn_coral"},
+            {"item":"minecraft:horn_coral_fan"}
+        ]
+    },
+    "result":{
+        "item":"minecraft:horn_coral_block",
+        "count":1
+    }
+}

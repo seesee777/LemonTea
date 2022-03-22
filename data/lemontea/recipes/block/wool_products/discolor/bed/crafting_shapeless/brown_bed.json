@@ -1,0 +1,11 @@
+{
+    "type":"minecraft:crafting_shapeless",
+    "ingredients": [
+        {"tag":"lemontea:wool_products/bed"},
+        {"item": "minecraft:brown_dye"}
+    ],
+    "result":{
+        "item":"minecraft:brown_bed",
+        "count":1
+    }
+}

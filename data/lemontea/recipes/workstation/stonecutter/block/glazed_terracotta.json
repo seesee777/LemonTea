@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "tag": "lemontea:glazed_terracotta"
+    },
+    "result": "minecraft:clay_ball",
+    "count": 4
+}

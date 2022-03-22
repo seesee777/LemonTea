@@ -1,0 +1,10 @@
+{
+    "type":"minecraft:crafting_shapeless",
+    "ingredients": [
+        {"item": "minecraft:green_concrete"}
+    ],
+    "result":{
+        "item":"minecraft:green_concrete_powder",
+        "count":1
+    }
+}

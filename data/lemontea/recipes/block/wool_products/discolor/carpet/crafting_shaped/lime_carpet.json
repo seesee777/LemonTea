@@ -1,0 +1,16 @@
+{
+    "type":"minecraft:crafting_shaped",
+    "pattern":[
+        "OOO",
+        "OXO",
+        "OOO"
+    ],
+    "key":{
+        "O":[{"tag":"lemontea:wool_products/carpet"}],
+        "X":[{"item": "minecraft:lime_dye"}]
+    },
+    "result":{
+        "item":"minecraft:lime_carpet",
+        "count":8
+    }
+}

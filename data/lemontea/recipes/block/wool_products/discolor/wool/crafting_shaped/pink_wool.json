@@ -1,0 +1,16 @@
+{
+    "type":"minecraft:crafting_shaped",
+    "pattern":[
+        "OOO",
+        "OXO",
+        "OOO"
+    ],
+    "key":{
+        "O":[{"tag":"lemontea:wool"}],
+        "X":[{"item": "minecraft:pink_dye"}]
+    },
+    "result":{
+        "item":"minecraft:pink_wool",
+        "count":8
+    }
+}

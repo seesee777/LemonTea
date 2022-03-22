@@ -1,0 +1,16 @@
+{
+    "type":"minecraft:crafting_shaped",
+    "pattern":[
+        "OOO",
+        "OXO",
+        "OOO"
+    ],
+    "key":{
+        "O":[{"tag":"lemontea:coral_products/coral"}],
+        "X":[{"item": "minecraft:pink_dye"}]
+    },
+    "result":{
+        "item":"minecraft:brain_coral",
+        "count":8
+    }
+}

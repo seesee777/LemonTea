@@ -1,0 +1,11 @@
+{
+    "type":"minecraft:crafting_shapeless",
+    "ingredients": [
+        {"tag":"lemontea:concrete_products/concrete"},
+        {"item": "minecraft:blue_dye"}
+    ],
+    "result":{
+        "item":"minecraft:blue_concrete",
+        "count":1
+    }
+}

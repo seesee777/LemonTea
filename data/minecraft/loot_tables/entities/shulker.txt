@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    # 掉落原版物品(50% +1潜影壳)，如果被玩家杀死 +1潜影壳，每等级抢夺+1潜影壳
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "vanilla:entities/shulker"
+        }
+      ]
+    },
+    # 当被玩家杀死时，100%掉落1个，每等级抢夺+1个，共1-4个。
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:shulker_shell",
+          "functions": [
+            # 100% 掉落1个
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            # 每等级抢夺附魔有可能增加1个
+            {
+              "function": "minecraft:looting_enchant",
+              "count": 1
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:killed_by_player"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

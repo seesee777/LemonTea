@@ -1,0 +1,18 @@
+{
+    "type":"minecraft:crafting_shaped",
+    "pattern":[
+        "CCC",
+        "CCC",
+        "CCC"
+    ],
+    "key":{
+        "C":[
+            {"item":"minecraft:dead_bubble_coral"},
+            {"item":"minecraft:dead_bubble_coral_fan"}
+        ]
+    },
+    "result":{
+        "item":"minecraft:dead_bubble_coral_block",
+        "count":1
+    }
+}

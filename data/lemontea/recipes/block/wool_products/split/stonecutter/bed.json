@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "tag": "lemontea:wool_products/bed"
+    },
+    "result": "minecraft:gray_wool",
+    "count": 3
+}

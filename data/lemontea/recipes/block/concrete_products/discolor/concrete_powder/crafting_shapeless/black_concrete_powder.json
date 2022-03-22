@@ -1,0 +1,11 @@
+{
+    "type":"minecraft:crafting_shapeless",
+    "ingredients": [
+        {"tag":"lemontea:concrete_products/concrete_powder"},
+        {"item": "minecraft:black_dye"}
+    ],
+    "result":{
+        "item":"minecraft:black_concrete_powder",
+        "count":1
+    }
+}

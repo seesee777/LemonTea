@@ -1,0 +1,11 @@
+{
+    "type":"minecraft:crafting_shapeless",
+    "ingredients": [
+        {"item":"minecraft:dead_bubble_coral_fan"},
+        {"item":"minecraft:dragon_breath"}
+    ],
+    "result":{
+        "item":"minecraft:bubble_coral_fan",
+        "count":1
+    }
+}

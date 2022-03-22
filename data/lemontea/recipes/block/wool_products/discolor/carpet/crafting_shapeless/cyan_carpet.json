@@ -1,0 +1,11 @@
+{
+    "type":"minecraft:crafting_shapeless",
+    "ingredients": [
+        {"tag":"lemontea:wool_products/carpet"},
+        {"item": "minecraft:cyan_dye"}
+    ],
+    "result":{
+        "item":"minecraft:cyan_carpet",
+        "count":1
+    }
+}

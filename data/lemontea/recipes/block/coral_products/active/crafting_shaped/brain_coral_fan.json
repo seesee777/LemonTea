@@ -1,0 +1,16 @@
+{
+    "type":"minecraft:crafting_shaped",
+    "pattern":[
+        "OOO",
+        "OXO",
+        "OOO"
+    ],
+    "key":{
+        "O":[{"item":"minecraft:dead_brain_coral_fan"}],
+        "X":[{"item": "minecraft:dragon_breath"}]
+    },
+    "result":{
+        "item":"minecraft:brain_coral_fan",
+        "count":8
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:smoking",
+    "ingredient": [
+        {"item": "minecraft:fire_coral"}
+    ],
+    "result": "minecraft:dead_fire_coral",
+    "experience": 0.1,
+    "cookingtime": 60
+}

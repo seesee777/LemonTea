@@ -1,0 +1,16 @@
+{
+    "type":"minecraft:crafting_shaped",
+    "pattern":[
+        "OOO",
+        "OXO",
+        "OOO"
+    ],
+    "key":{
+        "O":[{"item":"minecraft:dead_tube_coral_block"}],
+        "X":[{"item": "minecraft:dragon_breath"}]
+    },
+    "result":{
+        "item":"minecraft:tube_coral_block",
+        "count":8
+    }
+}

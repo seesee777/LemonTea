@@ -1,0 +1,16 @@
+{
+    "type":"minecraft:crafting_shaped",
+    "pattern":[
+        "OOO",
+        "OXO",
+        "OOO"
+    ],
+    "key":{
+        "O":[{"tag":"lemontea:concrete_products/concrete_powder"}],
+        "X":[{"item": "minecraft:white_dye"}]
+    },
+    "result":{
+        "item":"minecraft:white_concrete_powder",
+        "count":8
+    }
+}

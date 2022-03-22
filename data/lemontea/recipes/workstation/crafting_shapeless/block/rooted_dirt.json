@@ -1,0 +1,14 @@
+{
+    "type":"minecraft:crafting_shapeless",
+    "ingredients": [
+        [
+            {"tag":"lemontea:coral_products/coral_block"},
+            {"tag":"lemontea:coral_products/dead_coral_block"}
+        ],
+        {"item":"minecraft:hanging_roots"}
+    ],
+    "result":{
+        "item":"minecraft:rooted_dirt",
+        "count":64
+    }
+}

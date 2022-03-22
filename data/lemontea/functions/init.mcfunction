@@ -1,6 +1,6 @@
 # This function will run on datapack loading
 
-tellraw @p {"text":"Lemon Tea v0.03","color":"#FF0000"}
+tellraw @p {"text":"Lemon Tea Alpha v0.04","color":"yellow"}
 # tellraw @p {"text":"line1","color":"gold"}
 # tellraw @p {"text":"line2","color":"gold"}
 # tellraw @p {"text":"line3","color":"gold"}

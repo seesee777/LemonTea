@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:smoking",
+    "ingredient": [
+        {"item": "minecraft:horn_coral_block"}
+    ],
+    "result": "minecraft:dead_horn_coral_block",
+    "experience": 0.1,
+    "cookingtime": 60
+}

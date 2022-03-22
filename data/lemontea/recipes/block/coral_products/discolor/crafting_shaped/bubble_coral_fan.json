@@ -1,0 +1,16 @@
+{
+    "type":"minecraft:crafting_shaped",
+    "pattern":[
+        "OOO",
+        "OXO",
+        "OOO"
+    ],
+    "key":{
+        "O":[{"tag":"lemontea:coral_products/coral_fan"}],
+        "X":[{"item": "minecraft:purple_dye"}]
+    },
+    "result":{
+        "item":"minecraft:bubble_coral_fan",
+        "count":8
+    }
+}

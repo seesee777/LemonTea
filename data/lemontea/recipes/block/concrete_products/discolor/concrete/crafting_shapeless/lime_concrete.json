@@ -1,0 +1,11 @@
+{
+    "type":"minecraft:crafting_shapeless",
+    "ingredients": [
+        {"tag":"lemontea:concrete_products/concrete"},
+        {"item": "minecraft:lime_dye"}
+    ],
+    "result":{
+        "item":"minecraft:lime_concrete",
+        "count":1
+    }
+}

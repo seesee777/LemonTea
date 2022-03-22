@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:smoking",
+    "ingredient": [
+        {"item": "minecraft:brain_coral_fan"}
+    ],
+    "result": "minecraft:dead_brain_coral_fan",
+    "experience": 0.1,
+    "cookingtime": 60
+}
