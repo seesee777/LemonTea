@@ -1,0 +1,13 @@
+{
+    "type":"minecraft:crafting_shaped",
+    "pattern":[
+        "PPP"
+    ],
+    "key":{
+        "P":{"item":"minecraft:stripped_warped_hyphae"}
+    },
+    "result":{
+        "item":"minecraft:stripped_warped_stem",
+        "count":4
+    }
+}

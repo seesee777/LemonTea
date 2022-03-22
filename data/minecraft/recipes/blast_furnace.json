@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "III",
+    "IXI",
+    "###"
+  ],
+  "key": {
+    "#": {"item": "minecraft:smooth_stone"},
+    "X": {"item": "minecraft:furnace"},
+    "I": [
+      {"item": "minecraft:iron_ingot"},
+      {"item":"minecraft:copper_ingot"}
+    ]
+  },
+  "result": {
+    "item": "minecraft:blast_furnace"
+  }
+}

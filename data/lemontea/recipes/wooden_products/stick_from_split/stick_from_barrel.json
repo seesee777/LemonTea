@@ -1,0 +1,10 @@
+{
+    "type":"minecraft:crafting_shapeless",
+    "ingredients": [
+        {"item": "minecraft:barrel"}
+    ],
+    "result":{
+        "item":"minecraft:stick",
+        "count":8
+    }
+}

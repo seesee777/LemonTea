@@ -1,0 +1,10 @@
+{
+    "type":"minecraft:crafting_shapeless",
+    "ingredients": [
+        {"tag": "lemontea:wooden_products/wooden_slabs"}
+    ],
+    "result":{
+        "item":"minecraft:stick",
+        "count":1
+    }
+}

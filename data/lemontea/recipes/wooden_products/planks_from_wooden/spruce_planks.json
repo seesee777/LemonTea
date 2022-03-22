@@ -1,0 +1,18 @@
+{
+    "type":"minecraft:crafting_shapeless",
+    "ingredients": [
+        [{"item": "minecraft:spruce_button"},
+        {"item": "minecraft:spruce_door"},
+        {"item": "minecraft:spruce_fence"},
+        {"item": "minecraft:spruce_fence_gate"},
+        {"item": "minecraft:spruce_pressure_plate"},
+        {"item": "minecraft:spruce_sign"},
+        {"item": "minecraft:spruce_stairs"},
+        {"item": "minecraft:spruce_trapdoor"},
+        {"item": "minecraft:spruce_boat"}]
+    ],
+    "result":{
+        "item":"minecraft:spruce_planks",
+        "count":1
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "type":"minecraft:crafting_shapeless",
+    "ingredients": [
+        {"item":"minecraft:brown_mushroom"},
+        {"item":"minecraft:bone_meal"}
+    ],
+    "result":{
+        "item":"minecraft:brown_mushroom_block",
+        "count":64
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "type":"minecraft:crafting_shaped",
+    "pattern":[
+        "PPP"
+    ],
+    "key":{
+        "P":{"item":"minecraft:stripped_acacia_wood"}
+    },
+    "result":{
+        "item":"minecraft:stripped_acacia_log",
+        "count":4
+    }
+}
