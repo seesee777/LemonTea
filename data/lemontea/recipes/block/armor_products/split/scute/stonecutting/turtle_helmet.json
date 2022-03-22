@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "item": "minecraft:turtle_helmet"
+    },
+    "result": "minecraft:scute",
+    "count": 2
+}

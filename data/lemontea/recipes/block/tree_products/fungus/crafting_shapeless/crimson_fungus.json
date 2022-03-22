@@ -1,0 +1,11 @@
+{
+    "type":"minecraft:crafting_shapeless",
+    "ingredients": [
+        {"item":"minecraft:nether_wart_block"},
+        {"item":"minecraft:stick"}
+    ],
+    "result":{
+        "item":"minecraft:crimson_fungus",
+        "count":1
+    }
+}

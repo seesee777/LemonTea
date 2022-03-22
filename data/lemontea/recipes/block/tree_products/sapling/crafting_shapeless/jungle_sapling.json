@@ -1,0 +1,11 @@
+{
+    "type":"minecraft:crafting_shapeless",
+    "ingredients": [
+        {"item":"minecraft:jungle_leaves"},
+        {"item":"minecraft:stick"}
+    ],
+    "result":{
+        "item":"minecraft:jungle_sapling",
+        "count":1
+    }
+}

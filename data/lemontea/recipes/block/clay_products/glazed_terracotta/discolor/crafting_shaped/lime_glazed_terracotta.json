@@ -1,0 +1,16 @@
+{
+    "type":"minecraft:crafting_shaped",
+    "pattern":[
+        "OOO",
+        "OXO",
+        "OOO"
+    ],
+    "key":{
+        "O":[{"tag":"lemontea:clay_products/glazed_terracotta"}],
+        "X":[{"item": "minecraft:lime_dye"}]
+    },
+    "result":{
+        "item":"minecraft:lime_glazed_terracotta",
+        "count":8
+    }
+}

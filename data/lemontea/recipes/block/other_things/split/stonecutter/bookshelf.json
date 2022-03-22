@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "item": "minecraft:bookshelf"
+    },
+    "result": "minecraft:book",
+    "count": 3
+}

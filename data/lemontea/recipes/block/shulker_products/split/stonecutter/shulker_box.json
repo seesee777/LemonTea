@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": [
+        {"tag":"lemontea:shulker_products/shulker_box"}
+    ],
+    "result": "minecraft:shulker_shell",
+    "count": 2
+}

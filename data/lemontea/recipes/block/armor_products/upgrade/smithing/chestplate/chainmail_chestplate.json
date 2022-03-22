@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:smithing",
+    "base": {
+        "item": "minecraft:golden_chestplate"
+    },
+    "addition": {
+        "item": "minecraft:chain"
+    },
+    "result": {
+        "item": "minecraft:chainmail_chestplate"
+    }
+}

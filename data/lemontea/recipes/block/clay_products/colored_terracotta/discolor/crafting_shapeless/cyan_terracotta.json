@@ -1,0 +1,11 @@
+{
+    "type":"minecraft:crafting_shapeless",
+    "ingredients": [
+        {"tag":"lemontea:clay_products/colored_terracotta"},
+        {"item": "minecraft:cyan_dye"}
+    ],
+    "result":{
+        "item":"minecraft:cyan_terracotta",
+        "count":1
+    }
+}

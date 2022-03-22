@@ -1,0 +1,11 @@
+{
+    "type":"minecraft:crafting_shapeless",
+    "ingredients": [
+        {"tag":"lemontea:clay_products/glazed_terracotta"},
+        {"item": "minecraft:magenta_dye"}
+    ],
+    "result":{
+        "item":"minecraft:magenta_glazed_terracotta",
+        "count":1
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": [
+        {"tag": "lemontea:clay_products/glazed_terracotta"},
+        {"tag": "lemontea:clay_products/colored_terracotta"},
+        {"item": "minecraft:terracotta"}
+    ],
+    "result": "minecraft:clay_ball",
+    "count": 4
+}

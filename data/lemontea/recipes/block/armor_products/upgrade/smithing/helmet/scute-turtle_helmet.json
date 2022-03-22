@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:smithing",
+    "base": {
+        "item": "minecraft:leather_helmet"
+    },
+    "addition": {
+        "item": "minecraft:scute"
+    },
+    "result": {
+        "item": "minecraft:turtle_helmet"
+    }
+}
