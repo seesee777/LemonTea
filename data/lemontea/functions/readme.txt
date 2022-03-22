@@ -5,8 +5,9 @@ ticks   path
 7       
 11      
 13
-17      alchemy/silk_touch
-19      alchemy/remove_repeat_cost
+17      alchemy/enchant/silk_touch
+18      alchemy/enchant/remove_curse
+19      alchemy/enchant/remove_repeat_cost
 23
 29
 31
