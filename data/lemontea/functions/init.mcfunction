@@ -1,6 +1,6 @@
 # This function will run on datapack loading
 
-tellraw @p {"text":"Lemon Tea v0.07.1","color":"yellow"}
+tellraw @p {"text":"Lemon Tea v0.08","color":"yellow"}
 # tellraw @p {"text":"line1","color":"gold"}
 # tellraw @p {"text":"line2","color":"gold"}
 # tellraw @p {"text":"line3","color":"gold"}
@@ -20,11 +20,15 @@ scoreboard objectives add survival_ON dummy
 scoreboard players set $global.main survival_ON 1
 execute if score $global.main survival_ON matches 1 run function lemontea:survival/init
 
-
 # initialize function: player_id 
 scoreboard objectives add player_id_ON dummy
-scoreboard players set $global.main player_id_ON 0
+scoreboard players set $global.main player_id_ON 1
 execute if score $global.main player_id_ON matches 1 run function lemontea:player_id/init
+
+# initialize function: alchemy
+scoreboard objectives add alchemy_ON dummy
+scoreboard players set $global.main alchemy_ON 1
+execute if score $global.main alchemy_ON matches 1 run function lemontea:alchemy/init
 
 # initialize function: time_counter
 scoreboard objectives add time_counter_ON dummy

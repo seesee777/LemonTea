@@ -1,0 +1,2 @@
+# 找到玩家附近5米内最近的一个消耗品：末影珍珠
+execute at @a at @e[type=item,distance=..5,sort=nearest,limit=1,nbt={OnGround:1b,Item:{id:"minecraft:glow_ink_sac",Count:1b}}] as @e[type=item,distance=..5,sort=nearest,limit=1,nbt={OnGround:1b,Item:{id:"minecraft:glow_ink_sac",Count:1b}}] run function lemontea:alchemy/silk_touch/calculate

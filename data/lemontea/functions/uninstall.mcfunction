@@ -7,7 +7,12 @@ function lemontea:coordinate/uninstall
 scoreboard objectives remove coordinate_ON
 
 # uninstall survival
+function lemontea:survival/uninstall
 scoreboard objectives remove survial_ON
+
+# uninstall alchemy
+function lemontea:alchemy/uninstall
+scoreboard objectives remove alchemy_ON
 
 # uninstall player_id
 function lemontea:player_id/uninstall

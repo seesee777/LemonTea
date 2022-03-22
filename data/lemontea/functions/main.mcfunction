@@ -17,3 +17,7 @@ execute if score $global.main time_counter_ON matches 1 run function lemontea:ti
 
 # run chunk_claim per tick
 execute if score $global.main chunk_claim_ON matches 1 run function lemontea:chunk_claim/main
+
+# run chunk_claim per tick
+
+# tellraw @a "test"

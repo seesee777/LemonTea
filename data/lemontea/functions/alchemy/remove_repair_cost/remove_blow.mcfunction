@@ -1,0 +1,5 @@
+# 删除标签
+data remove block ~ ~-1 ~ Items[{Slot:0b}].tag.RepairCost
+
+# 删除消耗品
+kill @s
