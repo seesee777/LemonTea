@@ -1,7 +1,7 @@
 {
     "type": "minecraft:stonecutting",
     "ingredient": {
-        "tag": "bittoy_org:diamond_armor"
+        "tag": "lemontea:diamond_armor"
     },
     "result": "minecraft:diamond",
     "count": 2

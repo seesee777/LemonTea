@@ -1,8 +1,8 @@
 {
     "type": "minecraft:stonecutting",
     "ingredient": {
-        "tag": "bittoy_org:netherite_tool"
+        "tag": "lemontea:netherite_armor"
     },
     "result": "minecraft:netherite_scrap",
-    "count": 1
+    "count": 2
 }
