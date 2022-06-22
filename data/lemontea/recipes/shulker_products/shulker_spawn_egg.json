@@ -1,0 +1,20 @@
+{
+    "type":"minecraft:crafting_shaped",
+    "pattern":[
+        "S",
+        "C",
+        "S"
+    ],
+    "key":{
+        "C":{
+            "item":"minecraft:chorus_flower"
+        },
+        "S":{
+            "item":"minecraft:shulker_shell"
+        }
+    },
+    "result":{
+        "item":"minecraft:shulker_spawn_egg",
+        "count":1
+    }
+}
