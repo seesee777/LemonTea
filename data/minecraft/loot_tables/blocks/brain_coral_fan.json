@@ -14,12 +14,18 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "item",
+          "type": "minecraft:item",
           "name": "minecraft:dead_brain_coral_fan",
           "conditions": [
             {
-              "condition": "random_chance",
-              "chance": 0.5
+              "condition": "minecraft:inverted",
+              "term": {
+                  "condition": "minecraft:entity_properties",
+                  "predicate": {
+                    "type": "minecraft:player"
+                  },
+                  "entity": "this"
+              }
             }
           ]
         }

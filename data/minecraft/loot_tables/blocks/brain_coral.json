@@ -1,29 +1,35 @@
 {
-    "type": "minecraft:block",
-    "pools": [
-    {
-        "rolls": 1,
-        "entries": [
-            {
-            "type": "minecraft:loot_table",
-            "name": "vanilla:blocks/brain_coral"
-            }
-        ]
-        },
-      {
-        "rolls": 1,
-        "entries": [
+  "type": "minecraft:block",
+  "pools": [
+  {
+      "rolls": 1,
+      "entries": [
           {
-            "type": "item",
-            "name": "minecraft:dead_brain_coral",
-            "conditions": [
-                {
-                    "condition": "random_chance",
-                    "chance": 0.5
-                }
-            ]
+          "type": "minecraft:loot_table",
+          "name": "vanilla:blocks/brain_coral"
           }
-        ]
-      }
-    ]
-  }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:dead_brain_coral",
+          "conditions": [
+            {
+              "condition": "minecraft:inverted",
+              "term": {
+                  "condition": "minecraft:entity_properties",
+                  "predicate": {
+                    "type": "minecraft:player"
+                  },
+                  "entity": "this"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
