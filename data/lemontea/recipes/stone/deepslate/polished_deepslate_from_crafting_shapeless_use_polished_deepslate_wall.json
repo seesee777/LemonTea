@@ -1,0 +1,14 @@
+{
+    "type":"minecraft:crafting_shapeless",
+    "ingredients": [
+        [
+            {"item":"minecraft:polished_deepslate_wall"},
+            {"item":"minecraft:polished_deepslate_stairs"},
+            {"item":"minecraft:deepslate_bricks"}
+        ]
+    ],
+    "result":{
+        "item":"minecraft:polished_deepslate",
+        "count":1
+    }
+}

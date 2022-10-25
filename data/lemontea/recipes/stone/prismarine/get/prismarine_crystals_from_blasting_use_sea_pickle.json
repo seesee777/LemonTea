@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:blasting",
+    "ingredient": [
+        {"item": "minecraft:sea_pickle"}
+    ],
+    "result": "minecraft:prismarine_crystals",
+    "experience": 1,
+    "cookingtime": 50
+}

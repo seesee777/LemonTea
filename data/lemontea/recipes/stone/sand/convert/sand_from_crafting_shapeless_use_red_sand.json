@@ -1,0 +1,11 @@
+{
+    "type":"minecraft:crafting_shapeless",
+    "ingredients": [
+        {"item":"minecraft:red_sand"},
+        {"item":"minecraft:potato"}
+    ],
+    "result":{
+        "item":"minecraft:sand",
+        "count":1
+    }
+}

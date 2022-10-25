@@ -1,0 +1,42 @@
+{
+    "type": "minecraft:block",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+            {
+            "type": "minecraft:loot_table",
+            "name": "vanilla:blocks/medium_amethyst_bud"
+            }
+        ]
+        },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "item",
+            "name": "minecraft:amethyst_shard",
+            "conditions": [
+              {
+                "condition": "minecraft:inverted",
+                "term": {
+                    "condition": "minecraft:entity_properties",
+                    "predicate": {
+                      "type": "minecraft:player"
+                    },
+                    "entity": "this"
+                }
+              }
+            ],
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 2.0,
+                "add": false
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

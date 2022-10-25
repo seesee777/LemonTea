@@ -1,0 +1,17 @@
+{
+    "type":"minecraft:crafting_shapeless",
+    "ingredients": [
+        [
+            {"item":"minecraft:cobbled_deepslate_wall"},
+            {"item":"minecraft:cobbled_deepslate_stairs"},
+            {"item":"minecraft:chiseled_deepslate"},
+            {"item":"minecraft:deepslate"},
+            {"item":"minecraft:polished_deepslate"},
+            {"item":"minecraft:infested_deepslate"}
+        ]
+    ],
+    "result":{
+        "item":"minecraft:cobbled_deepslate",
+        "count":1
+    }
+}

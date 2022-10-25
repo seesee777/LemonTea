@@ -1,0 +1,13 @@
+{
+    "type":"minecraft:crafting_shapeless",
+    "ingredients": [
+        [
+            {"item":"minecraft:blackstone_stairs"},
+            {"item":"minecraft:blackstone_wall"}
+        ]
+    ],
+    "result":{
+        "item":"minecraft:blackstone",
+        "count":1
+    }
+}

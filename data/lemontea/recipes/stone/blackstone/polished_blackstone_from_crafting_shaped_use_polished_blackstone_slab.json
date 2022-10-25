@@ -1,0 +1,17 @@
+{
+    "type":"minecraft:crafting_shaped",
+    "pattern":[
+        "O",
+        " ",
+        "O"
+    ],
+    "key":{
+        "O":{
+            "item":"minecraft:polished_blackstone_slab"
+        }
+    },
+    "result":{
+        "item":"minecraft:polished_blackstone",
+        "count":1
+    }
+}

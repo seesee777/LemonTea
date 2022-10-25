@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "vanilla:blocks/vine"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:vine",
+          "conditions": [
+            {
+              "condition": "minecraft:inverted",
+              "term": {
+                  "condition": "minecraft:entity_properties",
+                  "predicate": {
+                    "type": "minecraft:player"
+                  },
+                  "entity": "this"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:block",
+    "pools": [
+    {
+        "rolls": 1,
+        "entries": [
+            {
+            "type": "minecraft:loot_table",
+            "name": "vanilla:blocks/large_fern"
+            }
+        ]
+        },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "item",
+            "name": "minecraft:large_fern",
+            "conditions": [
+                {
+                    "condition": "random_chance",
+                    "chance": 0.3
+                }
+            ]
+          }
+        ]
+      }
+    ]
+  }

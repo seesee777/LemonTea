@@ -1,0 +1,14 @@
+{
+    "type":"minecraft:crafting_shapeless",
+    "ingredients": [
+        [
+            {"item":"minecraft:polished_blackstone_brick_wall"},
+            {"item":"minecraft:polished_blackstone_brick_stairs"},
+            {"item":"minecraft:cracked_polished_blackstone_bricks"}
+        ]
+    ],
+    "result":{
+        "item":"minecraft:polished_blackstone_bricks",
+        "count":1
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": [
+        {"item":"minecraft:sea_lantern"}
+    ],
+    "result": "minecraft:prismarine_crystals",
+    "count": 9
+}
