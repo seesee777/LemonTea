@@ -1,29 +1,35 @@
 {
-    "type": "minecraft:block",
-    "pools": [
+  "type": "minecraft:block",
+  "pools": [
     {
-        "rolls": 1,
-        "entries": [
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:alternatives",
+          "children": [
             {
-            "type": "minecraft:loot_table",
-            "name": "vanilla:blocks/fern"
-            }
-        ]
-        },
-      {
-        "rolls": 1,
-        "entries": [
-          {
-            "type": "item",
-            "name": "minecraft:fern",
-            "conditions": [
+              "type": "minecraft:item",
+              "name": "minecraft:fern",
+              "conditions": [
                 {
-                    "condition": "random_chance",
-                    "chance": 0.3
+                  "condition": "minecraft:inverted",
+                  "term": {
+                      "condition": "minecraft:entity_properties",
+                      "predicate": {
+                        "type": "minecraft:player"
+                      },
+                      "entity": "this"
+                  }
                 }
-            ]
-          }
-        ]
-      }
-    ]
-  }
+              ]
+            },
+            {
+              "type": "minecraft:loot_table",
+              "name": "vanilla:blocks/fern"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

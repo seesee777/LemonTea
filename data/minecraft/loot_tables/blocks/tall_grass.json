@@ -1,29 +1,64 @@
 {
-    "type": "minecraft:block",
-    "pools": [
+  "type": "minecraft:block",
+  "pools": [
     {
-        "rolls": 1,
-        "entries": [
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:alternatives",
+          "children": [
             {
-            "type": "minecraft:loot_table",
-            "name": "vanilla:blocks/tall_grass"
-            }
-        ]
-        },
-      {
-        "rolls": 1,
-        "entries": [
-          {
-            "type": "item",
-            "name": "minecraft:tall_grass",
-            "conditions": [
+              "type": "minecraft:empty",
+              "conditions": [
                 {
-                    "condition": "random_chance",
-                    "chance": 0.3
+                  "condition": "minecraft:inverted",
+                  "term": {
+                    "condition": "minecraft:entity_properties",
+                    "predicate": {
+                      "type": "minecraft:player"
+                    },
+                    "entity": "this"
+                  }
+                },
+                {
+                  "condition": "minecraft:block_state_property",
+                  "block": "tall_grass",
+                  "properties": {
+                    "half": "upper"
+                  }
                 }
-            ]
-          }
-        ]
-      }
-    ]
-  }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:tall_grass",
+              "conditions": [
+                {
+                  "condition": "minecraft:inverted",
+                  "term": {
+                    "condition": "minecraft:entity_properties",
+                    "predicate": {
+                      "type": "minecraft:player"
+                    },
+                    "entity": "this"
+                  }
+                },
+                {
+                  "condition": "minecraft:block_state_property",
+                  "block": "tall_grass",
+                  "properties": {
+                    "half": "lower"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:loot_table",
+              "name": "vanilla:blocks/tall_grass"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

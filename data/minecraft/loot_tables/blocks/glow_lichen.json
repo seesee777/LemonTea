@@ -9,13 +9,25 @@
           "name": "vanilla:blocks/glow_lichen"
           }
       ]
-      },
+    },
     {
       "rolls": 1.0,
-      "bonus_rolls": 0.0,
       "entries": [
         {
           "type": "minecraft:item",
+          "name": "minecraft:glow_lichen",
+          "conditions": [
+            {
+              "condition": "minecraft:inverted",
+              "term": {
+                "condition": "minecraft:entity_properties",
+                "predicate": {
+                  "type": "minecraft:player"
+                },
+                "entity": "this"
+              }
+            }
+          ],
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -109,14 +121,7 @@
             {
               "function": "minecraft:explosion_decay"
             }
-          ],
-          "name": "minecraft:glow_lichen",
-            "conditions": [
-                {
-                    "condition": "random_chance",
-                    "chance": 0.3
-                }
-            ]
+          ]
         }
       ]
     }
