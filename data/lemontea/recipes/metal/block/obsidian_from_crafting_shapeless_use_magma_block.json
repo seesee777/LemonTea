@@ -1,0 +1,12 @@
+{
+    "type":"minecraft:crafting_shapeless",
+    "category": "misc",
+    "ingredients": [
+        {"item":"minecraft:magma_block"},
+        {"item":"minecraft:ice"}
+    ],
+    "result":{
+        "item":"minecraft:obsidian",
+        "count":1
+    }
+}

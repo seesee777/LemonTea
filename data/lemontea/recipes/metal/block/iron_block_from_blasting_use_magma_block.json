@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:blasting",
+    "ingredient": [
+        {"item": "minecraft:magma_block"}
+    ],
+    "result": "minecraft:iron_block",
+    "experience": 10,
+    "cookingtime": 100
+}

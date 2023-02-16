@@ -1,0 +1,17 @@
+{
+    "type":"minecraft:crafting_shaped",
+    "pattern":[
+        "X",
+        "O",
+        "#"
+    ],
+    "key":{
+        "X":{"item":"minecraft:quartz"},
+        "O":{"item":"minecraft:stick"},
+        "#":{"item":"minecraft:feather"}
+    },
+    "result":{
+        "item":"minecraft:arrow",
+        "count":64
+    }
+}

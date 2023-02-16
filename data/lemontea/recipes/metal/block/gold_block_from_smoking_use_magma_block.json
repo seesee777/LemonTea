@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:smoking",
+    "ingredient": [
+        {"item": "minecraft:magma_block"}
+    ],
+    "result": "minecraft:gold_block",
+    "experience": 10,
+    "cookingtime": 100
+}

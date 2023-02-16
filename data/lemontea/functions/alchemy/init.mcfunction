@@ -122,5 +122,8 @@ schedule function lemontea:alchemy/enchant/frost_walker/repeat 18t
 # 执行合成附魔书：輕盈
 schedule function lemontea:alchemy/enchant/feather_falling/repeat 19t
 
-# 执行合成附魔书：
+# 执行合成附魔书：深海探索者
 schedule function lemontea:alchemy/enchant/depth_strider/repeat 20t
+
+# 执行合成附魔书：迅捷潜行Ⅲ
+schedule function lemontea:alchemy/enchant/swift_sneak/repeat 1t

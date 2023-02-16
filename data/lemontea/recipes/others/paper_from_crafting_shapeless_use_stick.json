@@ -1,0 +1,19 @@
+{
+    "type":"minecraft:crafting_shapeless",
+    "ingredients": [
+        [
+            {"item":"minecraft:stick"},
+            {"item":"minecraft:bamboo"},
+            {"item":"minecraft:sugar_cane"}
+        ],
+        [
+            {"item":"minecraft:grass"},
+            {"item":"minecraft:wheat"},
+            {"item":"minecraft:fern"}
+        ]
+    ],
+    "result":{
+        "item":"minecraft:paper",
+        "count":1
+    }
+}

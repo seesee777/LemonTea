@@ -1,0 +1,18 @@
+{
+    "type":"minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern":[
+        "XXX",
+        "XXX",
+        "XXX"
+    ],
+    "key":{
+        "X":[
+            {"item":"minecraft:wheat_seeds"}
+        ]
+    },
+    "result":{
+        "item":"minecraft:wheat",
+        "count":1
+    }
+}

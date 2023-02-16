@@ -1,0 +1,16 @@
+{
+    "type":"minecraft:crafting_shaped",
+    "pattern":[
+        "X#",
+        "XO"
+    ],
+    "key":{
+        "X":{"item":"minecraft:paper"},
+        "#":{"item":"minecraft:string"},
+        "O":{"item":"minecraft:rabbit_hide"}
+    },
+    "result":{
+        "item":"minecraft:book",
+        "count":1
+    }
+}

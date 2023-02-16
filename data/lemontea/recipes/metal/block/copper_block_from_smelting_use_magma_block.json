@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:smelting",
+    "ingredient": [
+        {"item": "minecraft:magma_block"}
+    ],
+    "result": "minecraft:copper_block",
+    "experience": 10,
+    "cookingtime": 100
+}

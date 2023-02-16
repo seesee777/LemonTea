@@ -1,11 +1,11 @@
 {
     "type":"minecraft:crafting_shapeless",
+    "category": "misc",
     "ingredients": [
-        {"item":"minecraft:emerald"},
-        {"item":"minecraft:emerald"}
+        {"item":"minecraft:coal"}
     ],
     "result":{
-        "item":"minecraft:redstone",
+        "item":"minecraft:charcoal",
         "count":4
     }
 }

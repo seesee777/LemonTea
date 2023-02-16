@@ -1,0 +1,15 @@
+{
+    "type":"minecraft:crafting_shaped",
+    "pattern":[
+        "X",
+        "O"
+    ],
+    "key":{
+        "X":{"item":"minecraft:lightning_rod"},
+        "O":{"item":"minecraft:ender_pearl"}
+    },
+    "result":{
+        "item":"minecraft:spawner",
+        "count":1
+    }
+}

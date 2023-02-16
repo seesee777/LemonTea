@@ -1,0 +1,23 @@
+{
+    "type":"minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern":[
+        "XX",
+        "OO",
+        "OO"
+    ],
+    "key":{
+        "X":[
+            {"item":"minecraft:copper_ingot"},
+            {"item":"minecraft:gold_ingot"},
+            {"item":"minecraft:iron_ingot"}
+        ],
+        "O":[
+            {"tag": "minecraft:planks"}
+        ]
+    },
+    "result":{
+        "item":"minecraft:smithing_table",
+        "count":1
+    }
+}

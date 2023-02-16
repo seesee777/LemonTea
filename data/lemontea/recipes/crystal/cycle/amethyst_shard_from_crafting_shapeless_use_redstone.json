@@ -1,10 +1,11 @@
 {
     "type":"minecraft:crafting_shapeless",
     "ingredients": [
+        {"item":"minecraft:redstone"},
         {"item":"minecraft:redstone"}
     ],
     "result":{
         "item":"minecraft:amethyst_shard",
-        "count":5
+        "count":4
     }
 }

@@ -1,0 +1,12 @@
+{
+    "type":"minecraft:crafting_shapeless",
+    "ingredients": [
+        {"item":"minecraft:moss_block"},
+        {"item":"minecraft:bone_block"},
+        {"item":"minecraft:magma_block"}
+    ],
+    "result":{
+        "item":"minecraft:gunpowder",
+        "count":64
+    }
+}

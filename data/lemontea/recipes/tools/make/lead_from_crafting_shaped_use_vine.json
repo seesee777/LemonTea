@@ -1,0 +1,20 @@
+{
+    "type":"minecraft:crafting_shaped",
+    "pattern":[
+        "XX ",
+        "XO ",
+        "  X"
+    ],
+    "key":{
+        "X":{"item":"minecraft:string"},
+        "O":[
+            {"item":"minecraft:vine"},
+            {"item":"minecraft:weeping_vines"},
+            {"item":"minecraft:twisting_vines"}
+        ]
+    },
+    "result":{
+        "item":"minecraft:lead",
+        "count":2
+    }
+}

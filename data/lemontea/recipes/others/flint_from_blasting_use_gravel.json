@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:blasting",
+    "ingredient": [
+        {"item": "minecraft:gravel"}
+    ],
+    "result": "minecraft:flint",
+    "experience": 1,
+    "cookingtime": 100
+}
