@@ -1,0 +1,11 @@
+{
+    "type":"minecraft:crafting_shapeless",
+    "ingredients": [
+        {"item":"minecraft:experience_bottle"},
+        {"item":"minecraft:spider_eye"}
+    ],
+    "result":{
+        "item":"minecraft:ender_pearl",
+        "count":1
+    }
+}

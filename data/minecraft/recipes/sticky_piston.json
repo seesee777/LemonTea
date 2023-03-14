@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "key": {
+    "P": {
+      "item": "minecraft:piston"
+    },
+    "S": [
+      {"item": "minecraft:slime_ball"},
+      {"item": "minecraft:honey_bottle"}
+    ]
+  },
+  "pattern": [
+    "S",
+    "P"
+  ],
+  "result": {
+    "item": "minecraft:sticky_piston"
+  }
+}

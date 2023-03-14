@@ -1,0 +1,10 @@
+{
+    "type":"minecraft:crafting_shapeless",
+    "ingredients": [
+        {"item":"minecraft:dragon_breath"}
+    ],
+    "result":{
+        "item":"minecraft:experience_bottle",
+        "count":9
+    }
+}

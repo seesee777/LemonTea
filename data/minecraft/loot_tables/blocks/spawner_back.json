@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+  {
+    "rolls": 1,
+    "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:spawner",
+          "conditions": [
+            {
+              "condition": "minecraft:match_tool",
+              "predicate": {
+                "enchantments": [
+                  {
+                    "enchantment": "minecraft:silk_touch",
+                    "levels": {
+                      "min": 1
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "loot_table",
+          "name": "vanilla:blocks/grass"
+        }
+      ]
+    }
+  ]
+}

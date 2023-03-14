@@ -1,12 +1,13 @@
 {
     "type":"minecraft:crafting_shaped",
     "pattern":[
-        "X",
-        "O"
+        "XXX",
+        "XOX",
+        "XXX"
     ],
     "key":{
-        "X":{"item":"minecraft:lightning_rod"},
-        "O":{"item":"minecraft:ender_pearl"}
+        "X":{"item":"minecraft:netherite_scrap"},
+        "O":{"item":"minecraft:ender_eye"}
     },
     "result":{
         "item":"minecraft:spawner",

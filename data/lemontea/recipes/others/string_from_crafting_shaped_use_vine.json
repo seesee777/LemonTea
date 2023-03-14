@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "key": {
+    "S": [
+      {"item": "minecraft:vine"},
+      {"item": "minecraft:twisting_vines"},
+      {"item": "minecraft:weeping_vines"}
+    ]
+  },
+  "pattern": [
+    "S",
+    "S"
+  ],
+  "result": {
+    "item": "minecraft:string",
+    "count": 4
+  }
+}
