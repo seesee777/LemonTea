@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "XXX",
+      " O "
+    ],
+    "key": {
+      "X": {
+        "item": "minecraft:honeycomb"
+      },
+      "O": {
+        "item": "minecraft:glass_bottle"
+      }
+    },
+    "result": {
+      "item": "minecraft:honey_bottle",
+      "count": 1
+    }
+  }

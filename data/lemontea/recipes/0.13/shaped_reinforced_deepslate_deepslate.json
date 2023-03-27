@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "DDD",
+      "DDD",
+      "DDD"
+    ],
+    "key": {
+      "D": {
+        "item": "minecraft:deepslate"
+      }
+    },
+    "result": {
+      "item": "minecraft:reinforced_deepslate",
+      "count": 1
+    }
+  }
+  

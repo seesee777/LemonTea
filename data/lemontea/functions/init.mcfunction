@@ -30,12 +30,17 @@ scoreboard objectives add alchemy_ON dummy
 scoreboard players set $global.main alchemy_ON 1
 execute if score $global.main alchemy_ON matches 1 run function lemontea:alchemy/init
 
+# initialize function: mob_capture
+scoreboard objectives add mob_capture_ON dummy
+scoreboard players set $global.main mob_capture_ON 1
+execute if score $global.main mob_capture_ON matches 1 run function lemontea:mob_capture/init
+
 # initialize function: time_counter
-scoreboard objectives add time_counter_ON dummy
-scoreboard players set $global.main time_counter_ON 0
-execute if score $global.main time_counter_ON matches 1 run function lemontea:time_counter/init
+# scoreboard objectives add time_counter_ON dummy
+# scoreboard players set $global.main time_counter_ON 0
+# execute if score $global.main time_counter_ON matches 1 run function lemontea:time_counter/init
 
 # initialize function: chunk_claim
-scoreboard objectives add chunk_claim_ON dummy
-scoreboard players set $global.main chunk_claim_ON 0
-execute if score $global.main chunk_claim_ON matches 1 run function lemontea:chunk_claim/init
+# scoreboard objectives add chunk_claim_ON dummy
+# scoreboard players set $global.main chunk_claim_ON 0
+# execute if score $global.main chunk_claim_ON matches 1 run function lemontea:chunk_claim/init

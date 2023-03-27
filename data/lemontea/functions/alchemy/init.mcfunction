@@ -1,6 +1,8 @@
 # 初始化计分板
 scoreboard objectives add repair_cost dummy
 
+# 避免并发
+
 ############
 
 # 执行移除:鐵砧惩罚

@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      " R ",
+      "RHR",
+      " R "
+    ],
+    "key": {
+      "R": {
+        "item": "minecraft:rabbit_hide"
+      },
+      "H": {
+        "item": "minecraft:honeycomb"
+      }
+    },
+    "result": {
+      "item": "minecraft:bat_spawn_egg",
+      "count": 1
+    }
+  }
+  
