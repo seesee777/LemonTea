@@ -1,0 +1,2 @@
+# 说明书:生物捕捉
+summon item ~ ~ ~ {Item:{id:"minecraft:written_book",Count:1b,tag:{author:"bittoy.org",title:"help_enchant",display:{Name:'{"text":"说明书：简单附魔","color":"light_purple","italic":false}'},pages:['[{"text":""},{"text":"简单附魔的方法：","bold":true},{"text":"\\n\\n    编辑中"},{"text":"\\n\\n    docz.bittoy.org"}]']}}}

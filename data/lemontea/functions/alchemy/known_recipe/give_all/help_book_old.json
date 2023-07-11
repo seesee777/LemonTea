@@ -1,0 +1,116 @@
+// 命令方式，用于测试
+summon 
+
+
+
+
+give @p minecraft:written_book
+{
+    author:"bittoy.org",
+    title:"LemonTeaManaul",
+    display:{Name:'{"text":"柠檬茶说明书","color":"gold","italic":"false"}'},
+    pages:[
+        '[
+            {"text":""},
+            {"text":"[柠檬茶说明书]","bold":"true","color":"gold"},
+            {"text":"\\n困了累了就喝柠檬特饮！","color":"dark_green"},
+            {"text":"\\nbittoy.org    230711","color":"gray","italic":"true"},
+            {"text":"\\n\\n\\n    第2页 - 合成方法"},
+            {"text":"\\n\\n    第3页 - 快速建造"},
+            {"text":"\\n\\n    第4页 - 简单附魔"},
+            {"text":"\\n\\n    第5页 - 怪物捕捉"}
+        ]',
+        '[
+            {"text":""},
+            {"text":"合成方法：","bold":"true"},
+            {"text":"\\n\\n1、将材料放在容器内，从上至下，从左至右依次排列"},
+            {"text":"\\n\\n2、将触媒物品投掷到容器上方"},
+            {"text":"\\n\\n3、看到粒子效果并听见音效"},
+            {"text":"\\n\\n4、拾取物品，或打开容器拾取物品"}
+        ]',
+        '[
+            {"text":""},
+            {"text":"快速建造：","bold":"true"},
+            {"text":"\\n\\n  [配方:快速建造]：","color":"dark_green"},
+            {"text":"\\n\\n    触媒：纸"},
+            {"text":"\\n\\n    材料：纸"}
+        ]',
+        '[
+            {"text":""},
+            {"text":"简单附魔：","bold":"true"},
+            {"text":"\\n\\n  [配方:简单附魔]：","color":"dark_green"},
+            {"text":"\\n\\n    触媒：书"},
+            {"text":"\\n\\n    材料：书"}
+        ]',
+        '[
+            {"text":""},
+            {"text":"怪物捕捉：","bold":"true"},
+            {"text":"\\n\\n方法1：玩家将蝙蝠刷怪蛋扔到生物位置，生成这个生物的刷怪蛋"},
+            {"text":"\\n方法2：投掷器将蝙蝠刷怪蛋扔到生物位置，生成这类生物的刷怪蛋"},
+            {"text":"\\n\\n[蝙蝠刷怪蛋]:","color":"dark_blue"},
+            {"text":"\\n    - R -"},
+            {"text":"\\n    R H R"},
+            {"text":"\\n    - R -"},
+            {"text":"\\nR:兔子皮，H:蜜脾"}
+        ]'
+    ]
+}
+
+
+// 容器方式
+data modify block ~ ~ ~ Items[0] set value
+{
+    id:"minecraft:written_book",
+    Count:1b,
+    tag:{
+        author:"bittoy.org",
+        title:"LemonTeaManaul",
+        display:{Name:'{"text":"柠檬茶说明书","color":"gold","italic":"false"}'},
+        pages:[
+            '[
+                {"text":""},
+                {"text":"[柠檬茶说明书]","bold":"true","color":"gold"},
+                {"text":"\\n困了累了就喝柠檬特饮！","color":"dark_green"},
+                {"text":"\\nbittoy.org    230711","color":"gray","italic":"true"},
+                {"text":"\\n\\n\\n    第2页 - 合成方法"},
+                {"text":"\\n\\n    第3页 - 快速建造"},
+                {"text":"\\n\\n    第4页 - 简单附魔"},
+                {"text":"\\n\\n    第5页 - 怪物捕捉"}
+            ]',
+            '[
+                {"text":""},
+                {"text":"合成方法：","bold":"true"},
+                {"text":"\\n\\n1、将材料放在容器内，从上至下，从左至右依次排列"},
+                {"text":"\\n\\n2、将触媒物品投掷到容器上方"},
+                {"text":"\\n\\n3、看到粒子效果并听见音效"},
+                {"text":"\\n\\n4、拾取物品，或打开容器拾取物品"}
+            ]',
+            '[
+                {"text":""},
+                {"text":"快速建造：","bold":"true"},
+                {"text":"\\n\\n  [配方:快速建造]：","color":"dark_green"},
+                {"text":"\\n\\n    触媒：纸"},
+                {"text":"\\n\\n    材料：纸"}
+            ]',
+            '[
+                {"text":""},
+                {"text":"简单附魔：","bold":"true"},
+                {"text":"\\n\\n  [配方:简单附魔]：","color":"dark_green"},
+                {"text":"\\n\\n    触媒：书"},
+                {"text":"\\n\\n    材料：书"}
+            ]',
+            '[
+                {"text":""},
+                {"text":"怪物捕捉：","bold":"true"},
+                {"text":"\\n\\n方法1：玩家将蝙蝠刷怪蛋扔到生物位置，生成这个生物的刷怪蛋"},
+                {"text":"\\n方法2：投掷器将蝙蝠刷怪蛋扔到生物位置，生成这类生物的刷怪蛋"},
+                {"text":"\\n\\n[蝙蝠刷怪蛋]:","color":"dark_blue"},
+                {"text":"\\n    - R -"},
+                {"text":"\\n    R H R"},
+                {"text":"\\n    - R -"},
+                {"text":"\\nR:兔子皮，H:蜜脾"}
+            ]'
+        ]
+    }
+}
+

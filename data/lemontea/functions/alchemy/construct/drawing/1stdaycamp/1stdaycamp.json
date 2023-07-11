@@ -1,0 +1,135 @@
+// 物品栏方式
+give @p minecraft:written_book{
+    author:"ChrisBigD",
+    title:"",
+    display:{
+        Name:'{
+            "text":"Building",
+            "color":"gold",
+            "italic":false
+            }'
+        },
+    pages:[
+        '[
+            {"text":"page1-1\\n2\\n3"}
+        ]',
+        '[
+            {"text":"page2-1\\n2\\n3"}
+        ]',
+        '[
+            {"text":"page3-1\\n2\\n3"}
+        ]'
+    ]
+}
+
+// 容器方式
+data modify block ~ ~ ~ Items[0] set value
+{
+    id:"minecraft:written_book",
+    Count:1b,
+    tag:{
+        author:"ChrisBigD",
+        title:"1stDayCamp001",
+        display:{
+            Name:'{
+                "text":"图纸：首日营地","color":"green","italic":false
+                }'
+            },
+        pages:[
+            '[
+                {"text":""},
+                {"text":"\\n  [克里思的首日营地]","bold":true,"color":"dark_green"},
+                {"text":"\\n  230709","color":"gray","italic":true},
+                {"text":"\\n\\n图纸效果：","bold":true},
+                {"text":"\\n\\n    建造单区块新手营地，"},
+                {"text":"\\n包含围墙、凉棚、瞭望台、耕地、畜栏、鱼塘、"},
+                {"text":"\\n储藏室、工作间。"},
+                {"text":"\\n\\n    已预留堆肥机、熔炉"},
+                {"text":"\\n机、附魔台的位置。"}
+            ]',
+            '[
+                {"text":""},
+                {"text":"\\n消耗材料:","bold":true},
+                {"text":"\\n\\n  触媒："},{"text":"本书*1","color":"dark_purple"},
+                {"text":"\\n\\n  材料："},{"text":"木炭*1","color":"dark_purple"}
+            ]',
+            '[
+                {"text":""},
+                {"text":"使用方法：","bold":true},
+                {"text":"\\n    在容器中，从第一个栏"},
+                {"text":"\\n位开始，依次摆放所需材料(见上页)，再将触媒(本书)投掷到容器上方。"},
+                {"text":"\\n\\n建造位置：","bold":true},
+                {"text":"\\n    从图纸掉落处的坐标"},
+                {"text":"\\n位置计算偏移。"},
+                {"text":"\\n\\n地面高度：","bold":true},
+                {"text":"\\n    图纸下方一格是地面"},
+                {"text":"\\n(注意当图纸掉落在不完整方块上时的高度)"}
+            ]',
+            '[
+                {"text":""},
+                {"text":"占地空间：","bold":true},
+                {"text":"\\n  X=16","color":"dark_red"},
+                {"text":", "},
+                {"text":"Y=16","color":"dark_green"},                
+                {"text":", "},
+                {"text":"Z=16","color":"dark_blue"},                
+                {"text":"\\n\\n位置坐标(从图纸处)：","bold":true},
+                {"text":"\\n\\n  [A 角点]","color":"dark_gray"},
+                {"text":"\\n    X ~","color":"dark_red"},
+                {"text":"\\n    Y ~-7","color":"dark_green"},
+                {"text":"\\n    Z ~","color":"dark_blue"},
+                {"text":"\\n\\n  [B 角点]","color":"dark_gray"},
+                {"text":"\\n    X ~15","color":"dark_red"},
+                {"text":"\\n    Y ~8","color":"dark_green"},
+                {"text":"\\n    Z ~15","color":"dark_blue"}
+            ]'
+        ],
+        LemonTea:1b
+    } 
+}
+
+// Page1
+克里思的首日营地
+    --2023Y07M09D
+
+图纸效果：
+    建造单区块新手营地，
+包含围墙、凉棚、瞭望台、耕地、畜栏、鱼塘、储藏室、工作间。
+    已预留堆肥机、熔炉、
+附魔台位置。
+
+// Page2
+消耗材料:
+    木炭*1 
+
+// Page3
+占地空间：
+    16*16*16
+
+坐标(从图纸偏移)：
+
+  [A]
+    x ~0
+    y ~-8
+    z ~0
+
+  [B]
+    x ~16
+    y ~8
+    z ~16
+
+// Page4
+使用方法：
+    在容器中，从第一个栏
+位开始依次摆放所需耗材，再将本书投掷到容器上方。
+
+建造位置：
+    从图纸掉落坐标计算。
+  
+地面高度：
+    与图纸掉落地面同高。
+  
+特别注意：
+    不是完整方块的容器。
+
+

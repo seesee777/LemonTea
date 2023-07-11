@@ -3,7 +3,7 @@ scoreboard objectives add repair_cost dummy
 
 # 避免并发
 
-############
+#### 移除负面魔咒
 
 # 执行移除:鐵砧惩罚
 schedule function lemontea:alchemy/enchant/remove_repair_cost/repeat 1t
@@ -11,7 +11,7 @@ schedule function lemontea:alchemy/enchant/remove_repair_cost/repeat 1t
 # 执行移除:詛咒
 schedule function lemontea:alchemy/enchant/remove_curse/repeat 2t
 
-############
+#### 增加魔咒
 
 # 执行合成附魔书:耐久
 schedule function lemontea:alchemy/enchant/unbreaking/repeat 3t
@@ -129,3 +129,19 @@ schedule function lemontea:alchemy/enchant/depth_strider/repeat 20t
 
 # 执行合成附魔书：迅捷潜行Ⅲ
 schedule function lemontea:alchemy/enchant/swift_sneak/repeat 1t
+
+#### 操作玩家认识的 recipe
+
+# 执行认识全部配方
+schedule function lemontea:alchemy/known_recipe/give_all/repeat 2t
+
+# 执行遗忘全部配方
+schedule function lemontea:alchemy/known_recipe/take_all/repeat 3t
+
+#### 操作快速建造
+
+## 1st_day_camp
+# 执行合成图纸：
+schedule function lemontea:alchemy/construct/drawing/1stdaycamp/repeat 1t
+# 执行快速建造：
+schedule function lemontea:alchemy/construct/build/1stdaycamp/repeat 11t

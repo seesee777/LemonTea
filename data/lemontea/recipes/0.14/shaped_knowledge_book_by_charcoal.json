@@ -1,0 +1,16 @@
+{ 
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "PP"
+    ],
+    "key": {
+      "P": {
+        "item": "minecraft:paper"
+      }
+    },
+    "result": {
+      "item": "minecraft:knowledge_book",
+      "count": 1
+    }
+  }
+  

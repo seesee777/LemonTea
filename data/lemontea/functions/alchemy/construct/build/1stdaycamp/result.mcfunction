@@ -1,0 +1,7 @@
+# 在触媒位置运行
+
+# 删除容器内物品
+data modify block ~ ~ ~ Items[0].Count set value 0b
+
+# 运行建造
+function lemontea:alchemy/construct/build/1stdaycamp/build
