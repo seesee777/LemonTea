@@ -12,6 +12,8 @@ function lemontea:alchemy/known_recipe/give_all/help_build
 function lemontea:alchemy/known_recipe/give_all/help_capture
 # 简单附魔说明书
 function lemontea:alchemy/known_recipe/give_all/help_enchant
+# 锻造升级说明书
+function lemontea:alchemy/known_recipe/give_all/help_upgrade
 
 # 删除消耗品
 kill @s
