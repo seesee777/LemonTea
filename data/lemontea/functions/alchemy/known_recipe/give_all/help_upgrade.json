@@ -20,6 +20,8 @@ give @p minecraft:written_book
         '[
             {"text":""},
             {"text":"\\n 木斧/锄/镐/锹/剑","color":"dark_blue"},
+            {"text":"\\n  + "},{"text":"圆石","color":"dark_purple"},
+            {"text":"\\n>"},{"text":"石斧/锄/镐/锹/剑","color":"dark_green"},
             {"text":"\\n  + "},{"text":"金锭","color":"dark_purple"},
             {"text":"\\n>"},{"text":"金斧/锄/镐/锹/剑","color":"dark_green"},
             {"text":"\\n  + "},{"text":"铁锭","color":"dark_purple"},
