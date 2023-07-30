@@ -145,3 +145,9 @@ schedule function lemontea:alchemy/known_recipe/take_all/repeat 3t
 schedule function lemontea:alchemy/construct/drawing/1stdaycamp/repeat 1t
 # 执行快速建造：
 schedule function lemontea:alchemy/construct/build/1stdaycamp/repeat 11t
+
+## vcrazie/farm
+# 执行合成图纸：
+schedule function lemontea:alchemy/construct/drawing/vcraziefarm/repeat 2t
+# 执行快速建造：
+schedule function lemontea:alchemy/construct/build/vcraziefarm/repeat 12t

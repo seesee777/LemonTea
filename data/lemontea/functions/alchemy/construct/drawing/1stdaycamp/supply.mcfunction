@@ -1,4 +1,2 @@
-# 找到玩家附近5米内最近的一个消耗品：
-execute at @a at @e[type=item,distance=..5,sort=nearest,limit=1,nbt={OnGround:1b,Item:{id:"minecraft:paper",Count:1b}}] as @e[type=item,distance=..5,sort=nearest,limit=1,nbt={OnGround:1b,Item:{id:"minecraft:paper",Count:1b}}] run function lemontea:alchemy/construct/drawing/1stdaycamp/target
-
-schedule function lemontea:alchemy/construct/drawing/1stdaycamp/supply_again 1t
+# 当前容器第一个格位是书的时候
+execute if data block ~ ~ ~ Items[{Slot:0b,id:"minecraft:stick",Count:64b}] run function lemontea:alchemy/construct/drawing/1stdaycamp/result

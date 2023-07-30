@@ -1,0 +1,38 @@
+// 物品栏方式
+give @p minecraft:written_book{
+    author:"ChrisBigD",
+    title:"",
+    display:{
+        Name:'{
+            "text":"Building","color":"gold","italic":false
+            }'
+        },
+    pages:[
+        '[{"text":"page1-1\\n2\\n3"}]',
+        '[{"text":"page2-1\\n2\\n3"}]',
+        '[{"text":"page3-1\\n2\\n3"}]'
+    ],
+    LemonTea:1b
+}
+
+// 容器方式
+data modify block ~ ~ ~ Items[0] set value
+{
+id:"minecraft:written_book",
+Count:1b,
+tag:{
+    author:"ChrisBigD",
+    title:"1stDayCamp001",
+    display:{
+        Name:'{
+            "text":"图纸：首日营地","color":"green","italic":false
+            }'
+        },
+    pages:[
+        '[{"text":"page1-1\\n2\\n3"}]',
+        '[{"text":"page2-1\\n2\\n3"}]',
+        '[{"text":"page3-1\\n2\\n3"}]'
+    ],
+    LemonTea:1b
+} 
+}

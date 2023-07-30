@@ -16,7 +16,7 @@ give @p minecraft:written_book
         '[
             {"text":""},
             {"text":"特有合成方式：","bold":true},
-            {"text":"\\n\\n将"},{"text":"材料物品","color":"dark_blue"},{"text":"放在容器内，从上至下，从左至右依次排列。"},
+            {"text":"\\n\\n将"},{"text":"材料物品","color":"dark_blue"},{"text":"放在容器内，从上至下，从左至右依次排列，随后保留一个空栏位。"},
             {"text":"将"},{"text":"触媒物品","color":"dark_purple"},{"text":"投掷到容器上方。"},
             {"text":"看到粒子效果并伴随声音效果后，"},
             {"text":"从容器上方拾取物品，或打开容器拾取物品。具体配方见专项说明书。"},
@@ -40,7 +40,7 @@ give @p minecraft:written_book
         ]',
         '[
             {"text":""},
-            {"text":"Toby_The， hzhh，whd775243， dataozhi， Jasont23， Dustlnd， Qili_Qili， BlueIce1987， PAPER_N， trtfs， qgsmn2019， AtmBamboo， DY_shulin"}
+            {"text":"Toby_The， hzhh，whd775243， dataozhi， Jasont23， Dustlnd， Qili_Qili， BlueIce1987， PAPER_N， trtfs， qgsmn2019， AtmBamboo， DY_shulin， Vcrazie"}
         ]',
         '[
             {"text":""},
