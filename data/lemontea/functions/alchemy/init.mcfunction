@@ -146,8 +146,14 @@ schedule function lemontea:alchemy/construct/drawing/1stdaycamp/repeat 1t
 # 执行快速建造：
 schedule function lemontea:alchemy/construct/build/1stdaycamp/repeat 11t
 
-## vcrazie/farm
+## 1st_day_farm
 # 执行合成图纸：
-schedule function lemontea:alchemy/construct/drawing/vcraziefarm/repeat 2t
+schedule function lemontea:alchemy/construct/drawing/1stdayfarm/repeat 2t
 # 执行快速建造：
-schedule function lemontea:alchemy/construct/build/vcraziefarm/repeat 12t
+schedule function lemontea:alchemy/construct/build/1stdayfarm/repeat 12t
+
+## 1st_day_corral
+# 执行合成图纸：
+schedule function lemontea:alchemy/construct/drawing/1stdaycorral/repeat 3t
+# 执行快速建造：
+schedule function lemontea:alchemy/construct/build/1stdaycorral/repeat 13t

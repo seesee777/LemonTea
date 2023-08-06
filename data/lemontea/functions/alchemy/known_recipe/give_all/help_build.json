@@ -10,15 +10,22 @@ summon item ~ ~ ~
             pages:[
                 '[
                     {"text":""},
-                    {"text":"快速建造图纸：","bold":true},
-                    {"text":"\\n\\n[首日营地]","color":"dark_green"},
+                      {"text":"[首日营地]","color":"dark_green"},
                     {"text":"\\n  触媒："},{"text":"纸*1","color":"dark_purple"},
-                    {"text":"\\n  材料："},{"text":"木棍*64","color":"dark_purple"},
+                    {"text":"\\n  材料："},{"text":"木棍*64","color":"dark_blue"},
                     {"text":"\\n\\n[首日农田]","color":"dark_green"},
                     {"text":"\\n  触媒："},{"text":"纸*1","color":"dark_purple"},
-                    {"text":"\\n  材料："},{"text":"木棍*32  泥土*32","color":"dark_purple"},
-                    {"text":"\\n水桶*1","color":"dark_purple"},
-                    {"text":"\\n\\n[更多制作中...]","color":"dark_green"}
+                    {"text":"\\n  材料："},{"text":"木棍*32  泥土*32","color":"dark_blue"},
+                    {"text":"\\n水桶*1","color":"dark_blue"},
+                    {"text":"\\n\\n[首日畜栏]","color":"dark_green"},
+                    {"text":"\\n  触媒："},{"text":"纸*1","color":"dark_purple"},
+                    {"text":"\\n  材料："},{"text":"木棍*64  泥土*32","color":"dark_blue"},
+                    {"text":"\\n草*8","color":"dark_blue"}
+                    
+                ]',
+                '[
+                    {"text":""},
+                    {"text":"[更多制作中...]","color":"dark_green"}
                 ]'
             ]
         }

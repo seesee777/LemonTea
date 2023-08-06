@@ -6,12 +6,13 @@ give @p minecraft:written_book
     pages:[
         '[
             {"text":""},
-            {"text":"欢迎畅饮柠檬茶，\\n  酸甜醒脑，加冰更宜！","color":"gold","bold":true,"hoverEvent":{"action":"show_text","contents":[{"text":""},{"text":"从游戏到开发，\\n一块一块建造梦想！"}]}},
+            {"text":"  为了做出全宇宙\\n      最酸的柠檬茶！","color":"gold","bold":true,"hoverEvent":{"action":"show_text","contents":[{"text":""},{"text":"从游戏到开发，\\n一块一块建造梦想！"}]}},
             {"text":"\\n\\n目录","bold":true},{"text":"(点击使用)","color":"gray"},
             {"text":"\\n\\n    - 快速建造","color":"dark_aqua","clickEvent":{"action":"run_command","value":"/function lemontea:alchemy/known_recipe/give_all/help_build"},"hoverEvent":{"action":"show_text","contents":[{"text":""},{"text":"点击获取","color":"aqua"},{"text":"说明书：快速建造"}]}},
             {"text":"\\n\\n    - 生物捕捉","color":"dark_aqua","clickEvent":{"action":"run_command","value":"/function lemontea:alchemy/known_recipe/give_all/help_capture"},"hoverEvent":{"action":"show_text","contents":[{"text":""},{"text":"点击获取","color":"aqua"},{"text":"说明书：生物捕捉"}]}},
             {"text":"\\n\\n    - 简单附魔","color":"dark_aqua","clickEvent":{"action":"run_command","value":"/function lemontea:alchemy/known_recipe/give_all/help_enchant"},"hoverEvent":{"action":"show_text","contents":[{"text":""},{"text":"点击获取","color":"aqua"},{"text":"说明书：简单附魔"}]}},
-            {"text":"\\n\\n    - 锻造升级","color":"dark_aqua","clickEvent":{"action":"run_command","value":"/function lemontea:alchemy/known_recipe/give_all/help_upgrade"},"hoverEvent":{"action":"show_text","contents":[{"text":""},{"text":"点击获取","color":"aqua"},{"text":"说明书：锻造升级"}]}}
+            {"text":"\\n\\n    - 锻造升级","color":"dark_aqua","clickEvent":{"action":"run_command","value":"/function lemontea:alchemy/known_recipe/give_all/help_upgrade"},"hoverEvent":{"action":"show_text","contents":[{"text":""},{"text":"点击获取","color":"aqua"},{"text":"说明书：锻造升级"}]}},
+            {"text":"\\n\\n    - 熔炼配方","color":"dark_aqua","clickEvent":{"action":"run_command","value":"/function lemontea:alchemy/known_recipe/give_all/help_fusion"},"hoverEvent":{"action":"show_text","contents":[{"text":""},{"text":"点击获取","color":"aqua"},{"text":"说明书：熔炼配方"}]}}
         ]',
         '[
             {"text":""},

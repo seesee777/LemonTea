@@ -1,5 +1,5 @@
 # 生成图纸
-function lemontea:alchemy/construct/drawing/vcraziefarm/summon
+function lemontea:alchemy/construct/drawing/1stdaycorral/summon
 
 # 删除材料
 data modify block ~ ~-1 ~ Items[{Slot:0b}].Count set value 0b
