@@ -2,7 +2,7 @@ give @p minecraft:written_book
 {
     author:"bittoy.org",
     title:"help_capture",
-    display:{Name:'{"text":"说明书：生物捕捉","color":"light_purple","italic":"false"}'},
+    display:{Name:'{"text":"说明书：生物捕捉","italic":"false"}'},
     pages:[
         '[
             {"text":""},

@@ -1,0 +1,11 @@
+{
+    "type":"minecraft:crafting_shapeless",
+    "ingredients": [
+        {"item":"minecraft:mangrove_propagule"},
+        {"item":"minecraft:bone_meal"}
+    ],
+    "result":{
+        "item":"minecraft:mangrove_log",
+        "count":64
+    }
+}

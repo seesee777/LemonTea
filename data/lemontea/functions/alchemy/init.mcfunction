@@ -157,3 +157,9 @@ schedule function lemontea:alchemy/construct/build/1stdayfarm/repeat 12t
 schedule function lemontea:alchemy/construct/drawing/1stdaycorral/repeat 3t
 # 执行快速建造：
 schedule function lemontea:alchemy/construct/build/1stdaycorral/repeat 13t
+
+## honeycombfarm
+# 执行合成图纸：
+schedule function lemontea:alchemy/construct/drawing/honeycombfarm/repeat 4t
+# 执行快速建造：
+schedule function lemontea:alchemy/construct/build/honeycombfarm/repeat 14t

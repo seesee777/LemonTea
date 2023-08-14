@@ -1,0 +1,18 @@
+{
+    "type":"minecraft:crafting_shapeless",
+    "ingredients": [
+        [{"item": "minecraft:mangrove_button"},
+        {"item": "minecraft:mangrove_door"},
+        {"item": "minecraft:mangrove_fence"},
+        {"item": "minecraft:mangrove_fence_gate"},
+        {"item": "minecraft:mangrove_pressure_plate"},
+        {"item": "minecraft:mangrove_sign"},
+        {"item": "minecraft:mangrove_stairs"},
+        {"item": "minecraft:mangrove_trapdoor"},
+        {"item": "minecraft:mangrove_boat"}]
+    ],
+    "result":{
+        "item":"minecraft:mangrove_planks",
+        "count":1
+    }
+}

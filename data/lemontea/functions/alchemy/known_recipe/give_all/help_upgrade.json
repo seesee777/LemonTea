@@ -2,7 +2,7 @@ give @p minecraft:written_book
 {
     author:"bittoy.org",
     title:"help_upgrade",
-    display:{Name:'{"text":"说明书：锻造升级","color":"light_purple","italic":false}'},
+    display:{Name:'{"text":"说明书：锻造升级","italic":false}'},
     pages:[
         '[
             {"text":""},
