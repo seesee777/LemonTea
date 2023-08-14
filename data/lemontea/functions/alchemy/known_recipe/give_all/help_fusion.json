@@ -1,4 +1,4 @@
-summon item ~ ~ ~ 
+execute as @p at @s run summon item ~ ~ ~ summon item ~ ~ ~ 
 {Item:
     {id:"minecraft:written_book",
     Count:1b,

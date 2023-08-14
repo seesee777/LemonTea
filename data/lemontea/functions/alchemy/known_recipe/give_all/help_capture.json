@@ -1,4 +1,6 @@
-give @p minecraft:written_book
+???
+
+execute as @p at @s run summon item ~ ~ ~ 
 {
     author:"bittoy.org",
     title:"help_capture",

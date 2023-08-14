@@ -1,12 +1,17 @@
-# 初始化计分板
-scoreboard objectives add repair_cost dummy
+# known_recipe 功能依赖 player_sccoreboard 功能
+
+
 
 # 避免并发
 
-#### 移除负面魔咒
+#### 移除鐵砧惩罚
 
-# 执行移除:鐵砧惩罚
+# 初始化计分板，用于 remove_repair_cost 功能
+scoreboard objectives add repair_cost dummy
 schedule function lemontea:alchemy/enchant/remove_repair_cost/repeat 1t
+
+
+#### 移除负面魔咒
 
 # 执行移除:詛咒
 schedule function lemontea:alchemy/enchant/remove_curse/repeat 2t
