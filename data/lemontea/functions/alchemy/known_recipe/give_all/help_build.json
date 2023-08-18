@@ -28,7 +28,11 @@ execute as @p at @s run summon item ~ ~ ~
                     {"text":"[蜜脾工厂]","color":"dark_green"},
                     {"text":"\\n  触媒："},{"text":"纸*1","color":"dark_purple"},
                     {"text":"\\n  材料："},{"text":"营火*4  圆石*16","color":"dark_blue"},
-                    {"text":"\\n燧石*64  蜜脾*16","color":"dark_blue"}
+                    {"text":"\\n燧石*64  蜜脾*16","color":"dark_blue"},
+                    {"text":"\\n\\n[十字路口]","color":"dark_green"},
+                    {"text":"\\n  触媒："},{"text":"纸*1","color":"dark_purple"},
+                    {"text":"\\n  材料："},{"text":"营火*4  圆石*8","color":"dark_blue"},
+                    {"text":"\\n钟*1","color":"dark_blue"}
                 ]',
                 '[
                     {"text":""},
