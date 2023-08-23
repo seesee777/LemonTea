@@ -1,5 +1,3 @@
-???
-
 execute as @p at @s run summon item ~ ~ ~ 
 {
     author:"bittoy.org",

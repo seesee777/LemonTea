@@ -174,3 +174,9 @@ schedule function lemontea:alchemy/construct/build/honeycombfarm/repeat 14t
 schedule function lemontea:alchemy/construct/drawing/crossroads/repeat 5t
 # 执行快速建造：
 schedule function lemontea:alchemy/construct/build/crossroads/repeat 15t
+
+## melonfarm
+# 执行合成图纸：
+schedule function lemontea:alchemy/construct/drawing/melonfarm/repeat 6t
+# 执行快速建造：
+schedule function lemontea:alchemy/construct/build/melonfarm/repeat 16t
