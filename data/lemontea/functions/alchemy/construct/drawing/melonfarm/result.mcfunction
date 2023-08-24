@@ -6,8 +6,8 @@ data modify block ~ ~ ~ Items[{Slot:0b}].Count set value 0b
 data modify block ~ ~ ~ Items[{Slot:1b}].Count set value 0b
 data modify block ~ ~ ~ Items[{Slot:2b}].Count set value 0b
 data modify block ~ ~ ~ Items[{Slot:3b}].Count set value 0b
-data modify block ~ ~-1 ~ Items[{Slot:4b}].Count set value 0b
-data modify block ~ ~-1 ~ Items[{Slot:5b}].Count set value 0b
+data modify block ~ ~ ~ Items[{Slot:4b}].Count set value 0b
+data modify block ~ ~ ~ Items[{Slot:5b}].Count set value 0b
 
 # 效果
 function lemontea:alchemy/effects/drawing
