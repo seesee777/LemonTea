@@ -180,3 +180,12 @@ schedule function lemontea:alchemy/construct/build/crossroads/repeat 15t
 schedule function lemontea:alchemy/construct/drawing/melonfarm/repeat 6t
 # 执行快速建造：
 schedule function lemontea:alchemy/construct/build/melonfarm/repeat 16t
+
+#### 操作炸弹
+# 区块炸弹
+# 区块炸弹数量计分板
+scoreboard objectives add LT_chunkbomb dummy
+# 区块炸弹进行中计分板
+scoreboard objectives add chunkbombing dummy
+scoreboard players set $global.main chunkbombing 0
+schedule function lemontea:alchemy/construct/chunkbomb/repeat 1t

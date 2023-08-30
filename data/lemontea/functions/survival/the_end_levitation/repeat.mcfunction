@@ -2,4 +2,4 @@
 function lemontea:survival/the_end_levitation/run
 
 # 下次执行
-schedule function lemontea:survival/the_end_levitation/repeat 5t replace
+schedule function lemontea:survival/the_end_levitation/repeat 7t replace

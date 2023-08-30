@@ -1,0 +1,14 @@
+fill ~-1 ~ ~-1 ~16 ~ ~16 light_blue_stained_glass replace water
+fill ~-1 ~ ~-1 ~16 ~ ~16 light_blue_stained_glass replace seagrass
+fill ~-1 ~ ~-1 ~16 ~ ~16 light_blue_stained_glass replace bubble_column
+fill ~-1 ~ ~-1 ~16 ~ ~16 light_blue_stained_glass replace fire_coral[waterlogged=true]
+fill ~-1 ~ ~-1 ~16 ~ ~16 light_blue_stained_glass replace fire_coral_fan[waterlogged=true]
+fill ~-1 ~ ~-1 ~16 ~ ~16 light_blue_stained_glass replace horn_coral[waterlogged=true]
+fill ~-1 ~ ~-1 ~16 ~ ~16 light_blue_stained_glass replace horn_coral_fan[waterlogged=true]
+fill ~-1 ~ ~-1 ~16 ~ ~16 light_blue_stained_glass replace tube_coral[waterlogged=true]
+fill ~-1 ~ ~-1 ~16 ~ ~16 light_blue_stained_glass replace tube_coral_fan[waterlogged=true]
+fill ~-1 ~ ~-1 ~16 ~ ~16 light_blue_stained_glass replace brain_coral[waterlogged=true]
+fill ~-1 ~ ~-1 ~16 ~ ~16 light_blue_stained_glass replace brain_coral_fan[waterlogged=true]
+fill ~-1 ~ ~-1 ~16 ~ ~16 light_blue_stained_glass replace bubble_coral[waterlogged=true]
+fill ~-1 ~ ~-1 ~16 ~ ~16 light_blue_stained_glass replace bubble_coral_fan[waterlogged=true]
+fill ~-1 ~ ~-1 ~16 ~ ~16 orange_stained_glass replace lava
