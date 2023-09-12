@@ -5,12 +5,12 @@
         Count:1b,
         tag:{
             author:"ChrisBigD",
-            title:"crossroads",
-            display:{Name:'{"text":"图纸：十字路口","color":"green","italic":false}'},
+            title:"crossroads_mapwall",
+            display:{Name:'{"text":"图纸：十字路口 地图墙","color":"green","italic":false}'},
             pages:[
                 '[
                     {"text":""},
-                    {"text":"\\n [十字路口]","bold":true,"color":"dark_green"},
+                    {"text":"\\n [十字路口 地图墙]","bold":true,"color":"dark_green"},
                     {"text":"\\n  230817","color":"gray","italic":true},
                     {"text":"\\n\\n图纸效果：","bold":true},
                     {"text":"\\n\\n    建造单区块十字路口，"},{"text":"\\n包含磁石路灯，地图墙或公告墙，拴马桩，信箱。"}]',
