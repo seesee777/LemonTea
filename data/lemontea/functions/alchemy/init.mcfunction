@@ -187,6 +187,12 @@ schedule function lemontea:alchemy/construct/drawing/storeroom/repeat 7t
 # 执行快速建造：
 schedule function lemontea:alchemy/construct/build/storeroom/repeat 17t
 
+## amethystfarm
+# 执行合成图纸：
+schedule function lemontea:alchemy/construct/drawing/amethystfarm/repeat 8t
+# 执行快速建造：
+schedule function lemontea:alchemy/construct/build/amethystfarm/repeat 18t
+
 #### 操作炸弹
 # 区块炸弹
 # 区块炸弹数量计分板
