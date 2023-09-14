@@ -1,7 +1,7 @@
 # 初始化所有功能
 # This function will run on datapack loading
 
-tellraw @p {"text":"Lemon Tea v0.14.10 beta for MINECRAFT JAVA 1.19.3","color":"yellow"}
+tellraw @p {"text":"Lemon Tea v0.14.10b beta for MINECRAFT JAVA 1.19.3","color":"yellow"}
 # tellraw @p {"text":"line3","color":"gold"}
 
 # $global.main 是虚拟实体名，用于储存全局变量

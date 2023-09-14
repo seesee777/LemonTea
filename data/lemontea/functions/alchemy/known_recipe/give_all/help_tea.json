@@ -10,7 +10,7 @@ summon item ~ ~ ~
             pages:[
                 '[
                     {"text":""},
-                    {"text":"  为了做出全宇宙\\n      最酸的柠檬茶！","color":"gold","bold":true,"hoverEvent":{"action":"show_text","contents":[{"text":""},{"text":"v0.14.9\\n从游戏到开发，\\n一块一块建造梦想！"}]}},
+                    {"text":"  为了做出全宇宙\\n      最酸的柠檬茶！","color":"gold","bold":true,"hoverEvent":{"action":"show_text","contents":[{"text":""},{"text":"v0.14.10b\\n从游戏到开发，\\n一块一块建造梦想！"}]}},
                     {"text":"\\n\\n目录","bold":true},{"text":"(点击使用)","color":"gray"},
                     {"text":"\\n    - 快速建造","color":"dark_aqua",
                         "clickEvent":{"action":"run_command","value":"/trigger LT_trigger set 1"},
@@ -33,7 +33,7 @@ summon item ~ ~ ~
                     {"text":"\\n    - 茶方合成","color":"dark_aqua",
                         "clickEvent":{"action":"change_page","value":"14"},
                         "hoverEvent":{"action":"show_text","contents":[{"text":""},{"text":"点击跳转","color":"aqua"}]}},
-                    {"text":"\\n\\n    - 网站链接","color":"dark_aqua",
+                    {"text":"\\n    - 网站链接","color":"dark_aqua",
                         "clickEvent":{"action":"change_page","value":"16"},
                         "hoverEvent":{"action":"show_text","contents":[{"text":""},{"text":"点击跳转","color":"aqua"}]}},
                     {"text":"\\n    - 贴别鸣谢","color":"dark_aqua",
@@ -49,7 +49,7 @@ summon item ~ ~ ~
                         "hoverEvent":{"action":"show_text","contents":[{"text":""},{"text":"点击跳转","color":"aqua"}]}},
                     {"text":"\\n    - 洞穴炸弹","color":"dark_aqua",
                         "hoverEvent":{"action":"show_text","contents":[{"text":""},{"text":"开发中","color":"aqua"}]}},
-                    {"text":"\\n\\n\\n\\n\\n\\n\\n\\n\\n"},
+                    {"text":"\\n\\n\\n\\n\\n\\n\\n"},
                         {"text":"\\n                返回主目录","color":"dark_green",
                             "clickEvent":{"action":"change_page","value":"1"},
                             "hoverEvent":{"action":"show_text","contents":[{"text":""},{"text":"返回主目录","color":"dark_green"}]}}
@@ -169,7 +169,8 @@ summon item ~ ~ ~
                         "clickEvent":{"action":"change_page","value":"1"},
                         "hoverEvent":{"action":"show_text","contents":[{"text":""},{"text":"返回主目录","color":"dark_green"}]}}
                 ]'
-            ]
+            ],
+            LemonTea:1b
         }
     }
 }

@@ -43,6 +43,7 @@ summon item ~ ~ ~
                     {"text":"\\n    Z ~15","color":"dark_blue"}
                     ]'
                 ],
-            LemonTea:1b}
+            LemonTea:1b
+        }
     }
 }

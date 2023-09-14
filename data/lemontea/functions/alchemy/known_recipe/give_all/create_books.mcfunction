@@ -1,6 +1,9 @@
 # 5米内最近的玩家执行
 execute as @p[distance=..5,sort=nearest,limit=1] at @s run function lemontea:alchemy/known_recipe/give_all/give_player
 
+# 重新读取数据包
+reload
+
 # 效果
 function lemontea:alchemy/effects/enchantment
 
