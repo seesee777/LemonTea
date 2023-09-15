@@ -5,7 +5,7 @@
 execute as @s at @s run fill ~ ~ ~ ~15 ~ ~15 air
 
 # 堵侧墙
-execute as @s at @s run function lemontea:alchemy/construct/chunkbomb/bomb/fill_side_z
+execute as @s at @s run function lemontea:alchemy/construct/chunkbomb/bomb/fill_side_y
 
 # 堵上面
 # execute if score @s[tag=up] LT_chunkbomb matches 1 run function lemontea:alchemy/construct/chunkbomb/bomb/fill_top_z

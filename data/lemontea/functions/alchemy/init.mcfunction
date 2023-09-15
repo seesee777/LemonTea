@@ -201,3 +201,11 @@ scoreboard objectives add LT_chunkbomb dummy
 scoreboard objectives add chunkbombing dummy
 scoreboard players set $global.main chunkbombing 0
 schedule function lemontea:alchemy/construct/chunkbomb/repeat 1t
+
+# 快速洞穴
+# 快速洞穴数量计分板
+scoreboard objectives add LT_fastcave dummy
+# 区块炸弹进行中计分板
+scoreboard objectives add fastcaveing dummy
+scoreboard players set $global.main fastcaveing 0
+schedule function lemontea:alchemy/construct/fastcave/repeat 2t

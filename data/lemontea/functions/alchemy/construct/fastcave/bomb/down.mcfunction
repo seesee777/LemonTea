@@ -5,4 +5,4 @@
 execute unless block ~ ~-1 ~ bedrock run tp @s ~ ~-1 ~
 
 # 横向爆炸
-function lemontea:alchemy/construct/chunkbomb/bomb/axis_y
+function lemontea:alchemy/construct/fastcave/bomb/axis_y
