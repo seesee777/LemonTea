@@ -1,0 +1,19 @@
+{
+    "type":"minecraft:crafting_shaped",
+    "pattern":[
+        "PS",
+        "SP"
+    ],
+    "key":{
+        "P":[
+            {"item":"minecraft:gunpowder"}
+        ],
+        "S":{
+            "item":"minecraft:sugar"
+        }
+    },
+    "result":{
+        "item":"minecraft:firework_star",
+        "count":64
+    }
+}
