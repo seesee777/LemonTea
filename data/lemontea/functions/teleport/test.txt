@@ -1,0 +1,72 @@
+# 测试如果先将盔甲架传送到对应维度，再将玩家传送到盔甲架位置
+# 测试如何匹配唯一id值
+
+# 当检测到 标靶 + 箭矢的时候，设定home，储存home的维度
+
+# 当检测到 末影珍珠 + 箭矢的时候，传送回home并设定back
+# 根据玩家计分板中储存的维度，召唤盔甲架，加入 LT_player_ID 计分板，加入 tag=teleport
+tag @s add home_player
+summon armor_stand ~ ~ ~ {Tags:["home_pos"],Invisible:0b,Marker:1b,Invulnerable:0b}
+# 将盔甲架的坐标修改为指定的位置,先将玩家传送到坐标位置
+execute as @e[type=armor_stand,tag=home_pos,limit=1,sort=nearest] run function lemontea:teleport/move
+# 再将玩家传送到相应维度
+execute at @s if score @s home_d matches 0 in overworld run tp @s ~ ~ ~
+execute at @s if score @s home_d matches -1 in the_nether run tp @s ~ ~ ~
+execute at @s if score @s home_d matches 1 in the_end run tp @s ~ ~ ~
+tag @s remove home_player
+
+
+# 将玩家传送回back位置
+
+
+
+# 将玩家传送到数值匹配的盔甲架上
+execute at @a[tag=teleport] as @e[type=armor_stand,tag=teleport,limit=1,sort=nearest] if score @s LT_player_ID = @p LT_player_ID run tp @p @s
+# 如果距离玩家最近的盔甲架与玩家计分板一致，将玩家传送到盔甲架位置
+
+## 找到计分板数值相等的实体
+# 如果玩家计分板值=实体计分板的值，在所有玩家处运行
+execute as @a if score @s points = @e[tag=compare,limit=1] points run I have the same points
+# 先将值储存到假玩家的计分板上，再比较
+scoreboard players operation #fakeplayer points = @e[tag=compare,limit=1] points
+execute as @a if score @s points = #fakeplayer points run I have the same points
+# 如果实体计分板的值 = 最近玩家计分板的值
+execute at @a as @e if score @s id = @p id run tp @p @s
+
+data modify entity @e[type=marker,limit=1] Pos[0] set value 3.5
+
+
+# 保存玩家位置到计分板 set_home
+
+# 执行 go_home
+
+# 召唤一个盔甲架
+summon armor_stand ~ ~ ~ {Tags:["teleport"],NoGravity:1b,CustomName:'{"text":"teleport"}',CustomNameVisible:1b}
+
+# 强制加载区块
+# execute as @e[type=armor_stand,tag=teleport] at @s run forceload add ~ ~
+
+forceload add 62 0
+
+# 将盔甲架传送到渲染距离以外
+tp @e[type=armor_stand,tag=teleport] 1000 0 8
+
+# 传送玩家到盔甲架
+execute as @e[type=armor_stand,tag=teleport] at @s run tp @p ~ ~ ~
+
+# 测试唯一id标签
+# 1.20.2
+# $execute at $(UUID) run $(cmd)
+
+
+tag @s add teleport2
+summon armor_stand ~ ~ ~ {NoGravity:1b,Invulnerable:1b,Tags:["teleport"]}
+execute as @e[tag=teleport] run function 1:1
+tag @s remove teleport2
+
+#this is function 1:1
+execute store result entity @s Pos[0] double 1 run scoreboard players get @e[tag=Clerk,limit=1] gat_1gold2x
+execute store result entity @s Pos[1] double 1 run scoreboard players get @e[tag=Clerk,limit=1] gat_1gold2y
+execute store result entity @s Pos[2] double 1 run scoreboard players get @e[tag=Clerk,limit=1] gat_1gold2z
+tp @a[tag=teleport2] @s
+kill @s

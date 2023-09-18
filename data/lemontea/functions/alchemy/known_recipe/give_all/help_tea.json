@@ -10,7 +10,7 @@ summon item ~ ~ ~
             pages:[
                 '[
                     {"text":""},
-                    {"text":"  为了做出全宇宙\\n      最酸的柠檬茶！","color":"gold","bold":true,"hoverEvent":{"action":"show_text","contents":[{"text":""},{"text":"v0.14.11b\\n从游戏到开发，\\n一块一块建造梦想！"}]}},
+                    {"text":"  为了做出全宇宙\\n      最酸的柠檬茶！","color":"gold","bold":true,"hoverEvent":{"action":"show_text","contents":[{"text":""},{"text":"v0.14.12\\n从游戏到开发，\\n一块一块建造梦想！"}]}},
                     {"text":"\\n\\n目录","bold":true},{"text":"(点击使用)","color":"gray"},
                     {"text":"\\n    - 快速建造","color":"dark_aqua",
                         "clickEvent":{"action":"run_command","value":"/trigger LT_trigger set 1"},
@@ -126,10 +126,10 @@ summon item ~ ~ ~
                     {"text":"\\n    - 隧道炸弹","color":"dark_aqua",
                         "clickEvent":{"action":"change_page","value":"56"},
                         "hoverEvent":{"action":"show_text","contents":[{"text":""},{"text":"点击跳转","color":"aqua"}]}},
-                    {"text":"\\n\\n\\n\\n\\n\\n\\n"},
-                        {"text":"\\n                返回主目录","color":"dark_green",
-                            "clickEvent":{"action":"change_page","value":"1"},
-                            "hoverEvent":{"action":"show_text","contents":[{"text":""},{"text":"返回主目录","color":"dark_green"}]}}
+                    {"text":"\\n\\n\\n\\n\\n\\n\\n\\n\\n"},
+                    {"text":"\\n                返回主目录","color":"dark_green",
+                        "clickEvent":{"action":"change_page","value":"1"},
+                        "hoverEvent":{"action":"show_text","contents":[{"text":""},{"text":"返回主目录","color":"dark_green"}]}}
                 ]',
                 "51","52","53","54",
                 '[
@@ -140,7 +140,8 @@ summon item ~ ~ ~
                     {"text":"\\n范围：","color":"dark_green"},{"text":"以"},{"text":"容器","color":"dark_green"},{"text":"的位置为基准"},
                     {"text":"\\n    从 ~ ~ ~"},
                     {"text":"\\n    到 ~15 ~ ~15"},
-                    {"text":"\\n\\n用法：","color":"dark_red"},{"text":"容器在打火石上方时将向上爆破，容器在打火石下方时将向下爆破。TNT数量决定爆破层数。同一时间内只能执行一个区块炸弹。"},
+                    {"text":"\\n\\n用法：","color":"dark_red"},{"text":"容器在打火石上方时将向上爆破，容器在打火石下方时将向下爆破。TNT数量决定爆破层数。"},
+                    {"text":"\\n"},
                     {"text":"\\n                返回子目录","color":"dark_green",
                         "clickEvent":{"action":"change_page","value":"50"},
                         "hoverEvent":{"action":"show_text","contents":[{"text":""},{"text":"返回子目录","color":"dark_green"}]}}
@@ -152,8 +153,9 @@ summon item ~ ~ ~
                     {"text":"\\n材料：烟火之星","color":"dark_blue"},
                     {"text":"\\n范围：","color":"dark_green"},{"text":"以"},{"text":"容器","color":"dark_green"},{"text":"位置为中心"},
                     {"text":"\\n       3*3区域"},
-                    {"text":"\\n\\n用法：","color":"dark_red"},{"text":"容器在触媒的哪个方向就向哪个方向爆破。材料数量决定爆破层数。同一时间内只能执行一个炸弹。"},
-                    {"text":"\\n\\n\\n                返回子目录","color":"dark_green",
+                    {"text":"\\n\\n用法：","color":"dark_red"},{"text":"容器在触媒的哪个方向就向哪个方向爆破。材料数量决定爆破层数。"},
+                    {"text":"\\n\\n\\n"},
+                    {"text":"\\n                返回子目录","color":"dark_green",
                         "clickEvent":{"action":"change_page","value":"50"},
                         "hoverEvent":{"action":"show_text","contents":[{"text":""},{"text":"返回子目录","color":"dark_green"}]}}
                 ]',

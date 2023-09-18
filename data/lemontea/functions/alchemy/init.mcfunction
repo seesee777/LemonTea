@@ -198,14 +198,19 @@ schedule function lemontea:alchemy/construct/build/amethystfarm/repeat 18t
 # 区块炸弹数量计分板
 scoreboard objectives add LT_chunkbomb dummy
 # 区块炸弹进行中计分板
-scoreboard objectives add chunkbombing dummy
-scoreboard players set $global.main chunkbombing 0
+# scoreboard objectives add chunkbombing dummy
+# scoreboard players set $global.main chunkbombing 0
+# 执行鉴定
 schedule function lemontea:alchemy/construct/chunkbomb/repeat 1t
+# 执行爆炸
+schedule function lemontea:alchemy/construct/chunkbomb/repeat_explosion 10t
 
 # 快速洞穴
 # 快速洞穴数量计分板
 scoreboard objectives add LT_fastcave dummy
-# 区块炸弹进行中计分板
-scoreboard objectives add fastcaveing dummy
-scoreboard players set $global.main fastcaveing 0
+# 炸弹进行中计分板
+# scoreboard objectives add fastcaveing dummy
+# scoreboard players set $global.main fastcaveing 0
 schedule function lemontea:alchemy/construct/fastcave/repeat 2t
+# 执行爆炸
+schedule function lemontea:alchemy/construct/fastcave/repeat_explosion 11t

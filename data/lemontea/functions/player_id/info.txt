@@ -1,0 +1,69 @@
+# 增加名为id的计分板
+scoreboard players add @e id 0
+
+# 跟踪全局ID,假玩家 #maxid，
+execute @e[score_id=0,c=1] ~ ~ ~ /scoreboard players add #maxid id 1
+
+execute @e[score_id=0,c=1] ~ ~ ~ /scoreboard players operation @e[c=1,r=0] id = #maxid id
+
+
+
+# impulse, unconditional, needs redstone:
+
+# 1 
+scoreboard objectives add pl dummy Player_Tracker
+
+# 2 
+scoreboard objectives setdisplay sidebar pl
+
+# 3 
+scoreboard players add master pl 0
+
+# next one is
+
+# repeat, unconditional, always active:
+
+# 4 
+scoreboard players add @a pl 0
+
+# next two are in a stack from bottom to top and must be facing the correct direction:
+
+# repeat, unconditional, always active:
+
+# 5 
+execute as @r[scores={pl=0}] run /scoreboard players operation @s pl = "master" pl
+
+# chain, conditional, always active:
+
+# 
+scoreboard players add master pl 1
+
+# changes required to test while playing alone. (DO NOT LEAVE THE COMMANDS LIKE THIS WHILE YOU ARE USING THE SYSTEM FOR REAL):
+
+# change command 4 to:
+
+# 
+scoreboard players add @e pl 0
+
+# change command 5 to:
+
+# 
+execute as @e[c=1,scores={pl=0}] run /scoreboard players operation @s pl = "master" pl
+
+
+
+
+# select one random unassigned player to assign the id to
+tag @r[scores={id=0}] add addId
+
+# apply id to this selected player, as above
+scoreboard players operation @a[tag=addId] id = $total id
+execute as @a[tag=addId] run scoreboard players add $total id 1
+
+# remove tag so we're ready for the next player
+tag @a remove addId
+
+
+execute store result score @s ID run scoreboard players add #global ID 1
+
+tag @s add checked

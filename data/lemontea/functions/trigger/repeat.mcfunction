@@ -2,4 +2,4 @@
 function lemontea:trigger/check
 
 # 循环递归
-schedule function lemontea:trigger/repeat 11t replace
+schedule function lemontea:trigger/repeat 11

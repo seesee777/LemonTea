@@ -1,0 +1,18 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:glow_berries"
+		},
+		"title": "柠檬茶生存",
+		"frame": "challenge",
+		"description": ["",{"text":"为了做出全宇宙\n  最酸的柠檬茶！","color":"yellow"},{"text":"\n    bittoy.org","color":"gold"}],
+		"background": "minecraft:textures/block/horn_coral_block.png",
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"criteria": {
+		"tick": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}
