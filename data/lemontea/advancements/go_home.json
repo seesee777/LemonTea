@@ -1,0 +1,24 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:arrow"
+		},
+		"title": "传送回家",
+		"description": [
+			{"text": "","color":"white"},
+			{"text": "副手持有"},
+			{"text": "火把","color":"yellow"},
+			{"text": "，将一支"},
+			{"text": "箭","color":"aqua"},
+			{"text": "扔到身边。"}
+		],
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"parent": "lemontea:set_home",
+	"criteria": {
+		"tick": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}

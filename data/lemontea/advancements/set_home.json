@@ -1,0 +1,24 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:target"
+		},
+		"title": "设置家的坐标",
+		"description": [
+			{"text": "","color":"white"},
+			{"text": "副手持有"},
+			{"text": "标靶","color":"yellow"},
+			{"text": "，\n将一支"},
+			{"text": "箭","color":"aqua"},
+			{"text": "扔到身边。"}
+		],
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"parent": "lemontea:root",
+	"criteria": {
+		"tick": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}
