@@ -15,7 +15,7 @@
 		"show_toast": false,
 		"announce_to_chat": false
 	},
-	"parent": "lemontea:set_home",
+	"parent": "lemontea:tp_set_home",
 	"criteria": {
 		"tick": {
 			"trigger": "minecraft:tick"

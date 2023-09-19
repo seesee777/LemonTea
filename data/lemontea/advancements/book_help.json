@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:crafting_table"
+			"item": "minecraft:book"
 		},
 		"title": "帮助手册",
 		"description": [
@@ -19,7 +19,7 @@
 		"show_toast": false,
 		"announce_to_chat": false
 	},
-	"parent": "lemontea:knowledge_book",
+	"parent": "lemontea:book_knowledge",
 	"criteria": {
 		"tick": {
 			"trigger": "minecraft:tick"

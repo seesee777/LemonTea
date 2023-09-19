@@ -1,5 +1,8 @@
 tag @s add player
 
+# 记录当前位置到 LT_curr_? 计分板
+function lemontea:teleport/set_curr
+
 # 召唤参照物
 # summon armor_stand ~ ~ ~ {NoGravity:1b,Invulnerable:0b,Tags:["teleport"]}
 summon marker ~ ~ ~ {NoGravity:1b,Invulnerable:1b,Tags:["teleport"]}
@@ -41,5 +44,8 @@ execute at @s if score @s LT_home_D matches 0 in overworld run tp @s ~ ~ ~
 execute at @s if score @s LT_home_D matches -1 in the_nether run tp @s ~ ~ ~
 execute at @s if score @s LT_home_D matches 1 in the_end run tp @s ~ ~ ~
 
-
+# 效果
 function lemontea:teleport/reach_effects
+
+# 更新上次传送位置计分板
+function lemontea:teleport/set_curr_to_back

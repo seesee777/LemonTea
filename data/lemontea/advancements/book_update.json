@@ -1,0 +1,28 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:writable_book"
+		},
+		"title": "更新手册",
+		"description": [
+			{"text": "","color":"white"},
+			{"text": "在"},
+			{"text": "木桶","color":"yellow"},
+			{"text": "的第一格位置放入"},
+			{"text": "纸*2","color": "aqua"},
+			{"text": "，第二格留空，再将"},
+			{"text": "说明书：柠檬茶","color": "light_purple"},
+			{"text": "扔到"},
+			{"text": "木桶","color":"yellow"},
+			{"text": "上方。"}
+		],
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"parent": "lemontea:book_help",
+	"criteria": {
+		"tick": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}
