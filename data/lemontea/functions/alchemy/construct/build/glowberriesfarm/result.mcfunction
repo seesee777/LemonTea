@@ -4,4 +4,4 @@
 data modify block ~ ~-1 ~ Items[{Slot:0b}].Count set value 0b
 
 # 运行建造
-function lemontea:alchemy/construct/build/1stdayfarm/build
+function lemontea:alchemy/construct/build/glowberriesfarm/build

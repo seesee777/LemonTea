@@ -2,4 +2,4 @@
 scoreboard objectives remove LT_trigger
 
 # stop the function
-scoreboard players set $global.main trigger 0
+scoreboard players set !global.main trigger 0

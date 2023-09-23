@@ -5,4 +5,4 @@ scoreboard objectives setdisplay sidebar
 
 
 # stop debug function
-scoreboard players set $global.main debug_ON 0
+scoreboard players set !global.main debug_ON 0

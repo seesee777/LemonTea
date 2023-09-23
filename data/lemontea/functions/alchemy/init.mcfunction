@@ -193,13 +193,19 @@ schedule function lemontea:alchemy/construct/drawing/amethystfarm/repeat 8t
 # 执行快速建造：
 schedule function lemontea:alchemy/construct/build/amethystfarm/repeat 18t
 
+## glowberriesfarm
+# 执行合成图纸：
+schedule function lemontea:alchemy/construct/drawing/glowberriesfarm/repeat 9t
+# 执行快速建造：
+schedule function lemontea:alchemy/construct/build/glowberriesfarm/repeat 19t
+
 #### 操作炸弹
 # 区块炸弹
 # 区块炸弹数量计分板
 scoreboard objectives add LT_chunkbomb dummy
 # 区块炸弹进行中计分板
 # scoreboard objectives add chunkbombing dummy
-# scoreboard players set $global.main chunkbombing 0
+# scoreboard players set !global.main chunkbombing 0
 # 执行鉴定
 schedule function lemontea:alchemy/construct/chunkbomb/repeat 1t
 # 执行爆炸
@@ -210,7 +216,7 @@ schedule function lemontea:alchemy/construct/chunkbomb/repeat_explosion 10t
 scoreboard objectives add LT_fastcave dummy
 # 炸弹进行中计分板
 # scoreboard objectives add fastcaveing dummy
-# scoreboard players set $global.main fastcaveing 0
+# scoreboard players set !global.main fastcaveing 0
 schedule function lemontea:alchemy/construct/fastcave/repeat 2t
 # 执行爆炸
 schedule function lemontea:alchemy/construct/fastcave/repeat_explosion 11t

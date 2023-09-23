@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:smoking",
+    "ingredient": [
+        {"item": "minecraft:glow_berries"}
+    ],
+    "result": "minecraft:glowstone_dust",
+    "experience": 1,
+    "cookingtime": 100
+}

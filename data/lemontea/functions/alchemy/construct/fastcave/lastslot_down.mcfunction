@@ -4,3 +4,6 @@
 # 空代表耗材组合结束
 
 execute unless data block ~ ~-1 ~ Items[{Slot:1b}] run function lemontea:alchemy/construct/fastcave/supply_down
+
+# # test
+# say lemontea:alchemy/construct/fastcave/lastslot_down
