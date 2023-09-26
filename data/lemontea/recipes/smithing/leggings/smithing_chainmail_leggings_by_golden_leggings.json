@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:smithing_transform",
+    "template": {
+        "item": "minecraft:rabbit_hide"
+    },
+    "base": {
+        "item": "minecraft:golden_leggings"
+    },
+    "addition": {
+        "item": "minecraft:chain"
+    },
+    "result": {
+        "item": "minecraft:chainmail_leggings"
+    }
+}

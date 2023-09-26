@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:smithing_transform",
+    "template": {
+        "item": "minecraft:stick"
+    },
+    "base": {
+        "item": "minecraft:stone_shovel"
+    },
+    "addition": {
+        "item": "minecraft:gold_ingot"
+    },
+    "result": {
+        "item": "minecraft:golden_shovel"
+    }
+}

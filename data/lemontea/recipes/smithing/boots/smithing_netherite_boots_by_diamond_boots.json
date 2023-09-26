@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:smithing_transform",
+    "template": {
+        "item": "minecraft:rabbit_hide"
+    },
+    "base": {
+        "item": "minecraft:diamond_boots"
+    },
+    "addition": {
+        "item": "minecraft:netherite_ingot"
+    },
+    "result": {
+        "item": "minecraft:netherite_boots"
+    }
+}

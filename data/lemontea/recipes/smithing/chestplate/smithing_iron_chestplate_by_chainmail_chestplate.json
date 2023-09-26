@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:smithing_transform",
+    "template": {
+        "item": "minecraft:rabbit_hide"
+    },
+    "base": {
+        "item": "minecraft:chainmail_chestplate"
+    },
+    "addition": {
+        "item": "minecraft:iron_ingot"
+    },
+    "result": {
+        "item": "minecraft:iron_chestplate"
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:smithing_transform",
+    "template": {
+        "item": "minecraft:rabbit_hide"
+    },
+    "base": {
+        "item": "minecraft:iron_leggings"
+    },
+    "addition": {
+        "item": "minecraft:diamond"
+    },
+    "result": {
+        "item": "minecraft:diamond_leggings"
+    }
+}

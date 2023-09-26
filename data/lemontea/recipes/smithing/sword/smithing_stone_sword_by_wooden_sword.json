@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:smithing_transform",
+    "template": {
+        "item": "minecraft:stick"
+    },
+    "base": {
+        "item": "minecraft:wooden_sword"
+    },
+    "addition": {
+        "item": "minecraft:cobblestone"
+    },
+    "result": {
+        "item": "minecraft:stone_sword"
+    }
+}

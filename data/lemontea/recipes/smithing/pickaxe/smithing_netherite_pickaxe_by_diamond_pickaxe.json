@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:smithing_transform",
+    "template": {
+        "item": "minecraft:stick"
+    },
+    "base": {
+        "item": "minecraft:diamond_pickaxe"
+    },
+    "addition": {
+        "item": "minecraft:netherite_ingot"
+    },
+    "result": {
+        "item": "minecraft:netherite_pickaxe"
+    }
+}

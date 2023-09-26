@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:smithing_transform",
+    "template": {
+        "item": "minecraft:rabbit_hide"
+    },
+    "base": {
+        "item": "minecraft:golden_horse_armor"
+    },
+    "addition": {
+        "item": "minecraft:iron_ingot"
+    },
+    "result": {
+        "item": "minecraft:iron_horse_armor"
+    }
+}

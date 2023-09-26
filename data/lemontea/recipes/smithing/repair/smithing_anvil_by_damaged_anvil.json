@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:smithing_transform",
+    "template": {
+        "item": "minecraft:flint"
+    },
+    "base": {
+        "item": "minecraft:damaged_anvil"
+    },
+    "addition": {
+        "item": "minecraft:iron_nugget"
+    },
+    "result": {
+        "item": "minecraft:anvil"
+    }
+}
