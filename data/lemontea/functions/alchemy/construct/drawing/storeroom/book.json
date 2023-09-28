@@ -31,7 +31,7 @@ summon item ~ ~ ~
                     {"text":""},{"text":"占地空间：","bold":true},
                     {"text":"\\n  X=16","color":"dark_red"},{"text":", "},{"text":"Y=12","color":"dark_green"},{"text":", "},{"text":"Z=16","color":"dark_blue"},
                     
-                    {"text":"\\n\\n位置坐标(从图纸处)：","bold":true},
+                    {"text":"\\n\\n位置坐标(区块原点)：","bold":true},
                     {"text":"\\n\\n  [A 角点]","color":"dark_gray"},
                     {"text":"\\n    X ~","color":"dark_red"},
                     {"text":"\\n    Y ~-6","color":"dark_green"},

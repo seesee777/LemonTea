@@ -1,43 +1,51 @@
+## 说明
 # 初始化所有功能
 # This function will run on datapack loading
 
-tellraw @p {"text":"Lemon Tea v0.15.0 beta for MINECRAFT JAVA 1.20.2","color":"yellow"}
+
+# 重载reload数据包时显示的提示：
+tellraw @p {"text":"Lemon Tea v0.15.1 beta for MINECRAFT JAVA 1.20.2","color":"yellow"}
 # tellraw @p {"text":"line3","color":"gold"}
 
-# !global.main 是虚拟实体名，用于储存全局变量
 
-# initialize function: survival 开启生存辅助功能
-scoreboard objectives add survival_ON dummy
-scoreboard players set !global.main survival_ON 1
-execute if score !global.main survival_ON matches 1 run function lemontea:survival/init
+# 功能开关状态计分板：LT_function
+scoreboard objectives add LT_function dummy
+# 记录项目名称用的实体：LT_<name>
+# 更改下列计分板数值决定是否开启相关功能
+# 值为 1 时开启，非 1 时关闭。
 
-# initialize function: alchemy 柠檬茶专属合成
-scoreboard objectives add alchemy_ON dummy
-scoreboard players set !global.main alchemy_ON 1
-execute if score !global.main alchemy_ON matches 1 run function lemontea:alchemy/init
+# constant 储存数学计算用常量
+scoreboard players set LT_constant LT_function 1
+execute if score LT_constant LT_function matches 1 run function lemontea:constant/init
 
-# initialize function: mob_capture 生物捕捉
-scoreboard objectives add mob_capture_ON dummy
-scoreboard players set !global.main mob_capture_ON 1
-execute if score !global.main mob_capture_ON matches 1 run function lemontea:mob_capture/init
+# survival 开启生存辅助功能
+scoreboard players set LT_survival LT_function 1
+execute if score LT_survival LT_function matches 1 run function lemontea:survival/init
 
-# initialize function: trigger 玩家调用命令
-scoreboard objectives add trigger dummy
-scoreboard players set !global.main trigger 1
-execute if score !global.main trigger matches 1 run function lemontea:trigger/init
+# alchemy 柠檬茶专属“炼金术”合成方式
+scoreboard players set LT_alchemy LT_function 1
+execute if score LT_alchemy LT_function matches 1 run function lemontea:alchemy/init
 
-# initialize function: LT_PID 玩家唯一ID
-scoreboard objectives add player_id_ON dummy
-scoreboard players set !global.main player_id_ON 0
-execute if score !global.main player_id_ON matches 1 run function lemontea:player_id/init
+# mob_capture 生物捕捉
+scoreboard players set LT_mobCapture LT_function 1
+execute if score LT_mobCapture LT_function matches 1 run function lemontea:mob_capture/init
+
+# trigger 无权限玩家调用命令
+scoreboard players set LT_trigger LT_function 1
+execute if score LT_trigger LT_function matches 1 run function lemontea:trigger/init
 
 # teleport: 快速传送
-scoreboard objectives add teleport_ON dummy
-scoreboard players set !global.main teleport_ON 1
-execute if score !global.main teleport_ON matches 1 run function lemontea:teleport/init
+scoreboard players set LT_teleport LT_function 1
+execute if score LT_teleport LT_function matches 1 run function lemontea:teleport/init
 
+# detect: 方块检测
+scoreboard players set LT_detect LT_function 1
+execute if score LT_detect LT_function matches 1 run function lemontea:detect/init
 
-# initialize function: coordinate 记录玩家坐标位置
-# scoreboard objectives add coordinate_ON dummy
-scoreboard players set !global.main coordinate_ON 0
-# execute if score !global.main coordinate_ON matches 1 run function lemontea:coordinate/init
+# coordinate 记录玩家坐标位置
+scoreboard players set LT_playerCoords LT_function 0
+execute if score LT_playerCoords LT_function matches 1 run function lemontea:player_coords/init
+
+# player_id 玩家唯一ID
+scoreboard players set LT_playerID LT_function 0
+execute if score LT_playerID LT_function matches 1 run function lemontea:player_id/init

@@ -233,7 +233,7 @@ execute as @p at @s run summon item ~ ~ ~
                     {"text":"\\n  红石块 * 4","color":"dark_blue"},
                     {"text":"\\n  线 * 4","color":"dark_blue"},
                     {"text":"\\n  发光浆果 * 16","color":"dark_blue"},
-                    {"text":"\\n\\n"},
+                    {"text":"\\n"},
                     {"text":"\\n                返回子目录","color":"dark_green",
                         "clickEvent":{"action":"change_page","value":"20"},
                         "hoverEvent":{"action":"show_text","contents":[{"text":""},{"text":"返回子目录","color":"dark_green"}]}}
