@@ -1,0 +1,10 @@
+{
+    "type":"minecraft:crafting_shapeless",
+    "ingredients": [
+        {"item": "minecraft:bamboo_hanging_sign"}
+    ],
+    "result":{
+        "item":"minecraft:bamboo_block",
+        "count":6
+    }
+}

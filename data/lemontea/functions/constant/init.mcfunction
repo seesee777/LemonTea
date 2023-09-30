@@ -21,3 +21,7 @@ scoreboard players set #17 LT_constant 17
 scoreboard players set #18 LT_constant 18
 scoreboard players set #19 LT_constant 19
 scoreboard players set #20 LT_constant 20
+
+# for time
+scoreboard players set #24 LT_constant 24
+scoreboard players set #60 LT_constant 60

@@ -1,0 +1,26 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:compass"
+		},
+		"title": "显示坐标",
+		"description": [
+			{"text": "","color":"white"},
+			{"text": "副手持有"},
+			{"text": "指南针","color":"yellow"},
+			{"text": "或"},
+			{"text": "追逆指针","color":"yellow"},
+			{"text": ",屏幕显示"},
+			{"text": "坐标和方向","color":"aqua"},
+			{"text": "。"}
+		],
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"parent": "lemontea:acbar_timer",
+	"criteria": {
+		"tick": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}

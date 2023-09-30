@@ -1,0 +1,11 @@
+{
+    "type":"minecraft:crafting_shapeless",
+    "ingredients": [
+        {"item":"minecraft:cherry_sapling"},
+        {"item":"minecraft:bone_meal"}
+    ],
+    "result":{
+        "item":"minecraft:cherry_log",
+        "count":64
+    }
+}

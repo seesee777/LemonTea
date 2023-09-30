@@ -1,0 +1,10 @@
+{
+    "type":"minecraft:crafting_shapeless",
+    "ingredients": [
+        {"item": "minecraft:jungle_chest_boat"}
+    ],
+    "result":{
+        "item":"minecraft:jungle_planks",
+        "count":9
+    }
+}

@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:arrow"
+			"item": "minecraft:torch"
 		},
 		"title": "传送回家",
 		"description": [

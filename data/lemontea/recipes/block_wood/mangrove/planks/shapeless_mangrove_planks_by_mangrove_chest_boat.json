@@ -1,0 +1,10 @@
+{
+    "type":"minecraft:crafting_shapeless",
+    "ingredients": [
+        {"item": "minecraft:mangrove_chest_boat"}
+    ],
+    "result":{
+        "item":"minecraft:mangrove_planks",
+        "count":9
+    }
+}

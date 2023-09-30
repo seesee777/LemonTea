@@ -10,7 +10,7 @@
             pages:[
                 '[
                     {"text":""},
-                    {"text":"\\n [Vcrazie的首日畜栏]","bold":true,"color":"dark_green"},
+                    {"text":"\\n[Vcrazie的首日畜栏]","bold":true,"color":"dark_green"},
                     {"text":"\\n  230728","color":"gray","italic":true},
                     {"text":"\\n\\n图纸效果：","bold":true},
                     {"text":"\\n\\n    建造单区块新手畜栏，"},{"text":"\\n包含4个5*6格的畜栏,共120格的畜栏。"}]',

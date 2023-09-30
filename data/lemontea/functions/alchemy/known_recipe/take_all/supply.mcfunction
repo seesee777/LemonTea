@@ -1,5 +1,4 @@
-# 如果玩家附近5米内有触媒物品，运行检测触媒物品同格容器：
-execute at @a at @e[type=item,distance=..5,sort=nearest,limit=1,nbt={OnGround:1b,Item:{id:"minecraft:knowledge_book",Count:1b}}] as @e[type=item,distance=..5,sort=nearest,limit=1,nbt={OnGround:1b,Item:{id:"minecraft:knowledge_book",Count:1b}}] run function lemontea:alchemy/known_recipe/take_all/target
+execute if data block ~ ~-1 ~ {Items:[{Slot:1b}]} run return 1
 
-# 再次检测
-schedule function lemontea:alchemy/known_recipe/take_all/supply_again 1t
+# 检测耗材
+execute if data block ~ ~-1 ~ {Items:[{Slot:0b,id:"minecraft:paper",Count:1b}]} run function lemontea:alchemy/known_recipe/take_all/result

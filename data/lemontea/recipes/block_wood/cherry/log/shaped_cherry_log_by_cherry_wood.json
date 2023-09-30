@@ -1,0 +1,13 @@
+{
+    "type":"minecraft:crafting_shaped",
+    "pattern":[
+        "PPP"
+    ],
+    "key":{
+        "P":{"item":"minecraft:cherry_wood"}
+    },
+    "result":{
+        "item":"minecraft:cherry_log",
+        "count":4
+    }
+}

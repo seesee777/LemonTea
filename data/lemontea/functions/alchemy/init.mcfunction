@@ -137,9 +137,6 @@ schedule function lemontea:alchemy/known_recipe/give_all/repeat 2t
 ## 执行遗忘全部配方
 schedule function lemontea:alchemy/known_recipe/take_all/repeat 3t
 
-# 区块对齐
-schedule function lemontea:alchemy/construct/chunk_align/init 1t
-
 
 # 快速建造
 
