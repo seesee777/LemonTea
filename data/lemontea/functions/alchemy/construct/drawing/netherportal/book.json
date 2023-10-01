@@ -39,7 +39,7 @@ summon item ~ ~ ~
                     
                     {"text":"\\n\\n  [B 角点]","color":"dark_gray"},
                     {"text":"\\n    X ~15","color":"dark_red"},
-                    {"text":"\\n    Y ~5","color":"dark_green"},
+                    {"text":"\\n    Y ~6","color":"dark_green"},
                     {"text":"\\n    Z ~15","color":"dark_blue"}
                     ]'
                 ],

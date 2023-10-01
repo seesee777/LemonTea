@@ -194,11 +194,19 @@ schedule function lemontea:alchemy/construct/drawing/glowberriesfarm/repeat 9t
 ### 执行快速建造：
 schedule function lemontea:alchemy/construct/build/glowberriesfarm/repeat 19t
 
+## netherportal
+### 执行合成图纸：
+schedule function lemontea:alchemy/construct/drawing/netherportal/repeat 10t
+### 执行快速建造：
+schedule function lemontea:alchemy/construct/build/netherportal/repeat 20t
 
 # 区块编辑
 
-## 区块炸弹
+## chunkbomb 区块炸弹
 schedule function lemontea:alchemy/construct/chunkbomb/init 1t
 
-## 快速洞穴
+## fastcave 快速洞穴
 schedule function lemontea:alchemy/construct/fastcave/init 2t
+
+## fasttunnel 快速管道
+schedule function lemontea:alchemy/construct/fasttunnel/init 3t
