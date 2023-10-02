@@ -1,0 +1,1 @@
+$weather thunder $(days)d

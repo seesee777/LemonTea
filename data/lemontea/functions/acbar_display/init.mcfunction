@@ -11,3 +11,6 @@ function lemontea:acbar_display/coordinate/init
 
 # 显示时间
 function lemontea:acbar_display/time/init
+
+# 显示群系
+function lemontea:acbar_display/biome/init

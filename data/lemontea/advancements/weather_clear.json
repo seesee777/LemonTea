@@ -1,0 +1,28 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:sunflower"
+		},
+		"title": "天气：晴日      ",
+		"description": [
+			{"text": "","color":"white"},
+			{"text": "在"},
+			{"text": "木桶","color":"yellow"},
+			{"text": "的第一格位置放入"},
+			{"text": "向日葵","color": "aqua"},
+			{"text": "，第二格留空，再将一个"},
+			{"text": "避雷针","color": "light_purple"},
+			{"text": "扔到"},
+			{"text": "木桶","color":"yellow"},
+			{"text": "上方。向日葵数量决定天气持续多少个游戏日。"}
+		],
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"parent": "lemontea:root",
+	"criteria": {
+		"tick": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}

@@ -1,0 +1,1 @@
+$weather rain $(days)d

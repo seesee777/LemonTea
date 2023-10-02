@@ -200,6 +200,7 @@ schedule function lemontea:alchemy/construct/drawing/netherportal/repeat 10t
 ### 执行快速建造：
 schedule function lemontea:alchemy/construct/build/netherportal/repeat 20t
 
+
 # 区块编辑
 
 ## chunkbomb 区块炸弹
@@ -210,3 +211,9 @@ schedule function lemontea:alchemy/construct/fastcave/init 2t
 
 ## fasttunnel 快速管道
 schedule function lemontea:alchemy/construct/fasttunnel/init 3t
+
+
+# 天气
+
+## weather 区块炸弹
+schedule function lemontea:alchemy/weather/init 1t
