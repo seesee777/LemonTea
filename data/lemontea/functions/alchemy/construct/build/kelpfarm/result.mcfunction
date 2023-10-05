@@ -1,4 +1,4 @@
-# 以触媒身份运行
+# 在触媒位置运行
 
 # 删除容器内物品
 data modify block ~ ~-1 ~ Items[{Slot:0b}].Count set value 0b
@@ -14,8 +14,7 @@ summon marker ~ ~ ~ {Tags:[fastbuild],NoGravity:1b,Invulnerable:1b}
 # execute as @e[type=marker,tag=fastbuild,limit=1,sort=nearest,distance=..1] run tag @s add north
 
 # 以标记身份运行，区块对齐
-execute as @e[type=marker,tag=fastbuild,limit=1,sort=nearest,distance=..1] at @s run function lemontea:alchemy/construct/build/glowberriesfarm/align
+execute as @e[type=marker,tag=fastbuild,limit=1,sort=nearest,distance=..1] at @s run function lemontea:alchemy/construct/build/kelpfarm/align
 
 # 删除触媒
 kill @s
-

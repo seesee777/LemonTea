@@ -5,8 +5,12 @@ function lemontea:chunk_align/get_xz {"score_X":"#16 LT_constant","score_Y":"#2 
 
 # 移动到区块原点
 execute store result entity @s Pos[0] double 1 run scoreboard players get @s LT_position_X
-execute store result entity @s Pos[1] double 1 run scoreboard players get @s LT_position_Y
 execute store result entity @s Pos[2] double 1 run scoreboard players get @s LT_position_Z
+
+# 效果
+function lemontea:alchemy/effects/chunk_build
+
+execute store result entity @s Pos[1] double 1 run scoreboard players get @s LT_position_Y
 
 # 预处理地形
 execute as @s at @s run fill ~ ~ ~ ~15 ~5 ~15 dirt

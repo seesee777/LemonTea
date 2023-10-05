@@ -4,8 +4,6 @@
 data modify block ~ ~-1 ~ Items[{Slot:0b}].Count set value 0b
 
 # 效果
-function lemontea:alchemy/effects/chunk_build
-
 function lemontea:alchemy/effects/item_dissolve
 
 # 将读取地形改为

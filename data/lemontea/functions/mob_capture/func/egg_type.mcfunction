@@ -5,6 +5,7 @@ execute if entity @s[type=axolotl] run data modify entity @e[tag=captureEgg,limi
 execute if entity @s[type=bat] run data modify entity @e[tag=captureEgg,limit=1,sort=nearest,distance=0..2] Item.id set value bat_spawn_egg
 execute if entity @s[type=bee] run data modify entity @e[tag=captureEgg,limit=1,sort=nearest,distance=0..2] Item.id set value bee_spawn_egg
 execute if entity @s[type=blaze] run data modify entity @e[tag=captureEgg,limit=1,sort=nearest,distance=0..2] Item.id set value blaze_spawn_egg
+execute if entity @s[type=camel] run data modify entity @e[tag=captureEgg,limit=1,sort=nearest,distance=0..2] Item.id set value camel_spawn_egg
 execute if entity @s[type=cat] run data modify entity @e[tag=captureEgg,limit=1,sort=nearest,distance=0..2] Item.id set value cat_spawn_egg
 execute if entity @s[type=cave_spider] run data modify entity @e[tag=captureEgg,limit=1,sort=nearest,distance=0..2] Item.id set value cave_spider_spawn_egg
 execute if entity @s[type=chicken] run data modify entity @e[tag=captureEgg,limit=1,sort=nearest,distance=0..2] Item.id set value chicken_spawn_egg
@@ -56,6 +57,7 @@ execute if entity @s[type=silverfish] run data modify entity @e[tag=captureEgg,l
 execute if entity @s[type=skeleton] run data modify entity @e[tag=captureEgg,limit=1,sort=nearest,distance=0..2] Item.id set value skeleton_spawn_egg
 execute if entity @s[type=skeleton_horse] run data modify entity @e[tag=captureEgg,limit=1,sort=nearest,distance=0..2] Item.id set value skeleton_horse_spawn_egg
 execute if entity @s[type=slime] run data modify entity @e[tag=captureEgg,limit=1,sort=nearest,distance=0..2] Item.id set value slime_spawn_egg
+execute if entity @s[type=sniffer] run data modify entity @e[tag=captureEgg,limit=1,sort=nearest,distance=0..2] Item.id set value sniffer_spawn_egg
 execute if entity @s[type=snow_golem] run data modify entity @e[tag=captureEgg,limit=1,sort=nearest,distance=0..2] Item.id set value snow_golem_spawn_egg
 execute if entity @s[type=spider] run data modify entity @e[tag=captureEgg,limit=1,sort=nearest,distance=0..2] Item.id set value spider_spawn_egg
 

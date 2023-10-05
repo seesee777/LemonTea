@@ -200,6 +200,12 @@ schedule function lemontea:alchemy/construct/drawing/netherportal/repeat 10t
 ### 执行快速建造：
 schedule function lemontea:alchemy/construct/build/netherportal/repeat 20t
 
+## kelpfarm
+### 执行合成图纸：
+schedule function lemontea:alchemy/construct/drawing/kelpfarm/repeat 1t
+### 执行快速建造：
+schedule function lemontea:alchemy/construct/build/kelpfarm/repeat 11t
+
 
 # 区块编辑
 
