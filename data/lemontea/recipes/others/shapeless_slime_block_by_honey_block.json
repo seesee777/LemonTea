@@ -1,0 +1,11 @@
+{
+    "type":"minecraft:crafting_shapeless",
+    "ingredients": [
+        {"item":"minecraft:honey_block"},
+        {"item":"minecraft:grass"}
+    ],
+    "result":{
+        "item":"minecraft:slime_block",
+        "count":1
+    }
+}
