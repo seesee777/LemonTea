@@ -10,7 +10,7 @@ summon item ~ ~ ~
             pages:[
                 '[
                     {"text":""},
-                    {"text":"  为了做出全宇宙\\n      最酸的柠檬茶！","color":"gold","bold":true,"hoverEvent":{"action":"show_text","contents":[{"text":""},{"text":"v0.15.6\\n从游戏到开发，\\n一块一块建造梦想！"}]}},
+                    {"text":"  为了做出全宇宙\\n      最酸的柠檬茶！","color":"gold","bold":true,"hoverEvent":{"action":"show_text","contents":[{"text":""},{"text":"v0.15.7\\n从游戏到开发，\\n一块一块建造梦想！"}]}},
                     {"text":"\\n\\n目录","bold":true},{"text":"(点击使用)","color":"gray"},
                     {"text":"\\n    - 快速建造","color":"dark_aqua",
                         "clickEvent":{"action":"run_command","value":"/trigger LT_trigger set 1"},
@@ -129,7 +129,10 @@ summon item ~ ~ ~
                     {"text":"\\n    - 快速管道","color":"dark_aqua",
                         "clickEvent":{"action":"change_page","value":"57"},
                         "hoverEvent":{"action":"show_text","contents":[{"text":""},{"text":"点击跳转","color":"aqua"}]}},
-                    {"text":"\\n\\n\\n\\n\\n\\n\\n\\n"},
+                    {"text":"\\n    - 区块迁移","color":"dark_aqua",
+                        "clickEvent":{"action":"change_page","value":"58"},
+                        "hoverEvent":{"action":"show_text","contents":[{"text":""},{"text":"点击跳转","color":"aqua"}]}},
+                    {"text":"\\n\\n\\n\\n\\n\\n\\n"},
                     {"text":"\\n                返回主目录","color":"dark_green",
                         "clickEvent":{"action":"change_page","value":"1"},
                         "hoverEvent":{"action":"show_text","contents":[{"text":""},{"text":"返回主目录","color":"dark_green"}]}}
@@ -175,7 +178,21 @@ summon item ~ ~ ~
                         "clickEvent":{"action":"change_page","value":"50"},
                         "hoverEvent":{"action":"show_text","contents":[{"text":""},{"text":"返回子目录","color":"dark_green"}]}}
                 ]',
-                "58","59",
+                '[
+                    {"text":""},
+                    {"text":"区块迁移","bold":true},
+                    {"text":"\\n\\n先设置起点区块："},
+                    {"text":"\\n 触媒:剪刀","color":"dark_purple"},{"text":"，"},{"text":" 材料:脚手架","color":"dark_blue"},
+                    {"text":"\\n范围："},{"text":"以"},{"text":"剪刀","color":"dark_purple"},{"text":"位置为底层，"},
+                    {"text":"脚手架","color":"dark_blue"},{"text":"数量为高度。"},
+                    {"text":"\\n\\n再设置目的地区块："},
+                    {"text":"\\n 触媒:标靶","color":"dark_purple"},{"text":"，"},{"text":" 材料:蜘蛛网*1","color":"dark_blue"},
+                    {"text":"\\n注意："},{"text":"需在同维度内使用，需在区块被加载时使用，最大高度64格。"},
+                    {"text":"\\n\\n                返回子目录","color":"dark_green",
+                        "clickEvent":{"action":"change_page","value":"50"},
+                        "hoverEvent":{"action":"show_text","contents":[{"text":""},{"text":"返回子目录","color":"dark_green"}]}}
+                ]',
+                "59",
                 "60","61","62","63","64","65","66","67","68","69",
                 "70","71","72","73","74","75","76","77","78","79",
                 "80","81","82","83","84","85","86","87","88","89",

@@ -1,0 +1,1 @@
+$clone $(start_x) $(start_y) $(start_z) $(end_x) $(end_y) $(end_z) $(to_x) $(to_y) $(to_z) replace move

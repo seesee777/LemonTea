@@ -1,4 +1,4 @@
-# 计算Y偏移值
+# 计算Y原点
 
 # 计算区块原点
 # 储存实体坐标到计分板
@@ -14,7 +14,6 @@ scoreboard players operation @s LT_offset_Z = @s LT_position_Z
 # 计算偏移位置，传入计分板值 {"score_X":"@s scoreboard","score_Y":"@s scoreboard","score_Z":"@s scoreboard"}
 # 调用方法
 $scoreboard players operation @s LT_offset_X %= $(score_X)
-## Y坐标直接输入偏移值，并不计算
 $scoreboard players operation @s LT_offset_Y %= $(score_Y)
 $scoreboard players operation @s LT_offset_Z %= $(score_Z)
 

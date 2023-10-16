@@ -230,6 +230,9 @@ schedule function lemontea:alchemy/construct/fastcave/init 2t
 ## fasttunnel 快速管道
 schedule function lemontea:alchemy/construct/fasttunnel/init 3t
 
+## chunkmove 区块搬移
+schedule function lemontea:alchemy/construct/chunkmove/init 4t
+
 
 # 天气
 
