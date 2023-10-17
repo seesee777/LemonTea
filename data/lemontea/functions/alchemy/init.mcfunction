@@ -233,6 +233,9 @@ schedule function lemontea:alchemy/construct/fasttunnel/init 3t
 ## chunkmove 区块搬移
 schedule function lemontea:alchemy/construct/chunkmove/init 4t
 
+## chunkmove 区块填充
+schedule function lemontea:alchemy/construct/chunkfill/init 5t
+
 
 # 天气
 

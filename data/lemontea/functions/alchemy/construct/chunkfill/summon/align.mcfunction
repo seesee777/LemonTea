@@ -1,0 +1,9 @@
+# 以标记身份运行
+
+# 计算新的坐标位置
+function lemontea:chunk_align/get_xz {"score_X":"#16 LT_constant","score_Y":"#1 LT_constant","score_Z":"#16 LT_constant"}
+
+# 将实体移动到区块原点，Y -1
+execute store result entity @s Pos[0] double 1 run scoreboard players get @s LT_position_X
+execute store result entity @s Pos[1] double 1 run scoreboard players get @s LT_position_Y
+execute store result entity @s Pos[2] double 1 run scoreboard players get @s LT_position_Z

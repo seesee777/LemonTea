@@ -10,7 +10,7 @@ summon item ~ ~ ~
             pages:[
                 '[
                     {"text":""},
-                    {"text":"  为了做出全宇宙\\n      最酸的柠檬茶！","color":"gold","bold":true,"hoverEvent":{"action":"show_text","contents":[{"text":""},{"text":"v0.15.7\\n从游戏到开发，\\n一块一块建造梦想！"}]}},
+                    {"text":"  为了做出全宇宙\\n      最酸的柠檬茶！","color":"gold","bold":true,"hoverEvent":{"action":"show_text","contents":[{"text":""},{"text":"v0.15.8\\n从游戏到开发，\\n一块一块建造梦想！"}]}},
                     {"text":"\\n\\n目录","bold":true},{"text":"(点击使用)","color":"gray"},
                     {"text":"\\n    - 快速建造","color":"dark_aqua",
                         "clickEvent":{"action":"run_command","value":"/trigger LT_trigger set 1"},
@@ -119,7 +119,7 @@ summon item ~ ~ ~
                 "40","41","42","43","44","45","46","47","48","49",
                 '[
                     {"text":""},
-                    {"text":"地形修改目录：","bold":true},{"text":"(点击使用)","color":"gray"},
+                    {"text":"地形修改目录：","bold":true},{"text":"(点击跳转)","color":"gray"},
                     {"text":"\\n\\n    - 区块炸弹","color":"dark_aqua",
                         "clickEvent":{"action":"change_page","value":"55"},
                         "hoverEvent":{"action":"show_text","contents":[{"text":""},{"text":"点击跳转","color":"aqua"}]}},
@@ -132,7 +132,10 @@ summon item ~ ~ ~
                     {"text":"\\n    - 区块迁移","color":"dark_aqua",
                         "clickEvent":{"action":"change_page","value":"58"},
                         "hoverEvent":{"action":"show_text","contents":[{"text":""},{"text":"点击跳转","color":"aqua"}]}},
-                    {"text":"\\n\\n\\n\\n\\n\\n\\n"},
+                    {"text":"\\n    - 区块填充","color":"dark_aqua",
+                        "clickEvent":{"action":"change_page","value":"59"},
+                        "hoverEvent":{"action":"show_text","contents":[{"text":""},{"text":"点击跳转","color":"aqua"}]}},
+                    {"text":"\\n\\n\\n\\n\\n\\n"},
                     {"text":"\\n                返回主目录","color":"dark_green",
                         "clickEvent":{"action":"change_page","value":"1"},
                         "hoverEvent":{"action":"show_text","contents":[{"text":""},{"text":"返回主目录","color":"dark_green"}]}}
@@ -192,7 +195,21 @@ summon item ~ ~ ~
                         "clickEvent":{"action":"change_page","value":"50"},
                         "hoverEvent":{"action":"show_text","contents":[{"text":""},{"text":"返回子目录","color":"dark_green"}]}}
                 ]',
-                "59",
+                '[
+                    {"text":""},
+                    {"text":"区块填充","bold":true},
+                    {"text":"\\n\\n触媒："},
+                    {"text":"\\n  堆肥桶","color":"dark_purple"},
+                    {"text":"\\n材料："},
+                    {"text":"\\n  填充草方块："},{"text":"苔藓","color":"dark_blue"},
+                    {"text":"\\n  填充泥土："},{"text":"骨块","color":"dark_blue"},
+                    {"text":"\\n  填充石头："},{"text":"岩浆块","color":"dark_blue"},
+                    {"text":"\\n效果："},
+                    {"text":"\\n  从容器位置开始，用相应\\n材料朝上方填充区块，材料数量决定填充层数，最大64格。"},
+                    {"text":"\\n                返回子目录","color":"dark_green",
+                        "clickEvent":{"action":"change_page","value":"50"},
+                        "hoverEvent":{"action":"show_text","contents":[{"text":""},{"text":"返回子目录","color":"dark_green"}]}}
+                ]',
                 "60","61","62","63","64","65","66","67","68","69",
                 "70","71","72","73","74","75","76","77","78","79",
                 "80","81","82","83","84","85","86","87","88","89",
