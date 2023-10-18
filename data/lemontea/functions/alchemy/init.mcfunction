@@ -218,6 +218,12 @@ schedule function lemontea:alchemy/construct/drawing/bamboofarm/repeat 13t
 ### 执行快速建造：
 schedule function lemontea:alchemy/construct/build/bamboofarm/repeat 3t
 
+## woodenwall
+### 执行合成图纸：
+schedule function lemontea:alchemy/construct/drawing/woodenwall/repeat 14t
+### 执行快速建造：
+schedule function lemontea:alchemy/construct/build/woodenwall/repeat 4t
+
 
 # 区块编辑
 

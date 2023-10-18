@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "tag": "minecraft:logs"
+    },
+    "result": "minecraft:composter",
+    "count": 1
+}
