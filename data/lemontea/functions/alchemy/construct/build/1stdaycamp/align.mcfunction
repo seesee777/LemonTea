@@ -2,7 +2,7 @@
 
 # 计算新的坐标位置
 # "score_Y" 设置为地面下建筑高度，比如 Y=-7 设置为 "#7 LT_constant"
-function lemontea:chunk_align/get_xz {"score_X":"#16 LT_constant","score_Y":"#3 LT_constant","score_Z":"#16 LT_constant"}
+function lemontea:chunk_align/get_xz {"score_X":"#16 LT_constant","score_Y":"#7 LT_constant","score_Z":"#16 LT_constant"}
 
 # 移动到区块原点
 execute store result entity @s Pos[0] double 1 run scoreboard players get @s LT_position_X
