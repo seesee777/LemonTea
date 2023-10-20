@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:glow_ink_sac"
+		},
+		"title": "染料萃取",
+		"description": [
+			{"text": "","color":"white"},
+			{"text": "将","color":"white"},
+			{"text": "荧光墨囊","color":"aqua"},
+			{"text": "放入","color":"white"},
+			{"text": "切石机","color":"yellow"}
+		],
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"parent": "lemontea:material/dye/ink_sac",
+	"criteria": {
+		"tick": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}

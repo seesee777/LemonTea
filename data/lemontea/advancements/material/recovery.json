@@ -1,0 +1,19 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:dragon_breath"
+		},
+		"title": "再生科技",
+		"description": [
+			{"text": "","color":"white"}
+		],
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"parent": "lemontea:root",
+	"criteria": {
+		"tick": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}

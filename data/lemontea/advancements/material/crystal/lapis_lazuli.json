@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:lapis_lazuli"
+		},
+		"title": "青金石精炼",
+		"description": [
+			{"text": "","color":"white"},
+			{"text": "在","color":"white"},
+			{"text": "工作台","color":"yellow"},
+			{"text": "的2、4、6、8位置放入","color":"white"},
+			{"text": "青金石","color":"aqua"}
+		],
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"parent": "lemontea:material/crystal/quartz",
+	"criteria": {
+		"tick": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}

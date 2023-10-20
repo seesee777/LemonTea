@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": [
+        {"item":"minecraft:azalea"}
+    ],
+    "result": "minecraft:mangrove_propagule",
+    "count": 1
+}

@@ -29,7 +29,7 @@ summon item ~ ~ ~
                     {"text":"\\n    图纸下方一格是地平面"},{"text":"\\n(注意当图纸掉落在不完整方块上时的高度)"}]',
                 '[
                     {"text":""},{"text":"占地空间：","bold":true},
-                    {"text":"\\n  X=3 沿X轴时16","color":"dark_red"},{"text":"\\n  Y=3","color":"dark_green"},{"text":"\\n  Z=3 沿Z轴时16","color":"dark_blue"},
+                    {"text":"\\n  X=3 沿X轴时16","color":"dark_red"},{"text":"\\n  Y=2","color":"dark_green"},{"text":"\\n  Z=3 沿Z轴时16","color":"dark_blue"},
                     
                     {"text":"\\n\\n位置坐标(相对于容器)：","bold":true},
                     {"text":"\\n\\n  [A 角点]","color":"dark_gray"},

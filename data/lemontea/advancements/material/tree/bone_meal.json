@@ -1,0 +1,25 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:bone_meal"
+		},
+		"title": "无土栽培",
+		"description": [
+			{"text": "","color":"white"},
+			{"text": "将","color":"white"},
+			{"text": "树苗/菌种","color":"aqua"},
+			{"text": "和","color":"white"},
+			{"text": "骨粉","color":"aqua"},
+			{"text": "一起放入","color":"white"},
+			{"text": "工作台","color":"yellow"}
+		],
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"parent": "lemontea:material/tree/mushroom",
+	"criteria": {
+		"tick": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}

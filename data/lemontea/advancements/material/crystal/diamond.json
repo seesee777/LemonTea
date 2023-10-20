@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:diamond"
+		},
+		"title": "宝石分解",
+		"description": [
+			{"text": "","color":"white"},
+			{"text": "在","color":"white"},
+			{"text": "工作台","color":"yellow"},
+			{"text": "的1、2位置放入","color":"white"},
+			{"text": "钻石","color":"aqua"}
+		],
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"parent": "lemontea:material/crystal/emerald",
+	"criteria": {
+		"tick": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}

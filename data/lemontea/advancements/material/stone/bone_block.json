@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:bone_block"
+		},
+		"title": "人造化石",
+		"description": [
+			{"text": "","color":"white"},
+			{"text": "将","color":"white"},
+			{"text": "骨块","color":"aqua"},
+			{"text": "放入","color":"white"},
+			{"text": "切石机","color":"yellow"}
+		],
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"parent": "lemontea:material/recovery",
+	"criteria": {
+		"tick": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}

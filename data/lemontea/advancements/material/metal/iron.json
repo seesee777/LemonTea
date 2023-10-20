@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:iron_block"
+		},
+		"title": "点石成铁",
+		"description": [
+			{"text": "","color":"white"},
+			{"text": "将","color":"white"},
+			{"text": "岩浆块","color":"aqua"},
+			{"text": "放入","color":"white"},
+			{"text": "高炉","color":"yellow"}
+		],
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"parent": "lemontea:material/metal/copper",
+	"criteria": {
+		"tick": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}

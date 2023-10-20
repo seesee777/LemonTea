@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:magma_block"
+		},
+		"title": "无限岩浆",
+		"description": [
+			{"text": "","color":"white"},
+			{"text": "在","color":"white"},
+			{"text": "岩浆炼药锅","color":"yellow"},
+			{"text": "的下方放置","color":"white"},
+			{"text": "漏斗矿车","color":"yellow"}
+		],
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"parent": "lemontea:material/recovery",
+	"criteria": {
+		"tick": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}

@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:amethyst_shard"
+		},
+		"title": "石英精炼",
+		"description": [
+			{"text": "","color":"white"},
+			{"text": "在","color":"white"},
+			{"text": "工作台","color":"yellow"},
+			{"text": "的2、4、6、8位置放入","color":"white"},
+			{"text": "紫水晶碎片","color":"aqua"}
+		],
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"parent": "lemontea:material/crystal/lapis_lazuli",
+	"criteria": {
+		"tick": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}

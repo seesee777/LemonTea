@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:budding_amethyst"
+		},
+		"title": "水晶增生",
+		"description": [
+			{"text": "","color":"white"},
+			{"text": "在","color":"white"},
+			{"text": "工作台","color":"yellow"},
+			{"text": "的1、2、4、5位置放入","color":"white"},
+			{"text": "紫水晶块","color":"aqua"}
+		],
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"parent": "lemontea:material/recovery",
+	"criteria": {
+		"tick": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}

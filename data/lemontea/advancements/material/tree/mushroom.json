@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:flowering_azalea"
+		},
+		"title": "全部菌菇",
+		"description": [
+			{"text": "","color":"white"},
+			{"text": "将","color":"white"},
+			{"text": "盛开的杜鹃花丛","color":"aqua"},
+			{"text": "放入","color":"white"},
+			{"text": "切石机","color":"yellow"}
+		],
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"parent": "lemontea:material/tree/sapling",
+	"criteria": {
+		"tick": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}

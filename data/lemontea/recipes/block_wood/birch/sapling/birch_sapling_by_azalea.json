@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": [
+        {"item":"minecraft:azalea"}
+    ],
+    "result": "minecraft:birch_sapling",
+    "count": 1
+}
