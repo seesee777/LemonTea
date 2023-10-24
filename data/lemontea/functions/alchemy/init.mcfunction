@@ -224,6 +224,12 @@ schedule function lemontea:alchemy/construct/drawing/woodenwall/repeat 14t
 ### 执行快速建造：
 schedule function lemontea:alchemy/construct/build/woodenwall/repeat 4t
 
+## lavafarm
+### 执行合成图纸：
+schedule function lemontea:alchemy/construct/drawing/lavafarm/repeat 15t
+### 执行快速建造：
+schedule function lemontea:alchemy/construct/build/lavafarm/repeat 5t
+
 
 # 区块编辑
 
