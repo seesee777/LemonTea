@@ -1,7 +1,3 @@
-# test
-# say display
-# execute if biome ~ ~ ~ minecraft:plains run say ppp
-
 # ❄❅❆❉❊
 
 # 显示生物群系，按字母顺序排列
