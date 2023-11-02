@@ -1,0 +1,24 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:lodestone"
+		},
+		"title": "定位群系",
+		"description": [
+			{"text": "","color":"white"},
+			{"text": "见"},
+			{"text": "说明书","color":"light_purple"},
+			{"text": "，"},
+			{"text": "快速定位","color":"aqua"},
+			{"text": "章节。"}
+		],
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"parent": "lemontea:travel/acbar/biome",
+	"criteria": {
+		"tick": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}

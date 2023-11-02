@@ -1,9 +1,9 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:dragon_breath"
+			"item": "minecraft:leather_boots"
 		},
-		"title": "再生科技",
+		"title": "生存技能",
 		"description": [
 			{"text": "","color":"white"}
 		],

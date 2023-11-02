@@ -1,0 +1,21 @@
+{
+    "type":"minecraft:crafting_shaped",
+    "pattern":[
+        "OOO",
+        "XXX",
+        " X "
+    ],
+    "key":{
+        "O":{
+            "item":"minecraft:wither_skeleton_skull"
+        },
+        "X":[
+            {"item":"minecraft:soul_sand"},
+            {"item":"minecraft:soul_soil"}
+        ]
+    },
+    "result":{
+        "item":"minecraft:nether_star",
+        "count":1
+    }
+}

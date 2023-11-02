@@ -1,21 +1,21 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:target"
+			"item": "minecraft:clock"
 		},
-		"title": "设置坐标",
+		"title": "显示时间",
 		"description": [
 			{"text": "","color":"white"},
 			{"text": "副手持有"},
-			{"text": "标靶","color":"yellow"},
-			{"text": "，\n将一支"},
-			{"text": "箭","color":"aqua"},
-			{"text": "扔到身边。"}
+			{"text": "时钟","color":"yellow"},
+			{"text": "，屏幕显示"},
+			{"text": "小时时间","color":"aqua"},
+			{"text": "。"}
 		],
 		"show_toast": false,
 		"announce_to_chat": false
 	},
-	"parent": "lemontea:root",
+	"parent": "lemontea:travel/travel",
 	"criteria": {
 		"tick": {
 			"trigger": "minecraft:tick"

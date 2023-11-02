@@ -1,0 +1,1 @@
+tellraw @a [{"text":"世界中心位置在 ","color":"yellow"},{"score":{"name": "@s","objective": "LT_position_X"},"color":"red"},{"text": " "},{"score":{"name": "@s","objective": "LT_position_Y"},"color":"green"},{"text": " "},{"score":{"name": "@s","objective": "LT_position_Z"},"color":"blue"},{"text":"\n毁掉其信标才能设定新的位置","color":"white"}]

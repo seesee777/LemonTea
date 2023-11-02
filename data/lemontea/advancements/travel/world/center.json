@@ -1,0 +1,25 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:beacon"
+		},
+		"title": "世界中心",
+		"description": [
+			{"text": "","color":"white"},
+			{"text": "将"},
+			{"text": "标靶","color":"aqua"},
+			{"text": "扔到"},
+			{"text": "4级","color": "light_purple"},
+			{"text": "信标","color": "yellow"},
+			{"text": "上方，等一会儿。"}
+		],
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"parent": "lemontea:travel/travel",
+	"criteria": {
+		"tick": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}

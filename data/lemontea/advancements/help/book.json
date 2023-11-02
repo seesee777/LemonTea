@@ -1,15 +1,15 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:paper"
+			"item": "minecraft:book"
 		},
-		"title": "遗忘配方",
+		"title": "获得配方",
 		"description": [
 			{"text": "","color":"white"},
 			{"text": "在"},
 			{"text": "木桶","color":"yellow"},
 			{"text": "的第一格位置放入一个"},
-			{"text": "纸","color": "aqua"},
+			{"text": "苹果","color": "aqua"},
 			{"text": "，第二格留空，再将"},
 			{"text": "知识之书","color": "light_purple"},
 			{"text": "扔到"},
@@ -19,7 +19,7 @@
 		"show_toast": false,
 		"announce_to_chat": false
 	},
-	"parent": "lemontea:book_help",
+	"parent": "lemontea:help/knowledge",
 	"criteria": {
 		"tick": {
 			"trigger": "minecraft:tick"

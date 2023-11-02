@@ -1,0 +1,26 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:knowledge_book"
+		},
+		"title": "知识之书",
+		"description": [
+			{"text": "","color":"white"},
+			{"text": "在"},
+			{"text": "工作台","color":"yellow"},
+			{"text": "中用"},
+			{"text": "\n  纸","color":"aqua"},
+			{"text": " + "},
+			{"text": "纸","color":"aqua"},
+			{"text": "\n合成"},
+			{"text": "知识之书","color":"green"}],
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"parent": "lemontea:help/paper",
+	"criteria": {
+		"tick": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}

@@ -1,21 +1,21 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:map"
+			"item": "minecraft:target"
 		},
-		"title": "显示群系",
+		"title": "设置坐标",
 		"description": [
 			{"text": "","color":"white"},
 			{"text": "副手持有"},
-			{"text": "地图","color":"yellow"},
-			{"text": "，屏幕显示"},
-			{"text": "生物群系","color":"aqua"},
-			{"text": "。"}
+			{"text": "标靶","color":"yellow"},
+			{"text": "，\n将一支"},
+			{"text": "箭","color":"aqua"},
+			{"text": "扔到身边。"}
 		],
 		"show_toast": false,
 		"announce_to_chat": false
 	},
-	"parent": "lemontea:acbar_coordinate",
+	"parent": "lemontea:travel/travel",
 	"criteria": {
 		"tick": {
 			"trigger": "minecraft:tick"

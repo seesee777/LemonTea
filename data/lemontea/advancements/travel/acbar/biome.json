@@ -1,21 +1,21 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:clock"
+			"item": "minecraft:map"
 		},
-		"title": "显示时间",
+		"title": "显示群系",
 		"description": [
 			{"text": "","color":"white"},
 			{"text": "副手持有"},
-			{"text": "时钟","color":"yellow"},
+			{"text": "地图","color":"yellow"},
 			{"text": "，屏幕显示"},
-			{"text": "小时时间","color":"aqua"},
+			{"text": "生物群系","color":"aqua"},
 			{"text": "。"}
 		],
 		"show_toast": false,
 		"announce_to_chat": false
 	},
-	"parent": "lemontea:root",
+	"parent": "lemontea:travel/acbar/coordinate",
 	"criteria": {
 		"tick": {
 			"trigger": "minecraft:tick"

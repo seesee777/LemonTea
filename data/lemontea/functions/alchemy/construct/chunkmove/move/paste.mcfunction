@@ -1,6 +1,5 @@
 # 创建item的数据值
 data modify entity @s Item.tag.LT_move set value {"start_x":0,"start_y":0,"start_z":0,"end_x":0,"end_y":0,"end_z":0,"to_x":0,"to_y":0,"to_z":0}
-# data modify entity @e[type=item,limit=1,sort=nearest] Item.tag.LT_move set value {"start_x":0,"start_y":0,"start_z":0,"end_x":0,"end_y":0,"end_z":0,"to_x":0,"to_y":0,"to_z":0}
 
 # 将start坐标储存到物品上
 execute store result entity @s Item.tag.LT_move.start_x int 1 run scoreboard players get @p LT_move_X

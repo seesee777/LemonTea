@@ -1,19 +1,19 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:knowledge_book"
+			"item": "minecraft:paper"
 		},
-		"title": "知识之书",
+		"title": "合成纸张",
 		"description": [
 			{"text": "","color":"white"},
 			{"text": "在"},
 			{"text": "工作台","color":"yellow"},
-			{"text": "中用"},
-			{"text": "\n  纸","color":"aqua"},
-			{"text": " + "},
-			{"text": "纸","color":"aqua"},
-			{"text": "\n合成"},
-			{"text": "知识之书","color":"green"}],
+			{"text": "中放入"},
+			{"text": "木棍","color": "aqua"},
+			{"text": "和"},
+			{"text": "草","color": "aqua"},
+			{"text": "。"}
+		],
 		"show_toast": false,
 		"announce_to_chat": false
 	},

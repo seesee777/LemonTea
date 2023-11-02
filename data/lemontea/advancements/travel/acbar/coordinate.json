@@ -17,7 +17,7 @@
 		"show_toast": false,
 		"announce_to_chat": false
 	},
-	"parent": "lemontea:acbar_timer",
+	"parent": "lemontea:travel/acbar/timer",
 	"criteria": {
 		"tick": {
 			"trigger": "minecraft:tick"

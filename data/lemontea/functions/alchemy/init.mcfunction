@@ -230,6 +230,12 @@ schedule function lemontea:alchemy/construct/drawing/lavafarm/repeat 15t
 ### 执行快速建造：
 schedule function lemontea:alchemy/construct/build/lavafarm/repeat 5t
 
+## temple
+### 执行合成图纸：
+schedule function lemontea:alchemy/construct/drawing/temple/repeat 16t
+### 执行快速建造：
+schedule function lemontea:alchemy/construct/build/temple/repeat 6t
+
 
 # 区块编辑
 
@@ -251,5 +257,8 @@ schedule function lemontea:alchemy/construct/chunkfill/init 5t
 
 # 天气
 
-## weather 区块炸弹
+## weather 设置天气
 schedule function lemontea:alchemy/weather/init 1t
+
+# worldborder 世界大小
+schedule function lemontea:alchemy/worldborder/init 2t

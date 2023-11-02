@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:writable_book"
+			"item": "minecraft:netherite_upgrade_smithing_template"
 		},
 		"title": "更新手册",
 		"description": [
@@ -19,7 +19,7 @@
 		"show_toast": false,
 		"announce_to_chat": false
 	},
-	"parent": "lemontea:book_help",
+	"parent": "lemontea:help/book",
 	"criteria": {
 		"tick": {
 			"trigger": "minecraft:tick"
