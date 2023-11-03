@@ -1,5 +1,5 @@
-# 设置世界中心
-worldborder center ~ ~
+# 设置世界出生点
+setworldspawn ~ ~ ~
 
 # 储存信标坐标到item上
 data modify entity @s Item.tag.LT_pos set value {"x":0,"y":0,"z":0}

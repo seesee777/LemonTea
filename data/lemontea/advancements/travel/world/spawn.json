@@ -3,7 +3,7 @@
 		"icon": {
 			"item": "minecraft:beacon"
 		},
-		"title": "世界中心",
+		"title": "世界出生点",
 		"description": [
 			{"text": "","color":"white"},
 			{"text": "将"},
@@ -11,7 +11,7 @@
 			{"text": "扔到"},
 			{"text": "4级","color": "light_purple"},
 			{"text": "信标","color": "yellow"},
-			{"text": "上方，等一会儿。"}
+			{"text": "上方，等待一会儿。\n包括此区块在内，半径10区块的范围为强加载区块。"}
 		],
 		"show_toast": false,
 		"announce_to_chat": false
