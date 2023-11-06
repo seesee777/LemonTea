@@ -236,6 +236,12 @@ schedule function lemontea:alchemy/construct/drawing/temple/repeat 16t
 ### 执行快速建造：
 schedule function lemontea:alchemy/construct/build/temple/repeat 6t
 
+## headalter
+### 执行合成图纸：
+schedule function lemontea:alchemy/construct/drawing/headalter/repeat 17t
+### 执行快速建造：
+schedule function lemontea:alchemy/construct/build/headalter/repeat 7t
+
 
 # 区块编辑
 
