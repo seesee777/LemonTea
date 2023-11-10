@@ -242,6 +242,12 @@ schedule function lemontea:alchemy/construct/drawing/headalter/repeat 17t
 ### 执行快速建造：
 schedule function lemontea:alchemy/construct/build/headalter/repeat 7t
 
+## furnace
+### 执行合成图纸：
+schedule function lemontea:alchemy/construct/drawing/furnace/repeat 18t
+### 执行快速建造：
+schedule function lemontea:alchemy/construct/build/furnace/repeat 8t
+
 
 # 区块编辑
 
