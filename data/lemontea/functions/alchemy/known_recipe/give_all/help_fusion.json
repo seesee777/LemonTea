@@ -20,12 +20,13 @@ execute as @p at @s run summon item ~ ~ ~
                 '[
                     {"text":""},
                     {"text":"熔炉配方","bold":true},
-                    {"text":"\\n\\n 腐肉","color":"dark_purple"},{"text":" > "},{"text":"兔子皮","color":"dark_green"},
-                    {"text":"\\n\\n 岩浆块","color":"dark_purple"},{"text":" > "},{"text":"铜块","color":"dark_green"},
-                    {"text":"\\n\\n 黑曜石","color":"dark_purple"},{"text":" > "},{"text":"哭泣的黑曜石","color":"dark_green"},
-                    {"text":"\\n\\n 镶金黑石","color":"dark_purple"},{"text":" > "},{"text":"金锭","color":"dark_green"},
-                    {"text":"\\n\\n 岩浆膏","color":"dark_purple"},{"text":" > "},{"text":"烈焰粉","color":"dark_green"},
-                    {"text":"\\n\\n 海晶砂粒","color":"dark_purple"},{"text":" > "},{"text":"海晶碎片","color":"dark_green"}
+                    {"text":"\\n 腐肉","color":"dark_purple"},{"text":" > "},{"text":"兔子皮","color":"dark_green"},
+                    {"text":"\\n 岩浆块","color":"dark_purple"},{"text":" > "},{"text":"铜块","color":"dark_green"},
+                    {"text":"\\n 黑曜石","color":"dark_purple"},{"text":" > "},{"text":"哭泣的黑曜石","color":"dark_green"},
+                    {"text":"\\n 镶金黑石","color":"dark_purple"},{"text":" > "},{"text":"金锭","color":"dark_green"},
+                    {"text":"\\n 岩浆膏","color":"dark_purple"},{"text":" > "},{"text":"烈焰粉","color":"dark_green"},
+                    {"text":"\\n 海晶砂粒","color":"dark_purple"},{"text":" > "},{"text":"海晶碎片","color":"dark_green"},
+                    {"text":"\\n (去皮)竹块","color":"dark_purple"},{"text":" > "},{"text":"木炭","color":"dark_green"}
                 ]',
                 '[
                     {"text":""},

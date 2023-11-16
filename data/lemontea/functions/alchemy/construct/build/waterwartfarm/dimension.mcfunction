@@ -12,7 +12,7 @@ execute if predicate lemontea:in_the_end run return 3
 
 # 如果Y坐标过低，退出。主世界-59 +建筑深度
 execute store result score @s LT_position_Y run data get entity @s Pos[1]
-execute if score @s LT_position_Y matches ..-57 run tellraw @p[limit=1,sort=nearest,distance=..5] [{"text": "建造高度过低","color": "yellow"}]
-execute if score @s LT_position_Y matches ..-57 run return 4
+execute if score @s LT_position_Y matches ..-56 run tellraw @p[limit=1,sort=nearest,distance=..5] [{"text": "建造高度过低","color": "yellow"}]
+execute if score @s LT_position_Y matches ..-56 run return 4
 
-function lemontea:alchemy/construct/build/headalter/result
+function lemontea:alchemy/construct/build/waterwartfarm/result

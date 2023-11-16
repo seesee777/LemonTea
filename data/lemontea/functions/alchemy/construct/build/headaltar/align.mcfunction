@@ -18,7 +18,7 @@ execute store result entity @s Pos[1] double 1 run scoreboard players get @s LT_
 execute as @s at @s run fill ~ ~ ~ ~15 ~10 ~15 dirt
 
 # 读取结构
-execute as @s at @s run place template lemontea:chrisbigd/headalter ~ ~ ~
+execute as @s at @s run place template lemontea:chrisbigd/headaltar ~ ~ ~
 
 # 如果旋转
 # 放置结构方块
