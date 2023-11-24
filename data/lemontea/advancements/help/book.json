@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:book"
+			"item": "minecraft:wheat_seeds"
 		},
 		"title": "获得配方",
 		"description": [
@@ -9,7 +9,7 @@
 			{"text": "在"},
 			{"text": "木桶","color":"yellow"},
 			{"text": "的第一格位置放入一个"},
-			{"text": "苹果","color": "aqua"},
+			{"text": "小麦种子","color": "aqua"},
 			{"text": "，第二格留空，再将"},
 			{"text": "知识之书","color": "light_purple"},
 			{"text": "扔到"},

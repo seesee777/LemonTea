@@ -3,13 +3,13 @@
 		"icon": {
 			"item": "minecraft:netherite_upgrade_smithing_template"
 		},
-		"title": "更新手册",
+		"title": "更新说明书",
 		"description": [
 			{"text": "","color":"white"},
 			{"text": "在"},
 			{"text": "木桶","color":"yellow"},
 			{"text": "的第一格位置放入"},
-			{"text": "纸*2","color": "aqua"},
+			{"text": "纸*1","color": "aqua"},
 			{"text": "，第二格留空，再将"},
 			{"text": "说明书：柠檬茶","color": "light_purple"},
 			{"text": "扔到"},

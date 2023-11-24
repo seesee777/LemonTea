@@ -3,15 +3,16 @@
 		"icon": {
 			"item": "minecraft:paper"
 		},
-		"title": "合成纸张",
+		"title": "合成纸张  ",
 		"description": [
 			{"text": "","color":"white"},
-			{"text": "在"},
-			{"text": "工作台","color":"yellow"},
-			{"text": "中放入"},
-			{"text": "木棍","color": "aqua"},
-			{"text": "和"},
-			{"text": "草","color": "aqua"},
+			{"text": "在"},{"text": "工作台","color":"yellow"},{"text": "中放入"},
+			{"text": "\n木棍","color": "aqua"},{"text": "/"},
+			{"text": "竹子","color": "aqua"},{"text": "/"},
+			{"text": "甘蔗","color": "aqua"},{"text": "和"},
+			{"text": "草","color": "aqua"},{"text": "/"},
+			{"text": "蕨","color": "aqua"},{"text": "/"},
+			{"text": "小麦","color": "aqua"},
 			{"text": "。"}
 		],
 		"show_toast": false,
