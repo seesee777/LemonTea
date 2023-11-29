@@ -266,6 +266,12 @@ schedule function lemontea:alchemy/construct/drawing/canefarm/repeat 1t
 ### 执行快速建造：
 schedule function lemontea:alchemy/construct/build/canefarm/repeat 11t
 
+## brewingtower
+### 执行合成图纸：
+schedule function lemontea:alchemy/construct/drawing/brewingtower/repeat 2t
+### 执行快速建造：
+schedule function lemontea:alchemy/construct/build/brewingtower/repeat 12t
+
 
 # 区块编辑
 

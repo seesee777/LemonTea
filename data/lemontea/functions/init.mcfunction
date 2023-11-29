@@ -4,7 +4,7 @@
 
 
 # 重载reload数据包时显示的提示：
-tellraw @p {"text":"Lemon Tea v0.15.17 beta for MINECRAFT JAVA 1.20.2","color":"yellow"}
+tellraw @p {"text":"Lemon Tea v0.15.18 beta for MINECRAFT JAVA 1.20.2","color":"yellow"}
 # tellraw @p {"text":"line3","color":"gold"}
 
 
