@@ -272,6 +272,11 @@ schedule function lemontea:alchemy/construct/drawing/brewingtower/repeat 2t
 ### 执行快速建造：
 schedule function lemontea:alchemy/construct/build/brewingtower/repeat 12t
 
+## endportal
+### 执行合成图纸：
+schedule function lemontea:alchemy/construct/drawing/endportal/repeat 3t
+### 执行快速建造：
+schedule function lemontea:alchemy/construct/build/endportal/repeat 13t
 
 # 区块编辑
 

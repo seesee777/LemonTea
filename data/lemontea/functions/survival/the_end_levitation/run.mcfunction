@@ -3,3 +3,5 @@
 # effect give @p[scores={Y=..-9},nbt={Dimension:"minecraft:the_end"}] levitation 15 4
 
 execute as @a[predicate=lemontea:is_y_less_than_min] at @s run function lemontea:survival/the_end_levitation/result
+
+# say run

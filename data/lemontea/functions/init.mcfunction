@@ -2,9 +2,10 @@
 # 初始化所有功能
 # This function will run on datapack loading
 
+# !global.main 已经作废，但未完全删除
 
 # 重载reload数据包时显示的提示：
-tellraw @p {"text":"Lemon Tea v0.15.18 beta for MINECRAFT JAVA 1.20.2","color":"yellow"}
+tellraw @p {"text":"Lemon Tea v0.15.19 beta for MINECRAFT JAVA 1.20.2","color":"yellow"}
 # tellraw @p {"text":"line3","color":"gold"}
 
 
