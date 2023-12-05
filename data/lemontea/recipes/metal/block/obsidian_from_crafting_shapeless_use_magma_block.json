@@ -3,7 +3,7 @@
     "category": "misc",
     "ingredients": [
         {"item":"minecraft:magma_block"},
-        {"item":"minecraft:ice"}
+        {"item":"minecraft:snow_block"}
     ],
     "result":{
         "item":"minecraft:obsidian",

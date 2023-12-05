@@ -1,0 +1,16 @@
+{
+    "type":"minecraft:crafting_shaped",
+    "pattern":[
+        "XXX",
+        "XOX",
+        "XXX"
+    ],
+    "key":{
+        "O":{"item":"minecraft:experience_bottle"},
+        "X":{"item":"minecraft:dirt"}
+    },
+    "result":{
+        "item":"minecraft:soul_soil",
+        "count":1
+    }
+}

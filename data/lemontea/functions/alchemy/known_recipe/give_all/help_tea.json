@@ -6,11 +6,15 @@ summon item ~ ~ ~
         tag:{
             author:"bittoy.org",
             title:"help_tea",
-            display:{Name:'{"text":"说明书：柠檬茶数据包","color":"light_purple","italic":false}'},
+            display:{
+                Name:'{"text":"说明书：柠檬茶数据包","color":"light_purple","italic":false}',
+                Lore:['[
+                    {"text":"0.15.20","color":"white"}]']
+            },
             pages:[
                 '[
                     {"text":""},
-                    {"text":"  为了做出全宇宙\\n      最酸的柠檬茶！","color":"gold","bold":true,"hoverEvent":{"action":"show_text","contents":[{"text":""},{"text":"v0.15.19\\n从游戏到开发，\\n一块一块建造梦想！"}]}},
+                    {"text":"  为了做出全宇宙\\n      最酸的柠檬茶！","color":"gold","bold":true,"hoverEvent":{"action":"show_text","contents":[{"text":""},{"text":"从游戏到开发，\\n一块一块建造梦想！"}]}},
                     {"text":"\\n\\n目录","bold":true},{"text":"(点击使用)","color":"gray"},
                     {"text":"\\n    - 快速建造","color":"dark_aqua",
                         "clickEvent":{"action":"run_command","value":"/trigger LT_trigger set 1"},

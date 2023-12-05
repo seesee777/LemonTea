@@ -1,0 +1,16 @@
+{
+    "type":"minecraft:crafting_shaped",
+    "pattern":[
+        " O ",
+        "###",
+        " # "
+    ],
+    "key":{
+        "O":{"item":"minecraft:carved_pumpkin"},
+        "#":{"item":"minecraft:iron_block"}
+    },
+    "result":{
+        "item":"minecraft:iron_golem_spawn_egg",
+        "count":1
+    }
+}
