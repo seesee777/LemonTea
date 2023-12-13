@@ -1,8 +1,8 @@
 {
     "type":"minecraft:crafting_shapeless",
     "ingredients": [
-        {"item":"minecraft:grass"},
-        {"item":"minecraft:grass"}
+        {"item":"minecraft:short_grass"},
+        {"item":"minecraft:short_grass"}
     ],
     "result":{
         "item":"minecraft:tall_grass",

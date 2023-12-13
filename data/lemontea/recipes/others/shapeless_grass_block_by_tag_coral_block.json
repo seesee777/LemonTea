@@ -5,7 +5,7 @@
             {"tag":"lemontea:coral_products/coral_block"},
             {"tag":"lemontea:coral_products/dead_coral_block"}
         ],
-        {"item":"minecraft:grass"}
+        {"item":"minecraft:short_grass"}
     ],
     "result":{
         "item":"minecraft:grass_block",

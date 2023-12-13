@@ -6,7 +6,7 @@
         "XXX"
     ],
     "key":{
-        "X":[{"item":"minecraft:grass"},{"item":"minecraft:fern"}]
+        "X":[{"item":"minecraft:short_grass"},{"item":"minecraft:fern"}]
     },
     "result":{
         "item":"minecraft:moss_carpet",

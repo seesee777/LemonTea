@@ -27,7 +27,7 @@
                   "add": false
                 }
               ],
-              "name": "minecraft:grass"
+              "name": "minecraft:short_grass"
             },
             {
               "type": "minecraft:item",
@@ -95,7 +95,7 @@
                   "add": false
                 }
               ],
-              "name": "minecraft:grass"
+              "name": "minecraft:short_grass"
             },
             {
               "type": "minecraft:item",

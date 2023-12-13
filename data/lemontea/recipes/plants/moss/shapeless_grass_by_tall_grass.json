@@ -4,7 +4,7 @@
         {"item":"minecraft:tall_grass"}
     ],
     "result":{
-        "item":"minecraft:grass",
+        "item":"minecraft:short_grass",
         "count":2
     }
 }
