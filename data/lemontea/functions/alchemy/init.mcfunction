@@ -278,6 +278,12 @@ schedule function lemontea:alchemy/construct/drawing/endportal/repeat 3t
 ### 执行快速建造：
 schedule function lemontea:alchemy/construct/build/endportal/repeat 13t
 
+## chorusfarm
+### 执行合成图纸：
+schedule function lemontea:alchemy/construct/drawing/chorusfarm/repeat 4t
+### 执行快速建造：
+schedule function lemontea:alchemy/construct/build/chorusfarm/repeat 14t
+
 # 区块编辑
 
 ## chunkbomb 区块炸弹
@@ -301,5 +307,5 @@ schedule function lemontea:alchemy/construct/chunkfill/init 5t
 ## weather 设置天气
 schedule function lemontea:alchemy/weather/init 1t
 
-# worldborder 世界大小
-schedule function lemontea:alchemy/worldborder/init 2t
+# worldspawncenter 玩家世界出生地
+schedule function lemontea:alchemy/worldspawncenter/init 2t

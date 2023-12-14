@@ -1,0 +1,15 @@
+{
+    "type":"minecraft:crafting_shaped",
+    "pattern":[
+        "XXX",
+        "XXX",
+        "XXX"
+    ],
+    "key":{
+        "X":[{"item":"minecraft:tall_grass"},{"item":"minecraft:large_fern"}]
+    },
+    "result":{
+        "item":"minecraft:hay_block",
+        "count":1
+    }
+}

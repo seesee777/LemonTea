@@ -1,0 +1,16 @@
+{
+    "type":"minecraft:crafting_shaped",
+    "pattern":[
+        "XXX",
+        "XOX",
+        "XXX"
+    ],
+    "key":{
+        "X":{"item":"minecraft:magma_block"},
+        "O":{"item":"minecraft:snow_block"}
+    },
+    "result":{
+        "item":"minecraft:obsidian",
+        "count":8
+    }
+}

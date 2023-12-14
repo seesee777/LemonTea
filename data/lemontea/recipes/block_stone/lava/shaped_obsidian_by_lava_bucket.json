@@ -7,10 +7,10 @@
     ],
     "key":{
         "X":{"item":"minecraft:lava_bucket"},
-        "O":{"item":"minecraft:ice"}
+        "O":{"item":"minecraft:packed_ice"}
     },
     "result":{
-        "item":"minecraft:magma_block",
+        "item":"minecraft:obsidian",
         "count":8
     }
 }

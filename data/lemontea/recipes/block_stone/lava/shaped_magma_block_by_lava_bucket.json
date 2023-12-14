@@ -1,0 +1,16 @@
+{
+    "type":"minecraft:crafting_shaped",
+    "pattern":[
+        "XXX",
+        "XOX",
+        "XXX"
+    ],
+    "key":{
+        "X":{"item":"minecraft:lava_bucket"},
+        "O":{"item":"minecraft:snow_block"}
+    },
+    "result":{
+        "item":"minecraft:magma_block",
+        "count":8
+    }
+}

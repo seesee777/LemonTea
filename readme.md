@@ -1,4 +1,4 @@
-A datapack for MINECRAFT JAVA 1.20.2 
+A datapack for MINECRAFT JAVA 1.20.4
 
 In game help: press "L" key，read the advancements
 

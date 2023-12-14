@@ -1,0 +1,16 @@
+{
+    "type":"minecraft:crafting_shaped",
+    "pattern":[
+        "XOX",
+        "XXX",
+        "OXO"
+    ],
+    "key":{
+        "X":{"tag": "planks"},
+        "O":{"item":"minecraft:copper_ingot"}
+    },
+    "result":{
+        "item":"minecraft:shield",
+        "count":1
+    }
+}

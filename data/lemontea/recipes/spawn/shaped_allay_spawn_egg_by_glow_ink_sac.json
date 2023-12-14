@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      " X ",
+      "XOX",
+      " X "
+    ],
+    "key": {
+      "O": {
+        "item": "minecraft:bat_spawn_egg"
+      },
+      "X": {
+        "item": "minecraft:glow_ink_sac"
+      }
+    },
+    "result": {
+      "item": "minecraft:allay_spawn_egg",
+      "count": 1
+    }
+  }
+  

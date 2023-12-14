@@ -8,8 +8,9 @@ summon item ~ ~ ~
             title:"help_tea",
             display:{
                 Name:'{"text":"说明书：柠檬茶数据包","color":"light_purple","italic":false}',
-                Lore:['[
-                    {"text":"0.15.20","color":"white"}]']
+                Lore:[
+                    '[{"text":"Lemontea 0.16.0","color":"white","italic":false}]',
+                    '[{"text":"for MINECRAFT 1.20.4","color":"white","italic":false}]']
             },
             pages:[
                 '[

@@ -1,0 +1,19 @@
+{
+    "type":"minecraft:crafting_shaped",
+    "pattern":[
+        "OOO",
+        "XXX"
+    ],
+    "key":{
+        "O":{
+            "item":"minecraft:hay_block"
+        },
+        "X":{
+            "tag":"planks"
+        }
+    },
+    "result":{
+        "item":"minecraft:yellow_bed",
+        "count":1
+    }
+}
