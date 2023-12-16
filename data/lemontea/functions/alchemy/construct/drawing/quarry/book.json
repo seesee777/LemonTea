@@ -6,14 +6,14 @@ summon item ~ ~ ~
         tag:{
             author:"ChrisBigD",
             title:"quarry",
-            display:{Name:'{"text":"图纸：采石厂","color":"green","italic":false}'},
+            display:{Name:'{"text":"图纸：采石场","color":"green","italic":false}'},
             pages:[
                 '[
                     {"text":""},
-                    {"text":"\\n[采石厂]","bold":true,"color":"dark_green"},
+                    {"text":"\\n[采石场]","bold":true,"color":"dark_green"},
                     {"text":"\\n  231216","color":"gray","italic":true},
                     {"text":"\\n\\n图纸效果：","bold":true},
-                    {"text":"\\n\\n    建造单区块采石厂，"},{"text":"\\n包含人工圆石/石头场，自动滴水石锥机(不包含滴水石锥)，装饰性矿坑入口。"}]',
+                    {"text":"\\n\\n    建造单区块采石场，"},{"text":"\\n包含人工圆石/石头场，自动滴水石锥机(不包含滴水石锥)，装饰性矿坑入口。"}]',
                 '[
                     {"text":""},{"text":"\\n消耗材料:","bold":true},
                     {"text":"\\n\\n  触媒："},{"text":"本书*1","color":"dark_purple"},

@@ -48,7 +48,7 @@ execute as @p at @s run summon item ~ ~ ~
                     {"text":"\\n[首日畜栏]","color":"blue",
                         "clickEvent":{"action":"change_page","value":"103"},
                         "hoverEvent":{"action":"show_text","contents":[{"text":""},{"text":"点击跳转"}]}},
-                    {"text":"        [采石厂]","color":"blue",
+                    {"text":"        [采石场]","color":"blue",
                         "clickEvent":{"action":"change_page","value":"114"},
                         "hoverEvent":{"action":"show_text","contents":[{"text":""},{"text":"点击跳转"}]}},
                     {"text":"\\n[十字路口 地图墙]","color":"blue",
@@ -348,7 +348,7 @@ execute as @p at @s run summon item ~ ~ ~
                         "hoverEvent":{"action":"show_text","contents":[{"text":""},{"text":"返回子目录","color":"dark_green"}]}}
                 ]',
                 '[{"text":""},
-                    {"text":"[采石厂]","color":"dark_green",
+                    {"text":"[采石场]","color":"dark_green",
                         "clickEvent":{"action":"run_command","value":"/function lemontea:alchemy/construct/drawing/quarry/summon"},
                         "hoverEvent":{"action":"show_text","contents":[{"text":""},{"text":"OP权限可点击测试","color":"light_purple"}]}},
                     {"text":"\\n\\n触媒："},
