@@ -9,7 +9,7 @@ summon item ~ ~ ~
             display:{
                 Name:'{"text":"说明书：柠檬茶数据包","color":"light_purple","italic":false}',
                 Lore:[
-                    '[{"text":"Lemontea 0.16.1","color":"white","italic":false}]',
+                    '[{"text":"Lemontea 0.16.2","color":"white","italic":false}]',
                     '[{"text":"for MINECRAFT 1.20.4","color":"white","italic":false}]']
             },
             pages:[

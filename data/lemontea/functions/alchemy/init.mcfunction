@@ -290,6 +290,12 @@ schedule function lemontea:alchemy/construct/drawing/quarry/repeat 5t
 ### 执行快速建造：
 schedule function lemontea:alchemy/construct/build/quarry/repeat 15t
 
+## plantripening
+### 执行合成图纸：
+schedule function lemontea:alchemy/construct/drawing/plantripening/repeat 6t
+### 执行快速建造：
+schedule function lemontea:alchemy/construct/build/plantripening/repeat 16t
+
 # 区块编辑
 
 ## chunkbomb 区块炸弹
