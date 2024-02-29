@@ -1,0 +1,16 @@
+{
+    "type":"minecraft:crafting_shaped",
+    "pattern":[
+        "A",
+        "A"
+    ],
+    "key":{
+        "A":{
+            "item":"minecraft:amethyst_shard"
+        }
+    },
+    "result":{
+        "item":"minecraft:lapis_lazuli",
+        "count":4
+    }
+}

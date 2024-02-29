@@ -25,7 +25,7 @@
             },
             {
               "type": "minecraft:loot_table",
-              "name": "vanilla:blocks/grass"
+              "name": "vanilla:blocks/short_grass"
             }
           ]
         }

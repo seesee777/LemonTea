@@ -1,0 +1,20 @@
+{
+    "type":"minecraft:crafting_shaped",
+    "pattern":[
+        "RRR",
+        "RPR",
+        "RRR"
+    ],
+    "key":{
+        "R":{
+            "item":"minecraft:red_sand"
+        },
+        "P":{
+            "item":"minecraft:potato"
+        }
+    },
+    "result":{
+        "item":"minecraft:sand",
+        "count":8
+    }
+}

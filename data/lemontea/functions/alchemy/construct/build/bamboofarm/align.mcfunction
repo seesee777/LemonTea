@@ -19,6 +19,7 @@ execute as @s at @s run fill ~ ~ ~ ~15 ~20 ~15 dirt
 
 # 读取结构
 execute as @s at @s run place template lemontea:chrisbigd/bamboofarm ~ ~ ~
+# 此处有含水bug，需要重新加载一个没有矿车的下几层
 execute as @s at @s run place template lemontea:chrisbigd/bamboofarmrail ~ ~ ~
 
 # 如果旋转

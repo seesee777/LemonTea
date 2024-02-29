@@ -1,0 +1,16 @@
+{
+    "type":"minecraft:crafting_shaped",
+    "pattern":[
+        "R",
+        "R"
+    ],
+    "key":{
+        "R":{
+            "item":"minecraft:redstone"
+        }
+    },
+    "result":{
+        "item":"minecraft:amethyst_shard",
+        "count":4
+    }
+}

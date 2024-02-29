@@ -1,0 +1,13 @@
+{
+    "type":"minecraft:crafting_shaped",
+    "pattern":[
+        "BB"
+    ],
+    "key":{
+        "B":{"item":"minecraft:barrel"}
+    },
+    "result":{
+        "item":"minecraft:chest",
+        "count":1
+    }
+}

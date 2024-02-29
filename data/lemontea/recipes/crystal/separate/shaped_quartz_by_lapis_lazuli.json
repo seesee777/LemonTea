@@ -1,0 +1,16 @@
+{
+    "type":"minecraft:crafting_shaped",
+    "pattern":[
+        "L",
+        "L"
+    ],
+    "key":{
+        "L":{
+            "item":"minecraft:lapis_lazuli"
+        }
+    },
+    "result":{
+        "item":"minecraft:quartz",
+        "count":4
+    }
+}

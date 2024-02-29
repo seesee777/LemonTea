@@ -1,15 +1,11 @@
 {
     "type": "minecraft:smithing_transform",
-    "template": {
-        "item": "minecraft:stick"
-    },
-    "base": {
-        "item": "minecraft:iron_axe"
-    },
-    "addition": {
-        "item": "minecraft:diamond"
-    },
-    "result": {
-        "item": "minecraft:diamond_axe"
-    }
+    "template": 
+        {"item": "minecraft:stick"},
+    "base": 
+        {"item": "minecraft:iron_axe"},
+    "addition": 
+        {"item": "minecraft:diamond"},
+    "result": 
+        {"item": "minecraft:diamond_axe"}
 }

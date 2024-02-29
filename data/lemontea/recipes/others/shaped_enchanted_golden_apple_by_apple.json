@@ -6,9 +6,7 @@
         "XXX"
     ],
     "key":{
-        "X":{
-            "item":"minecraft:experience_bottle"
-        },
+        "X":{"item":"minecraft:experience_bottle"},
         "O":[
             {"item":"minecraft:golden_apple"}
         ]
