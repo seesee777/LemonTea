@@ -1,0 +1,112 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "vanilla:blocks/mangrove_leaves"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:apple",
+              "conditions": [
+                {
+                  "condition": "minecraft:match_tool",
+                  "predicate": {
+                    "enchantments": [
+                      {
+                        "enchantment": "minecraft:fortune",
+                        "levels": {
+                          "min": 1,
+                          "max": 1
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.05
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:apple",
+              "conditions": [
+                {
+                  "condition": "minecraft:match_tool",
+                  "predicate": {
+                    "enchantments": [
+                      {
+                        "enchantment": "minecraft:fortune",
+                        "levels": {
+                          "min": 2,
+                          "max": 2
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.15
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:apple",
+              "conditions": [
+                {
+                  "condition": "minecraft:match_tool",
+                  "predicate": {
+                    "enchantments": [
+                      {
+                        "enchantment": "minecraft:fortune",
+                        "levels": {
+                          "min": 3,
+                          "max": 3
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.3
+                }
+              ]
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:match_tool",
+              "predicate": {
+                "items": [
+                  "minecraft:wooden_hoe",
+                  "minecraft:golden_hoe",
+                  "minecraft:stone_hoe",
+                  "minecraft:iron_hoe",
+                  "minecraft:diamond_hoe",
+                  "minecraft:netherite_hoe"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
