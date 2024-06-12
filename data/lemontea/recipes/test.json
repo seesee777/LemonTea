@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "h",
+        " ",
+        " "
+    ],
+    "key": {
+        "h": {
+            "item": "minecraft:horn_coral_block"
+        }
+    },
+    "result": {
+        "item": "minecraft:pillager_spawn_egg",
+        "count": 0
+    }
+}
