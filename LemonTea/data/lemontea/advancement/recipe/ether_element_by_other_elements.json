@@ -1,0 +1,39 @@
+{
+    "parent": "lemontea:recipe/reset",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "lemontea:custom_item/magic_basket_5",
+                "ingredients": [
+                    {
+                        "id": "minecraft:enchanted_book",
+                        "components": {"minecraft:custom_data": {"LemonTea.recipe.custom_item.name":"metal_element"}}
+                    },
+                    {
+                        "id": "minecraft:enchanted_book",
+                        "components": {"minecraft:custom_data": {"LemonTea.recipe.custom_item.name":"wood_element"}}
+                    },
+                    {
+                        "id": "minecraft:enchanted_book",
+                        "components": {"minecraft:custom_data": {"LemonTea.recipe.custom_item.name":"water_element"}}
+                    },
+                    {
+                        "id": "minecraft:enchanted_book",
+                        "components": {"minecraft:custom_data": {"LemonTea.recipe.custom_item.name":"fire_element"}}
+                    },
+                    {
+                        "id": "minecraft:enchanted_book",
+                        "components": {"minecraft:custom_data": {"LemonTea.recipe.custom_item.name":"earth_element"}}
+                    }                
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "lemontea:recipe/ether_element_by_other_elements",
+        "loot": [
+            "lemontea:recipe/ether_element"
+        ]
+    }
+}

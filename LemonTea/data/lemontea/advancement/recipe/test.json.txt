@@ -1,0 +1,21 @@
+{
+    "parent": "lemontea:recipe/reset",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "lemontea:custom_item/magic_basket",
+                "ingredients": [
+                    {
+                        "components": {
+                            "minecraft:stored_enchantments": {"":""}
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "lemontea:recipe/test"
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "parent": "lemontea:recipe/reset",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "lemontea:custom_item/magic_basket",
+                "ingredients": [
+                    {
+                        "id": "minecraft:enchanted_book",
+                        "components": {"minecraft:custom_data": {"LemonTea.recipe.custom_item.name":"metal_element"}}
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "lemontea:recipe/unpack_metal_element",
+        "loot": [
+            "lemontea:recipe/unpack_metal_element"
+        ]
+    }
+}

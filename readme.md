@@ -1,5 +1,5 @@
-Data Pack LenmoTea v0.17 & Resource Pack LemonYellow v0.1
-    for MINECRAFT Java Edition 1.20.6
+Data Pack LenmoTea & Resource Pack LemonYellow v0.18
+    for MINECRAFT Java Edition 1.21
 
 
 Github: https://github.com/seesee777/LemonTea/releases
