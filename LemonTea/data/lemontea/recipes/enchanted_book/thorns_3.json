@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "minecraft:book"},
+    {"item": "minecraft:pufferfish"},
+    {"item": "minecraft:pufferfish"},
+    {"item": "minecraft:pufferfish"}
+  ],
+  "result": {
+    "id": "minecraft:enchanted_book",
+    "components": {
+      "minecraft:stored_enchantments": {
+        "minecraft:thorns": 3
+      }
+    }
+  }
+}

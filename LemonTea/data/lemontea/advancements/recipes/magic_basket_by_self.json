@@ -1,0 +1,20 @@
+{
+    "parent": "lemontea:recipes/reset",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "lemontea:custom_items/magic_basket",
+                "ingredients": [
+                    {
+                        "id": "minecraft:enchanted_book",
+                        "components": {"minecraft:custom_model_data": 1470000}
+                    }   
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "lemontea:recipes/magic_basket_by_self"
+    }
+}

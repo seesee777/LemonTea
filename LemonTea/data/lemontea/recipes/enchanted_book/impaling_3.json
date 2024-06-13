@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "minecraft:book"},
+    {"item": "minecraft:prismarine_shard"},
+    {"item": "minecraft:prismarine_shard"},
+    {"item": "minecraft:prismarine_shard"}
+  ],
+  "result": {
+    "id": "minecraft:enchanted_book",
+    "components": {
+      "minecraft:stored_enchantments": {
+        "minecraft:impaling": 3
+      }
+    }
+  }
+}

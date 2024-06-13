@@ -1,0 +1,19 @@
+--------------------
+ether_element_by_other_elements function
+--------------------
+trigger:
+data\lemontea\recipes\custom_items\magic_basket_5.json
+
+advancements:
+data\lemontea\advancements\recipes\ether_element_by_other_elements.json
+
+function:
+data\lemontea\functions\recipes\ether_element_by_other_elements.mcfunction
+
+loot:
+data\lemontea\loot_tables\recipes\ether_element.json
+
+
+--------------------
+next
+--------------------

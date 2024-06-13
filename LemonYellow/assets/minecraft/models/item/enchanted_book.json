@@ -1,0 +1,36 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/enchanted_book"
+  },
+  "overrides": [
+    {
+      "predicate": {"custom_model_data": 1470000},
+      "model": "minecraft:item/magic_basket"
+    },
+    {
+      "predicate": {"custom_model_data": 1470001},
+      "model": "minecraft:item/metal_element"
+    },
+    {
+      "predicate": {"custom_model_data": 1470002},
+      "model": "minecraft:item/wood_element"
+    },
+    {
+      "predicate": {"custom_model_data": 1470003},
+      "model": "minecraft:item/water_element"
+    },
+    {
+      "predicate": {"custom_model_data": 1470004},
+      "model": "minecraft:item/fire_element"
+    },
+    {
+      "predicate": {"custom_model_data": 1470005},
+      "model": "minecraft:item/earth_element"
+    },
+    {
+      "predicate": {"custom_model_data": 1470006},
+      "model": "minecraft:item/ether_element"
+    } 
+  ]
+}

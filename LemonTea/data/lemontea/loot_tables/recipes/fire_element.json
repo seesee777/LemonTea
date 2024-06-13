@@ -1,0 +1,36 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_book",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 5
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "custom_model_data": 1470004,
+                "minecraft:max_stack_size": 99,
+                "minecraft:enchantment_glint_override": false,
+                "minecraft:custom_data": {
+                  "LemonTea.recipe.custom_item.name": "fire_element"
+                },
+                "item_name": "[{'translate':'lemontea.recipe.custom_item.fire_element','color':'yellow','fallback':'Lost LemonYellow ResourcePack'}]",
+                "minecraft:lore": [
+                  "[{'translate':'lemontea.recipe.info.alchemy_material','color':'blue','italic':false}]",
+                  "[{'text':' '}]",
+                  "[{'translate':'lemontea.recipe.info.unpack_method','color':'gray','italic':false},{'text': ' '},{'translate':'block.minecraft.crafting_table','color':'aqua'}]"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "item": "minecraft:enchanted_book"
+    },
+    "result": {
+        "count": 1,
+        "id": "minecraft:enchanted_book",
+        "components": {
+            "custom_model_data": 1470002,
+            "minecraft:max_stack_size": 99,
+            "minecraft:enchantment_glint_override": false,
+            "minecraft:custom_data": {"LemonTea.recipe.custom_item.type":"useless"},
+            "item_name": "[{'translate':'lemontea.recipe.custom_item.wood_element','color':'gold','fallback':'Lost LemonYellow ResourcePack'},{'text':' '},{'translate':'lemontea.recipe.info.symbol','color':'dark_gray'}]",
+            "minecraft:lore": [
+                "[{'translate':'lemontea.recipe.custom_item.ether_element.lore.unpack','color':'red','italic':false},{'text':' '},{'translate':'lemontea.recipe.custom_item.ether_element','color':'aqua'}]",
+                "[{'translate':'lemontea.recipe.info.useless_item','color':'dark_gray','italic':false}]"
+            ]
+        }
+    }
+}

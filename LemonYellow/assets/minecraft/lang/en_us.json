@@ -1,0 +1,17 @@
+{
+	"lemontea.info.lemontea_datapack": "Lemon Tea Datapack",
+	"lemontea.recipe.info.alchemy_material": "Alchemy material",
+	"lemontea.recipe.info.unpack_method": "Unpack method",
+	"lemontea.recipe.info.pick_up_to_backpack": "Click to Pick up",
+	"lemontea.recipe.info.useless_item": "Useless item",
+	"lemontea.recipe.info.symbol": "Symbol",
+	"lemontea.recipe.custom_item.metal_element": "Metal Element",
+	"lemontea.recipe.custom_item.wood_element": "Wood Element",
+	"lemontea.recipe.custom_item.water_element": "Water Element",
+	"lemontea.recipe.custom_item.fire_element": "Fire Element",
+	"lemontea.recipe.custom_item.earth_element": "Earth Element",
+	"lemontea.recipe.custom_item.ether_element": "Ether Element",
+	"lemontea.recipe.custom_item.ether_element.lore": "Ether is the force field",
+	"lemontea.recipe.custom_item.ether_element.lore.unpack": "Can only unpack from",
+	"lemontea.recipe.custom_item.magic_basket": "Magic Basket"
+}

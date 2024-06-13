@@ -1,0 +1,23 @@
+{
+    "parent": "lemontea:recipes/reset",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "lemontea:custom_items/stonecutting/wood_element",
+                "ingredients": [
+                    {
+                        "id": "minecraft:enchanted_book",
+                        "components": {"minecraft:custom_data": {"LemonTea.recipe.custom_item.name":"ether_element"}}
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "lemontea:recipes/wood_element_by_ether_element",
+        "loot": [
+            "lemontea:recipes/wood_element"
+        ]
+    }
+}

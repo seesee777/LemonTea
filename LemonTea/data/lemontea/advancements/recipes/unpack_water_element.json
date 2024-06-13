@@ -1,0 +1,23 @@
+{
+    "parent": "lemontea:recipes/reset",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "lemontea:custom_items/magic_basket",
+                "ingredients": [
+                    {
+                        "id": "minecraft:enchanted_book",
+                        "components": {"minecraft:custom_data": {"LemonTea.recipe.custom_item.name":"water_element"}}
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "lemontea:recipes/unpack_water_element",
+        "loot": [
+            "lemontea:recipes/unpack_water_element"
+        ]
+    }
+}

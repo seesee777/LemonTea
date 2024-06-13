@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "fff",
+        "fff",
+        "fff"
+    ],
+    "key": {
+        "f": {
+            "item": "minecraft:enchanted_book"
+        }
+    },
+    "result": {
+        "count": 1,
+        "id": "minecraft:enchanted_book",
+        "components":{
+            "custom_model_data":1470008,
+            "custom_name":"[{'text':'火硬币 Fire Coin','italic':false}]",
+            "minecraft:max_stack_size":99,
+            "minecraft:enchantment_glint_override": false
+        }
+    }
+}

@@ -1,0 +1,13 @@
+recipes:
+    raw
+        data\lemontea\recipes\custom_items\water_element.json
+    trigger & display:
+        data\lemontea\recipes\custom_items\stonecutting\water_element.json
+    loot tables:
+        data\lemontea\loot_tables\recipes\water_element.json
+
+advancements:
+data\lemontea\advancements\recipes\water_element_by_ether_element.json
+
+functions:
+data\lemontea\functions\recipes\water_element_by_ether_element.mcfunction

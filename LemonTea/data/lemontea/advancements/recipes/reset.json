@@ -1,0 +1,7 @@
+{
+    "criteria": {
+        "reset": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

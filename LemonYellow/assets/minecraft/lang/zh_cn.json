@@ -1,0 +1,17 @@
+{
+	"lemontea.info.lemontea_datapack": "\u67e0\u6aac\u8336\u6570\u636e\u5305",
+	"lemontea.recipe.info.alchemy_material": "\u70bc\u91d1\u6750\u6599",
+	"lemontea.recipe.info.unpack_method": "\u5206\u89e3\u65b9\u6cd5",
+	"lemontea.recipe.info.pick_up_to_backpack": "\u5355\u51fb\u4ee5\u62fe\u53d6",
+	"lemontea.recipe.info.useless_item": "\u65e0\u7528\u7269\u54c1",
+	"lemontea.recipe.info.symbol": "\u6307\u793a\u7269",
+	"lemontea.recipe.custom_item.metal_element": "\u91d1\u5143\u7d20",
+	"lemontea.recipe.custom_item.wood_element": "\u6728\u5143\u7d20",
+	"lemontea.recipe.custom_item.water_element": "\u6c34\u5143\u7d20",
+	"lemontea.recipe.custom_item.fire_element": "\u706b\u5143\u7d20",
+	"lemontea.recipe.custom_item.earth_element": "\u571f\u5143\u7d20",
+	"lemontea.recipe.custom_item.ether_element": "\u6c14\u5143\u7d20",
+	"lemontea.recipe.custom_item.ether_element.lore": "\u6c14\u662f\u4e00\u79cd\u80fd\u91cf\u573a",
+	"lemontea.recipe.custom_item.ether_element.lore.unpack": "\u53ea\u80fd\u5206\u89e3\u81ea",
+	"lemontea.recipe.custom_item.magic_basket": "\u9b54\u672f\u7bee"
+}

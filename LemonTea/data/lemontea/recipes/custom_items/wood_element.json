@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "ccc",
+        "ccc",
+        "ccc"
+    ],
+    "key": {
+        "c": {
+            "item": "minecraft:coal_block"
+        }
+    },
+    "result": {
+        "count": 1,
+        "id": "minecraft:enchanted_book",
+        "components": {
+            "custom_model_data": 1470002,
+            "minecraft:max_stack_size": 99,
+            "minecraft:enchantment_glint_override": false,
+            "minecraft:custom_data": {"LemonTea.recipe.custom_item.name":"wood_element"},
+            "item_name": "[{'translate':'lemontea.recipe.custom_item.wood_element','color':'yellow','fallback':'Lost LemonYellow ResourcePack'}]",
+            "minecraft:lore":[
+                "[{'translate':'lemontea.recipe.info.alchemy_material','color':'blue','italic':false}]",
+                "[{'text':' '}]",
+                "[{'translate':'lemontea.recipe.info.unpack_method','color':'gray','italic':false},{'text': ' '},{'translate':'block.minecraft.crafting_table','color':'aqua'}]"
+            ]
+        }
+    }
+}

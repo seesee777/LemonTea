@@ -1,0 +1,17 @@
+{
+	"lemontea.info.lemontea_datapack": "柠檬茶数据包",
+	"lemontea.recipe.info.alchemy_material": "炼金材料",
+	"lemontea.recipe.info.unpack_method": "分解方法",
+	"lemontea.recipe.info.pick_up_to_backpack": "单击以拾取",
+	"lemontea.recipe.info.useless_item": "无用物品",
+	"lemontea.recipe.info.symbol": "指示物",
+	"lemontea.recipe.custom_item.metal_element": "金元素",
+	"lemontea.recipe.custom_item.wood_element": "木元素",
+	"lemontea.recipe.custom_item.water_element": "水元素",
+	"lemontea.recipe.custom_item.fire_element": "火元素",
+	"lemontea.recipe.custom_item.earth_element": "土元素",
+	"lemontea.recipe.custom_item.ether_element": "气元素",
+	"lemontea.recipe.custom_item.ether_element.lore": "气是一种能量场",
+	"lemontea.recipe.custom_item.ether_element.lore.unpack": "只能分解自",
+	"lemontea.recipe.custom_item.magic_basket": "魔术篮"
+}

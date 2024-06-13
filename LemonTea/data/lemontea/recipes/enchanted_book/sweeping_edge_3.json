@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "minecraft:book"},
+    {"item": "minecraft:amethyst_shard"},
+    {"item": "minecraft:amethyst_shard"},
+    {"item": "minecraft:amethyst_shard"}
+  ],
+  "result": {
+    "id": "minecraft:enchanted_book",
+    "components": {
+      "minecraft:stored_enchantments": {
+        "minecraft:sweeping_edge": 3
+      }
+    }
+  }
+}

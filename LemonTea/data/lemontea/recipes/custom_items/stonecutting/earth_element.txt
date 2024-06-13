@@ -1,0 +1,13 @@
+recipes:
+    raw
+        data\lemontea\recipes\custom_items\earth_element.json
+    trigger & display:
+        data\lemontea\recipes\custom_items\stonecutting\earth_element.json
+    loot tables:
+        data\lemontea\loot_tables\recipes\earth_element.json
+
+advancements:
+data\lemontea\advancements\recipes\earth_element_by_ether_element.json
+
+functions:
+data\lemontea\functions\recipes\earth_element_by_ether_element.mcfunction
