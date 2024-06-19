@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "minecraft:book"},
+    {"item": "minecraft:bowl"},
+    {"item": "minecraft:bowl"},
+    {"item": "minecraft:bowl"}
+  ],
+  "result": {
+    "id": "minecraft:enchanted_book",
+    "components": {
+      "minecraft:stored_enchantments": {
+        "minecraft:respiration": 3
+      }
+    }
+  }
+}

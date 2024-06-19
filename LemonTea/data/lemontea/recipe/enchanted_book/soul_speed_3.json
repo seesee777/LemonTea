@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "minecraft:book"},
+    {"item": "minecraft:lantern"},
+    {"item": "minecraft:lantern"},
+    {"item": "minecraft:lantern"}
+  ],
+  "result": {
+    "id": "minecraft:enchanted_book",
+    "components": {
+      "minecraft:stored_enchantments": {
+        "minecraft:soul_speed": 3
+      }
+    }
+  }
+}

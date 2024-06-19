@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "minecraft:book"},
+    {"item": "minecraft:pointed_dripstone"},
+    {"item": "minecraft:pointed_dripstone"},
+    {"item": "minecraft:pointed_dripstone"},
+    {"item": "minecraft:pointed_dripstone"},
+    {"item": "minecraft:pointed_dripstone"}
+  ],
+  "result": {
+    "id": "minecraft:enchanted_book",
+    "components": {
+      "minecraft:stored_enchantments": {
+        "minecraft:density": 5
+      }
+    }
+  }
+}
