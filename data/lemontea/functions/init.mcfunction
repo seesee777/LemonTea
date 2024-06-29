@@ -5,7 +5,7 @@
 # !global.main 已经作废，但未完全删除
 
 # 重载reload数据包时显示的提示：
-tellraw @p {"text":"Lemon Tea v0.16.4c beta for MINECRAFT JAVA 1.20.4","color":"yellow"}
+tellraw @p {"text":"Lemon Tea v0.16.4d beta for MINECRAFT JAVA 1.20.4","color":"yellow"}
 # tellraw @p {"text":"line3","color":"gold"}
 
 

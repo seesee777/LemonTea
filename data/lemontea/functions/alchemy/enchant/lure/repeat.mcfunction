@@ -2,4 +2,4 @@
 function lemontea:alchemy/enchant/lure/supply
 
 # 下次执行
-schedule function lemontea:alchemy/enchant/lure/repeat 20
+schedule function lemontea:alchemy/enchant/lure/repeat 20t

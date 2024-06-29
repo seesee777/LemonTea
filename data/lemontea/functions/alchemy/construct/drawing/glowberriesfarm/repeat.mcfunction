@@ -2,4 +2,4 @@
 function lemontea:alchemy/construct/drawing/glowberriesfarm/trigger
 
 # 下次执行
-schedule function lemontea:alchemy/construct/drawing/glowberriesfarm/repeat 20
+schedule function lemontea:alchemy/construct/drawing/glowberriesfarm/repeat 20t

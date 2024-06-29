@@ -20,4 +20,4 @@ execute as @e[type=marker,tag=fastcave,tag=north] at @s run execute if score @s 
 
 
 # 下次循环
-schedule function lemontea:alchemy/construct/fastcave/repeat_explosion 7
+schedule function lemontea:alchemy/construct/fastcave/repeat_explosion 7t

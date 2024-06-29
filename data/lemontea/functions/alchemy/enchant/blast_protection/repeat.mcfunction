@@ -2,4 +2,4 @@
 function lemontea:alchemy/enchant/blast_protection/supply
 
 # 下次执行
-schedule function lemontea:alchemy/enchant/blast_protection/repeat 20
+schedule function lemontea:alchemy/enchant/blast_protection/repeat 20t

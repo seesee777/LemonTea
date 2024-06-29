@@ -2,4 +2,4 @@
 function lemontea:alchemy/construct/drawing/1stdayfarm/trigger
 
 # 下次执行
-schedule function lemontea:alchemy/construct/drawing/1stdayfarm/repeat 20
+schedule function lemontea:alchemy/construct/drawing/1stdayfarm/repeat 20t

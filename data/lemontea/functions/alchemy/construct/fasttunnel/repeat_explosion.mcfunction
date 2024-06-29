@@ -20,4 +20,4 @@ execute as @e[type=marker,tag=fasttunnel,tag=north] at @s run execute if score @
 
 
 # 下次循环
-schedule function lemontea:alchemy/construct/fasttunnel/repeat_explosion 7
+schedule function lemontea:alchemy/construct/fasttunnel/repeat_explosion 7t

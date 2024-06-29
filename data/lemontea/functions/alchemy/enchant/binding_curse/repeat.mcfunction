@@ -2,4 +2,4 @@
 function lemontea:alchemy/enchant/binding_curse/supply
 
 # 下次执行
-schedule function lemontea:alchemy/enchant/binding_curse/repeat 20
+schedule function lemontea:alchemy/enchant/binding_curse/repeat 20t

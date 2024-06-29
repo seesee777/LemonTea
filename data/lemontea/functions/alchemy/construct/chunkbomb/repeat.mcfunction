@@ -3,4 +3,4 @@
 function lemontea:alchemy/construct/chunkbomb/trigger_down
 
 # 下次循环
-schedule function lemontea:alchemy/construct/chunkbomb/repeat 20
+schedule function lemontea:alchemy/construct/chunkbomb/repeat 20t

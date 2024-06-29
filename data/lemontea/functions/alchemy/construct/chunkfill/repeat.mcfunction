@@ -2,4 +2,4 @@
 function lemontea:alchemy/construct/chunkfill/trigger
 
 # 下次循环
-schedule function lemontea:alchemy/construct/chunkfill/repeat 20
+schedule function lemontea:alchemy/construct/chunkfill/repeat 20t

@@ -2,4 +2,4 @@
 function lemontea:alchemy/construct/drawing/bamboofarm/trigger
 
 # 下次执行
-schedule function lemontea:alchemy/construct/drawing/bamboofarm/repeat 20
+schedule function lemontea:alchemy/construct/drawing/bamboofarm/repeat 20t

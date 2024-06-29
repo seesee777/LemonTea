@@ -2,4 +2,4 @@
 function lemontea:alchemy/construct/build/storeroom/trigger
 
 # 下次执行
-schedule function lemontea:alchemy/construct/build/storeroom/repeat 20
+schedule function lemontea:alchemy/construct/build/storeroom/repeat 20t
